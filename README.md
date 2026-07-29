@@ -18,7 +18,17 @@ index.html      # 원페이지 사이트 (모든 섹션)
 css/style.css   # 단일 반응형 스타일 (PC 기준 → 모바일 축소)
 js/main.js      # 카운트다운, 모바일 메뉴, 스크롤 애니메이션, 사전알림 폼
 assets/img/     # 대회 사진을 넣는 폴더 (아래 참고)
+imweb/          # 아임웹(mountain-race.com) 연동용 코드 위젯 (imweb/README.md 참고)
 ```
+
+## 아임웹으로 운영 중인 mountain-race.com에 적용하기
+
+현재 도메인이 아임웹에 연결되어 있다면, 이 사이트를 통째로 업로드하는 대신
+**`imweb/` 폴더의 코드 위젯을 아임웹 디자인모드에 붙여넣는 방식**으로 적용합니다.
+
+- `imweb/widget-full.html` — 원페이지 전체를 코드 위젯 하나로
+- `imweb/widget-countdown.html` — 기존 페이지에 2027 카운트다운 배너만 추가
+- 자세한 적용 순서는 **[imweb/README.md](imweb/README.md)** 참고
 
 ## 운영자가 자주 바꾸게 될 것들
 
