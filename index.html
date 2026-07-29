@@ -58,7 +58,14 @@
           2026년, 800여 명의 러너가 완성한 레이스 — 그 다음 이야기가 시작됩니다.
         </p>
 
-        <div class="countdown reveal" id="countdown" aria-label="2027 대회 예정일까지 남은 시간">
+        <!-- 일정 확정 전 기본 표시. js/main.js의 RACE_DATE_2027에 날짜를 넣으면
+             이 배너가 숨고 아래 카운트다운이 자동으로 켜집니다. -->
+        <div class="coming-soon reveal" id="comingSoon">
+          <span class="cs-badge">COMING SOON</span>
+          <p class="cs-text">2027 대회 일정은 확정되는 대로 이곳에서 공개됩니다.</p>
+        </div>
+
+        <div class="countdown reveal" id="countdown" hidden aria-label="2027 대회일까지 남은 시간">
           <div class="cd-unit"><strong id="cdDays">—</strong><span>DAYS</span></div>
           <div class="cd-sep">:</div>
           <div class="cd-unit"><strong id="cdHours">—</strong><span>HOURS</span></div>
@@ -67,7 +74,7 @@
           <div class="cd-sep">:</div>
           <div class="cd-unit"><strong id="cdSecs">—</strong><span>SEC</span></div>
         </div>
-        <p class="cd-note reveal">2027년 6월 개최 예정 · 세부 일정은 확정 후 공지됩니다</p>
+        <p class="cd-note reveal">사전알림을 신청하시면 일정 확정 소식을 가장 먼저 보내드립니다</p>
 
         <div class="hero-actions reveal">
           <a href="#notify" class="btn btn-primary">2027 사전알림 신청</a>
@@ -193,7 +200,7 @@
           <li class="tl-item reveal">
             <span class="tl-dot" aria-hidden="true"></span>
             <div class="tl-body">
-              <span class="tl-date">2027년 6월 (예정)</span>
+              <span class="tl-date">2027 (일정 확정 시 공지)</span>
               <h3>RACE DAY</h3>
               <p>원주의 숲에서, 다시 출발선에 섭니다.</p>
             </div>

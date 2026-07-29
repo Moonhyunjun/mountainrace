@@ -4,10 +4,11 @@
 
 /**
  * 2027 대회 예정일 (KST).
- * 일정이 확정되면 이 값만 바꾸면 카운트다운이 갱신됩니다.
- * 확정 전에는 "예정" 문구가 화면에 함께 노출됩니다.
+ * 일정 확정 전에는 null로 두세요 → 히어로에 COMING SOON 배너가 표시됩니다.
+ * 확정되면 아래처럼 날짜를 넣으면 자동으로 카운트다운으로 전환됩니다.
+ *   var RACE_DATE_2027 = new Date('2027-06-20T06:00:00+09:00');
  */
-var RACE_DATE_2027 = new Date('2027-06-20T06:00:00+09:00');
+var RACE_DATE_2027 = null;
 
 /* JS 활성 표시 — 스크롤 리빌 숨김은 이 클래스가 있을 때만 적용됩니다 */
 document.documentElement.classList.add('js');
@@ -35,7 +36,11 @@ gnb.addEventListener('click', function (e) {
   }
 });
 
-/* ---------- 카운트다운 ---------- */
+/* ---------- 카운트다운 / COMING SOON 전환 ----------
+   RACE_DATE_2027가 null이면 COMING SOON 배너(기본 표시)를 유지하고,
+   날짜가 설정되어 있으면 배너를 숨기고 카운트다운을 켭니다. */
+var countdownEl = document.getElementById('countdown');
+var comingSoonEl = document.getElementById('comingSoon');
 var cd = {
   days: document.getElementById('cdDays'),
   hours: document.getElementById('cdHours'),
@@ -56,8 +61,12 @@ function tick() {
   cd.mins.textContent = pad(Math.floor((s % 3600) / 60));
   cd.secs.textContent = pad(s % 60);
 }
-tick();
-setInterval(tick, 1000);
+if (RACE_DATE_2027 && countdownEl) {
+  if (comingSoonEl) comingSoonEl.hidden = true;
+  countdownEl.hidden = false;
+  tick();
+  setInterval(tick, 1000);
+}
 
 /* ---------- 스크롤 리빌 ---------- */
 var revealEls = document.querySelectorAll('.reveal');

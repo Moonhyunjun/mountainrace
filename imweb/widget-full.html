@@ -17,6 +17,8 @@
 
   운영 중 자주 바꾸는 값:
     - 2027 대회 날짜  : 아래 <script> 안 RACE_DATE_2027
+      (일정 확정 전에는 null → COMING SOON 배너 표시.
+       날짜를 넣으면 자동으로 카운트다운으로 전환됩니다)
     - 사전알림 폼 연동 : "SECTION: 사전알림" 안의 form 주석 참고
 ===================================================================== -->
 
@@ -116,10 +118,38 @@
   color: var(--wmr-text-dim);
 }
 
+/* COMING SOON (일정 확정 전 기본 표시) */
+.wmr-embed .wmr-coming-soon {
+  margin-top: 44px;
+  display: flex; flex-direction: column; align-items: flex-start; gap: 14px;
+}
+.wmr-embed .wmr-coming-soon[hidden] { display: none; }
+.wmr-embed .wmr-cs-badge {
+  display: inline-flex; align-items: center; gap: 10px;
+  padding: 13px 24px;
+  border: 1px solid rgba(255, 90, 31, 0.5);
+  border-radius: 999px;
+  background: rgba(255, 90, 31, 0.08);
+  color: var(--wmr-accent);
+  font-weight: 800; font-size: 0.92rem; letter-spacing: 0.3em;
+}
+.wmr-embed .wmr-cs-badge::before {
+  content: "";
+  width: 8px; height: 8px; border-radius: 50%;
+  background: var(--wmr-accent);
+  animation: wmr-cs-pulse 1.6s ease-in-out infinite;
+}
+@keyframes wmr-cs-pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.35; transform: scale(0.8); }
+}
+.wmr-embed .wmr-cs-text { color: var(--wmr-text-dim); font-size: 0.95rem; }
+
 .wmr-embed .wmr-countdown {
   display: flex; align-items: center; gap: clamp(10px, 2vw, 22px);
   margin-top: 44px;
 }
+.wmr-embed .wmr-countdown[hidden] { display: none; }
 .wmr-embed .wmr-cd-unit {
   min-width: clamp(72px, 10vw, 112px);
   background: rgba(255, 255, 255, 0.045);
@@ -386,6 +416,7 @@
 @media (prefers-reduced-motion: reduce) {
   .wmr-embed .wmr-reveal { opacity: 1; transform: none; transition: none; }
   .wmr-embed .wmr-scroll-hint span { animation: none; }
+  .wmr-embed .wmr-cs-badge::before { animation: none; }
 }
 
 /* ---------- 반응형 ---------- */
@@ -431,7 +462,14 @@
       2026년, 800여 명의 러너가 완성한 레이스 — 그 다음 이야기가 시작됩니다.
     </p>
 
-    <div class="wmr-countdown wmr-reveal" aria-label="2027 대회 예정일까지 남은 시간">
+    <!-- 일정 확정 전 기본 표시. 아래 <script>의 RACE_DATE_2027에 날짜를 넣으면
+         이 배너가 숨고 카운트다운이 자동으로 켜집니다. -->
+    <div class="wmr-coming-soon wmr-reveal" data-wmr-coming-soon>
+      <span class="wmr-cs-badge">COMING SOON</span>
+      <p class="wmr-cs-text">2027 대회 일정은 확정되는 대로 이곳에서 공개됩니다.</p>
+    </div>
+
+    <div class="wmr-countdown wmr-reveal" data-wmr-countdown hidden aria-label="2027 대회일까지 남은 시간">
       <div class="wmr-cd-unit"><strong data-wmr-cd="days">—</strong><span>DAYS</span></div>
       <div class="wmr-cd-sep">:</div>
       <div class="wmr-cd-unit"><strong data-wmr-cd="hours">—</strong><span>HOURS</span></div>
@@ -440,7 +478,7 @@
       <div class="wmr-cd-sep">:</div>
       <div class="wmr-cd-unit"><strong data-wmr-cd="secs">—</strong><span>SEC</span></div>
     </div>
-    <p class="wmr-cd-note wmr-reveal">2027년 6월 개최 예정 · 세부 일정은 확정 후 공지됩니다</p>
+    <p class="wmr-cd-note wmr-reveal">사전알림을 신청하시면 일정 확정 소식을 가장 먼저 보내드립니다</p>
 
     <div class="wmr-hero-actions wmr-reveal">
       <a href="#notify" class="wmr-btn wmr-btn-primary">2027 사전알림 신청</a>
@@ -568,7 +606,7 @@
       <li class="wmr-tl-item wmr-reveal">
         <span class="wmr-tl-dot" aria-hidden="true"></span>
         <div class="wmr-tl-body">
-          <span class="wmr-tl-date">2027년 6월 (예정)</span>
+          <span class="wmr-tl-date">2027 (일정 확정 시 공지)</span>
           <h3>RACE DAY</h3>
           <p>원주의 숲에서, 다시 출발선에 섭니다.</p>
         </div>
@@ -638,14 +676,20 @@
 
   /**
    * 2027 대회 예정일 (KST).
-   * 일정이 확정되면 이 값만 바꾸면 카운트다운이 갱신됩니다.
+   * 일정 확정 전에는 null로 두세요 → COMING SOON 배너가 표시됩니다.
+   * 확정되면 아래처럼 날짜를 넣으면 자동으로 카운트다운으로 전환됩니다.
+   *   var RACE_DATE_2027 = new Date('2027-06-20T06:00:00+09:00');
    */
-  var RACE_DATE_2027 = new Date('2027-06-20T06:00:00+09:00');
+  var RACE_DATE_2027 = null;
 
   /* JS 활성 표시 — 스크롤 리빌 숨김은 이 클래스가 있을 때만 적용됩니다 */
   root.classList.add('wmr-js');
 
-  /* ---------- 카운트다운 ---------- */
+  /* ---------- 카운트다운 / COMING SOON 전환 ----------
+     RACE_DATE_2027가 null이면 COMING SOON 배너(기본 표시)를 유지하고,
+     날짜가 설정되어 있으면 배너를 숨기고 카운트다운을 켭니다. */
+  var countdownEl = root.querySelector('[data-wmr-countdown]');
+  var comingSoonEl = root.querySelector('[data-wmr-coming-soon]');
   var cd = {
     days: root.querySelector('[data-wmr-cd="days"]'),
     hours: root.querySelector('[data-wmr-cd="hours"]'),
@@ -667,7 +711,9 @@
     cd.mins.textContent = pad(Math.floor((s % 3600) / 60));
     cd.secs.textContent = pad(s % 60);
   }
-  if (cd.days) {
+  if (RACE_DATE_2027 && countdownEl) {
+    if (comingSoonEl) comingSoonEl.hidden = true;
+    countdownEl.hidden = false;
     tick();
     setInterval(tick, 1000);
   }

@@ -1,16 +1,18 @@
 <!-- =====================================================================
-  WONJU MOUNTAIN RACE — 아임웹 코드 위젯용 임베드 (2027 카운트다운 단독)
+  WONJU MOUNTAIN RACE — 아임웹 코드 위젯용 임베드 (2027 티저 배너 단독)
 
   용도:
     기존 아임웹 페이지 디자인은 그대로 두고, 원하는 위치에
-    "2027 대회까지 카운트다운" 배너만 추가하고 싶을 때 사용합니다.
+    "2027 대회 COMING SOON" 배너만 추가하고 싶을 때 사용합니다.
     (메인 상단, 팝업, 대회 안내 페이지 등 어디든 가능)
+
+  동작:
+    - 일정 확정 전(기본): COMING SOON 배너가 표시됩니다.
+    - 일정 확정 후: 아래 <script>의 RACE_DATE_2027에 날짜를 넣으면
+      배너가 자동으로 카운트다운으로 전환됩니다.
 
   붙여넣는 곳:
     아임웹 관리자 → 디자인모드 → 위젯 추가 → "코드" 위젯 → 전체 붙여넣기
-
-  대회 날짜 변경:
-    아래 <script> 안 RACE_DATE_2027 값만 수정하면 됩니다.
 ===================================================================== -->
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
@@ -51,11 +53,43 @@
   text-transform: uppercase;
   color: var(--wmr-text);
 }
+
+/* COMING SOON (일정 확정 전 기본 표시) */
+.wmr-cd-embed .wmr-coming-soon {
+  margin-top: 24px;
+  display: flex; flex-direction: column; align-items: center; gap: 12px;
+}
+.wmr-cd-embed .wmr-coming-soon[hidden] { display: none; }
+.wmr-cd-embed .wmr-cs-badge {
+  display: inline-flex; align-items: center; gap: 10px;
+  padding: 12px 22px;
+  border: 1px solid rgba(255, 90, 31, 0.5);
+  border-radius: 999px;
+  background: rgba(255, 90, 31, 0.08);
+  color: var(--wmr-accent);
+  font-weight: 800; font-size: 0.9rem; letter-spacing: 0.3em;
+}
+.wmr-cd-embed .wmr-cs-badge::before {
+  content: "";
+  width: 8px; height: 8px; border-radius: 50%;
+  background: var(--wmr-accent);
+  animation: wmr-cs-pulse 1.6s ease-in-out infinite;
+}
+@keyframes wmr-cs-pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.35; transform: scale(0.8); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .wmr-cd-embed .wmr-cs-badge::before { animation: none; }
+}
+
+/* 카운트다운 (일정 확정 후 자동 표시) */
 .wmr-cd-embed .wmr-countdown {
   display: flex; align-items: center; justify-content: center;
   gap: clamp(8px, 1.6vw, 18px);
   margin-top: 26px;
 }
+.wmr-cd-embed .wmr-countdown[hidden] { display: none; }
 .wmr-cd-embed .wmr-cd-unit {
   min-width: clamp(64px, 9vw, 104px);
   background: rgba(255, 255, 255, 0.05);
@@ -82,7 +116,7 @@
 }
 @media (max-width: 480px) {
   .wmr-cd-embed .wmr-cd-sep { display: none; }
-  .wmr-cd-embed .wmr-countdown {
+  .wmr-cd-embed .wmr-countdown:not([hidden]) {
     display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px;
   }
   .wmr-cd-embed .wmr-cd-unit { min-width: 0; }
@@ -91,7 +125,12 @@
 
 <p class="wmr-cd-eyebrow">ROAD TO 2027</p>
 <h2 class="wmr-cd-title">Wonju Mountain Race</h2>
-<div class="wmr-countdown" aria-label="2027 대회 예정일까지 남은 시간">
+
+<div class="wmr-coming-soon" data-wmr-coming-soon>
+  <span class="wmr-cs-badge">COMING SOON</span>
+</div>
+
+<div class="wmr-countdown" data-wmr-countdown hidden aria-label="2027 대회일까지 남은 시간">
   <div class="wmr-cd-unit"><strong data-wmr-cd="days">—</strong><span>DAYS</span></div>
   <div class="wmr-cd-sep">:</div>
   <div class="wmr-cd-unit"><strong data-wmr-cd="hours">—</strong><span>HOURS</span></div>
@@ -100,7 +139,8 @@
   <div class="wmr-cd-sep">:</div>
   <div class="wmr-cd-unit"><strong data-wmr-cd="secs">—</strong><span>SEC</span></div>
 </div>
-<p class="wmr-cd-note">2027년 6월 개최 예정 · 세부 일정은 확정 후 공지됩니다</p>
+
+<p class="wmr-cd-note">2027 대회 일정은 확정되는 대로 공지됩니다</p>
 
 <script>
 (function () {
@@ -109,9 +149,16 @@
   if (!root || root.getAttribute('data-wmr-init') === '1') return;
   root.setAttribute('data-wmr-init', '1');
 
-  /* 2027 대회 예정일 (KST) — 확정되면 이 값만 수정 */
-  var RACE_DATE_2027 = new Date('2027-06-20T06:00:00+09:00');
+  /**
+   * 2027 대회 예정일 (KST).
+   * 일정 확정 전에는 null로 두세요 → COMING SOON 배너가 표시됩니다.
+   * 확정되면 아래처럼 날짜를 넣으면 자동으로 카운트다운으로 전환됩니다.
+   *   var RACE_DATE_2027 = new Date('2027-06-20T06:00:00+09:00');
+   */
+  var RACE_DATE_2027 = null;
 
+  var countdownEl = root.querySelector('[data-wmr-countdown]');
+  var comingSoonEl = root.querySelector('[data-wmr-coming-soon]');
   var cd = {
     days: root.querySelector('[data-wmr-cd="days"]'),
     hours: root.querySelector('[data-wmr-cd="hours"]'),
@@ -132,8 +179,12 @@
     cd.mins.textContent = pad(Math.floor((s % 3600) / 60));
     cd.secs.textContent = pad(s % 60);
   }
-  tick();
-  setInterval(tick, 1000);
+  if (RACE_DATE_2027 && countdownEl) {
+    if (comingSoonEl) comingSoonEl.hidden = true;
+    countdownEl.hidden = false;
+    tick();
+    setInterval(tick, 1000);
+  }
 })();
 </script>
 

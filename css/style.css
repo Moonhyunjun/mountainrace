@@ -141,10 +141,38 @@ a { color: inherit; text-decoration: none; }
   color: var(--text-dim);
 }
 
+/* ---------- COMING SOON (일정 확정 전 기본 표시) ---------- */
+.coming-soon {
+  margin-top: 44px;
+  display: flex; flex-direction: column; align-items: flex-start; gap: 14px;
+}
+.coming-soon[hidden] { display: none; }
+.cs-badge {
+  display: inline-flex; align-items: center; gap: 10px;
+  padding: 13px 24px;
+  border: 1px solid rgba(255, 90, 31, 0.5);
+  border-radius: 999px;
+  background: rgba(255, 90, 31, 0.08);
+  color: var(--accent);
+  font-weight: 800; font-size: 0.92rem; letter-spacing: 0.3em;
+}
+.cs-badge::before {
+  content: "";
+  width: 8px; height: 8px; border-radius: 50%;
+  background: var(--accent);
+  animation: cs-pulse 1.6s ease-in-out infinite;
+}
+@keyframes cs-pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.35; transform: scale(0.8); }
+}
+.cs-text { color: var(--text-dim); font-size: 0.95rem; }
+
 .countdown {
   display: flex; align-items: center; gap: clamp(10px, 2vw, 22px);
   margin-top: 44px;
 }
+.countdown[hidden] { display: none; }
 .cd-unit {
   min-width: clamp(72px, 10vw, 112px);
   background: rgba(255, 255, 255, 0.045);
@@ -422,6 +450,7 @@ html.js .reveal.is-visible { opacity: 1; transform: none; }
   html { scroll-behavior: auto; }
   .reveal { opacity: 1; transform: none; transition: none; }
   .scroll-hint span { animation: none; }
+  .cs-badge::before { animation: none; }
 }
 
 /* ==========================================================================
