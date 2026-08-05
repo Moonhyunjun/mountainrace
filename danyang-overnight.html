@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OVERNIGHT DANYANG 2026 — 단양 웰니스 캠프 페스티벌</title>
+
+<meta name="description" content="백패킹 캠프 · 패러글라이딩 · 리버사이드 요가 · 사운드 세션. 단양생태체육공원에서 보내는 1박 2일 웰니스 캠프 페스티벌. 사전 알림 신청 접수 중.">
+<link rel="canonical" href="https://overnight.asia/danyang">
+<meta name="theme-color" content="#080b11">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="OVERNIGHT">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:url" content="https://overnight.asia/danyang">
+<meta property="og:title" content="OVERNIGHT DANYANG 2026 — 단양의 하늘과 강을, 하룻밤 머무는 경험으로">
+<meta property="og:description" content="기록도 순위도 없습니다. 남한강변에서 보내는 1박 2일 — 백패킹 캠프 · 패러글라이딩 · 요가 · 사운드.">
+<!-- 대표 이미지 확정되면 아래 주석 해제 (1200×630 권장) -->
+<!-- <meta property="og:image" content="https://overnight.asia/assets/og-danyang.jpg"> -->
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+
+<style>
+:root{
+  --bg:#080b11;
+  --bg-soft:#0d131d;
+  --panel:#111a27;
+  --line:rgba(255,255,255,.11);
+  --ink:#f2f5f9;
+  --dim:#96a6bb;
+  --dimmer:#718399;
+  --accent:#ff7a2f;
+  --accent2:#6f8cff;
+  --header-h:66px;
+  --radius:16px;
+  --container:1120px;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;scroll-padding-top:calc(var(--header-h) + 12px);}
+body{
+  font-family:"Pretendard Variable",Pretendard,-apple-system,BlinkMacSystemFont,
+    "Apple SD Gothic Neo","Malgun Gothic","Segoe UI",sans-serif;
+  background:var(--bg); color:var(--ink);
+  line-height:1.65; word-break:keep-all;
+  -webkit-font-smoothing:antialiased; overflow-x:hidden;
+}
+img{max-width:100%;display:block;}
+a{color:inherit;text-decoration:none;}
+.container{width:min(100% - 44px,var(--container));margin-inline:auto;}
+.sr-only{position:absolute;width:1px;height:1px;clip:rect(0 0 0 0);overflow:hidden;white-space:nowrap;}
+
+/* ---------- 헤더 ---------- */
+.hdr{
+  position:fixed;inset:0 0 auto 0;z-index:100;height:var(--header-h);
+  background:rgba(8,11,17,.6);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+  border-bottom:1px solid transparent;transition:background .3s,border-color .3s;
+}
+.hdr.is-scrolled{background:rgba(8,11,17,.92);border-color:var(--line);}
+.hdr__inner{height:100%;display:flex;align-items:center;justify-content:space-between;gap:20px;}
+.brand{display:flex;align-items:baseline;gap:8px;font-weight:900;letter-spacing:-.02em;}
+.brand b{font-size:1.02rem;}
+.brand span{font-size:.72rem;font-weight:700;letter-spacing:.14em;color:var(--accent);}
+.gnb{display:flex;align-items:center;gap:26px;font-size:.92rem;font-weight:600;}
+.gnb a{color:var(--dim);transition:color .2s;}
+.gnb a:hover{color:var(--ink);}
+.gnb .cta{
+  color:#12060a;background:var(--accent);padding:9px 18px;border-radius:999px;
+  font-weight:800;transition:transform .18s,box-shadow .18s;
+}
+.gnb .cta:hover{color:#12060a;transform:translateY(-1px);box-shadow:0 8px 22px rgba(255,122,47,.34);}
+.navtoggle{
+  display:none;width:42px;height:42px;border:1px solid var(--line);border-radius:11px;
+  background:rgba(255,255,255,.05);cursor:pointer;padding:11px 10px;
+  flex-direction:column;justify-content:space-between;
+}
+.navtoggle span{display:block;height:2px;background:var(--ink);border-radius:2px;transition:transform .25s,opacity .25s;}
+.navtoggle[aria-expanded="true"] span:nth-child(1){transform:translateY(7px) rotate(45deg);}
+.navtoggle[aria-expanded="true"] span:nth-child(2){opacity:0;}
+.navtoggle[aria-expanded="true"] span:nth-child(3){transform:translateY(-7px) rotate(-45deg);}
+
+/* ---------- 히어로 ---------- */
+.hero{
+  position:relative;isolation:isolate;min-height:min(92vh,820px);
+  display:flex;align-items:center;overflow:hidden;
+}
+.hero__bg{
+  position:absolute;inset:0;z-index:-2;
+  background:
+    radial-gradient(120% 90% at 78% 8%, rgba(255,122,47,.30) 0%, transparent 55%),
+    radial-gradient(90% 80% at 12% 92%, rgba(111,140,255,.26) 0%, transparent 60%),
+    linear-gradient(180deg,#0a0f18 0%,#080b11 60%,#05070b 100%);
+  /* ★ 배경 사진 — 아래 두 줄의 주석 기호만 지우고 경로를 넣으세요 ★ */
+  /* background-image:url("assets/img/hero-danyang.jpg"); */
+  /* background-size:cover; background-position:center; background-repeat:no-repeat; */
+}
+.hero__scrim{
+  position:absolute;inset:0;z-index:-1;
+  background:linear-gradient(180deg,rgba(4,6,10,.34) 0%,rgba(4,6,10,.52) 46%,rgba(4,6,10,.9) 100%);
+}
+.hero__ridge{position:absolute;left:0;right:0;bottom:-1px;z-index:-1;width:100%;height:min(34vh,300px);}
+.hero__ridge .r1{fill:#0c1220;opacity:.95;}
+.hero__ridge .r2{fill:#080d17;opacity:.95;}
+.hero__ridge .r3{fill:#05070b;}
+.hero__inner{padding:calc(var(--header-h) + 72px) 0 88px;position:relative;z-index:1;}
+
+.eyebrow{
+  display:inline-flex;align-items:center;gap:10px;margin-bottom:22px;
+  padding:7px 15px 7px 12px;border:1px solid var(--line);border-radius:999px;
+  background:rgba(255,255,255,.05);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);
+  font-size:.76rem;font-weight:700;letter-spacing:.13em;color:#dbe6f2;text-transform:uppercase;
+}
+.dot{width:7px;height:7px;border-radius:50%;background:var(--accent);
+  box-shadow:0 0 0 4px rgba(255,122,47,.2);animation:pulse 2.4s ease-in-out infinite;}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1);}50%{opacity:.45;transform:scale(.82);}}
+
+.hero__title{
+  font-size:clamp(3rem,9vw,6.8rem);font-weight:900;letter-spacing:-.038em;line-height:.94;
+  text-transform:uppercase;
+}
+.hero__title em{
+  display:block;font-style:normal;
+  background:linear-gradient(96deg,var(--accent) 0%,#ffb877 46%,var(--accent2) 100%);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+}
+.hero__kr{margin-top:22px;font-size:clamp(1.05rem,2.6vw,1.42rem);font-weight:600;color:#e4ecf5;max-width:22em;}
+.hero__lead{margin-top:14px;font-size:clamp(.95rem,2vw,1.08rem);color:var(--dim);max-width:34em;}
+
+.facts{
+  display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;
+  margin-top:42px;list-style:none;background:var(--line);
+  border:1px solid var(--line);border-radius:14px;overflow:hidden;max-width:760px;
+}
+.facts li{background:rgba(8,12,20,.62);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);padding:16px 18px;}
+.facts dt{font-size:.67rem;font-weight:700;letter-spacing:.12em;color:#8194ab;text-transform:uppercase;margin-bottom:6px;}
+.facts dd{font-size:clamp(.95rem,2.1vw,1.14rem);font-weight:800;letter-spacing:-.01em;}
+
+.btns{display:flex;flex-wrap:wrap;gap:12px;margin-top:38px;}
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:9px;
+  padding:15px 30px;border-radius:999px;font-size:1rem;font-weight:800;
+  border:1px solid transparent;cursor:pointer;
+  transition:transform .18s,box-shadow .18s,background .18s;
+}
+.btn--primary{background:var(--accent);color:#12060a;box-shadow:0 12px 34px rgba(255,122,47,.32);}
+.btn--primary:hover{transform:translateY(-2px);box-shadow:0 18px 44px rgba(255,122,47,.42);}
+.btn--ghost{background:rgba(255,255,255,.06);border-color:var(--line);color:var(--ink);
+  backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);}
+.btn--ghost:hover{background:rgba(255,255,255,.12);transform:translateY(-2px);}
+.hero__note{margin-top:16px;font-size:.82rem;color:var(--dimmer);}
+
+/* ---------- 섹션 공통 ---------- */
+.sec{padding:clamp(72px,10vw,124px) 0;}
+.sec--soft{background:var(--bg-soft);border-block:1px solid var(--line);}
+.sec__head{max-width:44em;margin-bottom:clamp(38px,5vw,58px);}
+.sec__tag{
+  font-size:.73rem;font-weight:800;letter-spacing:.16em;color:var(--accent);
+  text-transform:uppercase;margin-bottom:14px;
+}
+.sec__title{font-size:clamp(1.75rem,4.2vw,2.7rem);font-weight:900;letter-spacing:-.03em;line-height:1.2;}
+.sec__desc{margin-top:16px;font-size:clamp(.96rem,1.9vw,1.06rem);color:var(--dim);}
+
+.reveal{opacity:0;transform:translateY(22px);transition:opacity .7s ease,transform .7s ease;}
+.reveal.is-in{opacity:1;transform:none;}
+@media (prefers-reduced-motion:reduce){
+  .reveal{opacity:1;transform:none;transition:none;}
+  .dot{animation:none;}
+  html{scroll-behavior:auto;}
+}
+
+/* ---------- 4 pillars ---------- */
+.pillars{display:grid;grid-template-columns:repeat(auto-fit,minmax(248px,1fr));gap:18px;}
+.pillar{
+  background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);
+  padding:28px 24px 26px;position:relative;overflow:hidden;
+  transition:transform .22s,border-color .22s;
+}
+.pillar:hover{transform:translateY(-4px);border-color:rgba(255,122,47,.42);}
+.pillar__no{
+  font-size:.72rem;font-weight:800;letter-spacing:.14em;color:var(--accent);margin-bottom:16px;
+}
+.pillar h3{font-size:1.24rem;font-weight:800;letter-spacing:-.02em;margin-bottom:10px;}
+.pillar p{font-size:.94rem;color:var(--dim);}
+
+/* ---------- 타임테이블 ---------- */
+.days{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:22px;}
+.day{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:28px 26px;}
+.day__head{display:flex;align-items:baseline;gap:12px;padding-bottom:18px;margin-bottom:6px;border-bottom:1px solid var(--line);}
+.day__no{font-size:1.34rem;font-weight:900;letter-spacing:-.02em;}
+.day__label{font-size:.8rem;font-weight:700;letter-spacing:.1em;color:var(--accent);text-transform:uppercase;}
+.slot{display:grid;grid-template-columns:66px 1fr;gap:16px;padding:16px 0;border-bottom:1px solid rgba(255,255,255,.06);}
+.slot:last-child{border-bottom:0;padding-bottom:0;}
+.slot time{font-size:.9rem;font-weight:800;color:var(--accent2);padding-top:1px;}
+.slot h4{font-size:1rem;font-weight:700;margin-bottom:4px;}
+.slot p{font-size:.87rem;color:var(--dim);}
+
+/* ---------- 숙박 2티어 ---------- */
+.tiers{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px;}
+.tier{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:30px 26px;}
+.tier--a{border-color:rgba(255,122,47,.32);}
+.tier--b{border-color:rgba(111,140,255,.32);}
+.tier__label{font-size:.73rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--dimmer);}
+.tier__name{font-size:1.34rem;font-weight:900;letter-spacing:-.02em;margin:10px 0 2px;}
+.tier__num{font-size:2.5rem;font-weight:900;letter-spacing:-.04em;line-height:1.1;}
+.tier--a .tier__num{color:var(--accent);}
+.tier--b .tier__num{color:var(--accent2);}
+.tier ul{list-style:none;margin-top:20px;display:grid;gap:11px;}
+.tier li{font-size:.92rem;color:var(--dim);padding-left:20px;position:relative;}
+.tier li::before{content:"";position:absolute;left:2px;top:.62em;width:7px;height:7px;border-radius:50%;background:currentColor;opacity:.5;}
+
+/* ---------- 실적 스탯 ---------- */
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:1px;background:var(--line);
+  border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;}
+.stat{background:var(--panel);padding:26px 22px;}
+.stat dt{font-size:.7rem;font-weight:800;letter-spacing:.13em;color:var(--dimmer);text-transform:uppercase;margin-bottom:10px;}
+.stat dd b{display:block;font-size:2.1rem;font-weight:900;letter-spacing:-.04em;line-height:1.1;color:var(--accent);}
+.stat dd span{display:block;margin-top:6px;font-size:.83rem;color:var(--dim);}
+
+/* ---------- FAQ ---------- */
+.faq{display:grid;gap:12px;max-width:820px;}
+.faq details{background:var(--panel);border:1px solid var(--line);border-radius:14px;overflow:hidden;}
+.faq summary{
+  padding:20px 24px;font-size:1rem;font-weight:700;cursor:pointer;list-style:none;
+  display:flex;align-items:center;justify-content:space-between;gap:16px;
+}
+.faq summary::-webkit-details-marker{display:none;}
+.faq summary::after{content:"+";font-size:1.3rem;font-weight:400;color:var(--accent);flex:none;transition:transform .2s;}
+.faq details[open] summary::after{transform:rotate(45deg);}
+.faq p{padding:0 24px 22px;font-size:.94rem;color:var(--dim);}
+
+/* ---------- 폼 ---------- */
+.notify{background:
+  radial-gradient(90% 120% at 82% 0%, rgba(255,122,47,.16) 0%, transparent 58%),
+  radial-gradient(70% 100% at 8% 100%, rgba(111,140,255,.16) 0%, transparent 62%),
+  var(--bg-soft);
+  border-block:1px solid var(--line);}
+.form{
+  background:rgba(8,12,20,.66);border:1px solid var(--line);border-radius:var(--radius);
+  padding:clamp(26px,4vw,40px);max-width:720px;
+  backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);
+}
+.field{margin-bottom:20px;}
+.field > label,.legend{display:block;font-size:.88rem;font-weight:700;margin-bottom:9px;}
+.req{color:var(--accent);margin-left:3px;}
+.field input[type="text"],.field input[type="tel"],.field input[type="email"],.field select{
+  width:100%;padding:13px 15px;border-radius:11px;border:1px solid var(--line);
+  background:rgba(255,255,255,.04);color:var(--ink);font:inherit;font-size:.96rem;
+  transition:border-color .2s,background .2s;
+}
+.field input:focus,.field select:focus{
+  outline:none;border-color:var(--accent);background:rgba(255,255,255,.07);
+}
+.field select{appearance:none;cursor:pointer;
+  background-image:linear-gradient(45deg,transparent 50%,var(--dim) 50%),linear-gradient(135deg,var(--dim) 50%,transparent 50%);
+  background-position:calc(100% - 20px) 50%,calc(100% - 14px) 50%;
+  background-size:6px 6px,6px 6px;background-repeat:no-repeat;}
+.field select option{background:#0d131d;color:var(--ink);}
+.chips{display:flex;flex-wrap:wrap;gap:9px;}
+.chip{position:relative;}
+.chip input{position:absolute;opacity:0;width:0;height:0;}
+.chip span{
+  display:block;padding:11px 18px;border-radius:999px;border:1px solid var(--line);
+  background:rgba(255,255,255,.04);font-size:.9rem;font-weight:600;cursor:pointer;
+  transition:border-color .18s,background .18s,color .18s;
+}
+.chip input:checked + span{border-color:var(--accent);background:rgba(255,122,47,.16);color:#ffc59b;}
+.chip input:focus-visible + span{outline:2px solid var(--accent2);outline-offset:2px;}
+.agree{display:flex;gap:11px;align-items:flex-start;font-size:.89rem;color:var(--dim);margin-bottom:12px;}
+.agree input{margin-top:4px;accent-color:var(--accent);width:17px;height:17px;flex:none;}
+.agree a{text-decoration:underline;color:var(--dim);}
+.form .btn{width:100%;margin-top:12px;}
+.form__note{margin-top:16px;font-size:.8rem;color:var(--dimmer);text-align:center;}
+.formmsg{
+  margin-top:16px;padding:15px 18px;border-radius:12px;font-size:.92rem;font-weight:600;
+  border:1px solid rgba(255,122,47,.4);background:rgba(255,122,47,.12);color:#ffc59b;
+}
+.formmsg[hidden]{display:none;}
+
+/* ---------- 푸터 ---------- */
+.ftr{padding:56px 0 44px;border-top:1px solid var(--line);background:var(--bg);}
+.ftr__top{display:flex;flex-wrap:wrap;gap:26px;justify-content:space-between;align-items:flex-start;}
+.ftr__brand b{font-size:1.1rem;font-weight:900;letter-spacing:-.02em;}
+.ftr__brand p{margin-top:8px;font-size:.88rem;color:var(--dim);max-width:26em;}
+.ftr__links{display:flex;flex-wrap:wrap;gap:20px;font-size:.9rem;font-weight:600;color:var(--dim);}
+.ftr__links a:hover{color:var(--ink);}
+.ftr__legal{margin-top:34px;padding-top:22px;border-top:1px solid var(--line);
+  font-size:.79rem;color:var(--dimmer);line-height:1.9;}
+.disclaimer{
+  margin-top:20px;padding:16px 18px;border:1px dashed rgba(255,255,255,.16);border-radius:12px;
+  font-size:.79rem;color:var(--dimmer);
+}
+
+/* ---------- 모바일 ---------- */
+@media (max-width:900px){
+  .navtoggle{display:flex;}
+  .gnb{
+    position:fixed;inset:var(--header-h) 0 auto 0;
+    flex-direction:column;align-items:stretch;gap:0;
+    background:rgba(8,11,17,.98);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);
+    border-bottom:1px solid var(--line);
+    padding:10px 22px 22px;font-size:1rem;
+    transform:translateY(-14px);opacity:0;pointer-events:none;transition:opacity .22s,transform .22s;
+  }
+  .gnb.is-open{transform:none;opacity:1;pointer-events:auto;}
+  .gnb a{padding:15px 2px;border-bottom:1px solid rgba(255,255,255,.07);}
+  .gnb .cta{margin-top:14px;text-align:center;border-bottom:0;}
+  .facts{grid-template-columns:repeat(2,minmax(0,1fr));max-width:none;}
+}
+@media (max-width:430px){
+  .btns .btn{width:100%;}
+  .slot{grid-template-columns:58px 1fr;gap:12px;}
+}
+</style>
+</head>
+<body>
+
+<!-- ===== 헤더 ===== -->
+<header class="hdr" id="hdr">
+  <div class="container hdr__inner">
+    <a href="#top" class="brand">
+      <b>OVERNIGHT</b><span>DANYANG</span>
+    </a>
+    <nav class="gnb" id="gnb" aria-label="주 메뉴">
+      <a href="#about">소개</a>
+      <a href="#program">프로그램</a>
+      <a href="#timetable">타임테이블</a>
+      <a href="#stay">숙박</a>
+      <a href="#organizer">주최</a>
+      <a href="#faq">FAQ</a>
+      <a href="#notify" class="cta">사전 알림 신청</a>
+    </nav>
+    <button class="navtoggle" id="navToggle" aria-label="메뉴 열기" aria-expanded="false" aria-controls="gnb">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ===== 히어로 ===== -->
+  <section class="hero">
+    <div class="hero__bg" aria-hidden="true"></div>
+    <div class="hero__scrim" aria-hidden="true"></div>
+    <svg class="hero__ridge" viewBox="0 0 1440 300" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
+      <polygon class="r1" points="0,300 220,132 372,214 540,96 742,300"/>
+      <polygon class="r2" points="480,300 706,150 852,232 1030,84 1268,300"/>
+      <polygon class="r3" points="-60,300 150,196 336,258 512,168 760,300 1040,190 1240,246 1440,150 1440,300"/>
+    </svg>
+
+    <div class="container hero__inner">
+      <p class="eyebrow"><span class="dot" aria-hidden="true"></span>DANYANG · KOREA · 1박 2일</p>
+      <h1 class="hero__title">OVERNIGHT<em>DANYANG</em></h1>
+      <p class="hero__kr">단양의 하늘과 강을, 하룻밤 머무는 경험으로.</p>
+      <p class="hero__lead">
+        백패킹 캠프 · 패러글라이딩 · 리버사이드 요가 · 사운드 세션.<br>
+        기록도 순위도 없습니다. 남한강변에서 하룻밤을 보내는 웰니스 캠프 페스티벌.
+      </p>
+
+      <ul class="facts">
+        <li><dl><dt>Date</dt><dd>2026 · 곧 공개</dd></dl></li>
+        <li><dl><dt>Venue</dt><dd>단양생태체육공원</dd></dl></li>
+        <li><dl><dt>Pax</dt><dd>700명</dd></dl></li>
+        <li><dl><dt>Stay</dt><dd>캠프 · 리조트</dd></dl></li>
+      </ul>
+
+      <div class="btns">
+        <a class="btn btn--primary" href="#notify">사전 알림 신청</a>
+        <a class="btn btn--ghost" href="#program">프로그램 보기</a>
+      </div>
+      <p class="hero__note">모집 오픈 시 신청하신 분께 가장 먼저 알려드립니다. · 주최 (주)앤트릭스</p>
+    </div>
+  </section>
+
+  <!-- ===== 소개 ===== -->
+  <section class="sec" id="about">
+    <div class="container">
+      <div class="sec__head reveal">
+        <p class="sec__tag">About</p>
+        <h2 class="sec__title">하루 만에 소비하지 않고,<br>하룻밤 머물게 하는 페스티벌</h2>
+        <p class="sec__desc">
+          단양은 남한강과 두산활공장이라는 자연 자산을 가지고 있지만, 대부분의 방문은 당일치기로 끝납니다.
+          OVERNIGHT은 그 하루를 하룻밤으로 늘립니다. 오후에 들어와 캠프를 세우고, 강변에서 요가를 하고,
+          해가 지면 사운드를 깔고, 다음 날 아침 하늘을 납니다.
+        </p>
+        <p class="sec__desc">
+          트레일런은 없습니다. 경쟁도 기록도 없습니다.
+          참가 장벽을 낮춰 20-30대와 동반 방문객까지 함께 오는 <b>체류형 웰니스 캠프</b>로 설계했습니다.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 프로그램 4축 ===== -->
+  <section class="sec sec--soft" id="program">
+    <div class="container">
+      <div class="sec__head reveal">
+        <p class="sec__tag">Program</p>
+        <h2 class="sec__title">네 개의 축</h2>
+        <p class="sec__desc">대형 무대도, 대형 구조물도 세우지 않습니다. 설치에 쓸 예산을 지역 식음과 액티비티에 씁니다.</p>
+      </div>
+
+      <div class="pillars">
+        <article class="pillar reveal">
+          <p class="pillar__no">01</p>
+          <h3>백패킹 캠프</h3>
+          <p>단양생태체육공원 노지에 지정 구역제로 사이트를 배정합니다.
+             1구역 50텐트 × 10구역으로 밀도를 관리하고, 장비가 없어도 참가할 수 있게 렌탈 존을 운영합니다.</p>
+        </article>
+        <article class="pillar reveal">
+          <p class="pillar__no">02</p>
+          <h3>패러글라이딩</h3>
+          <p>카페산 두산활공장. 네 개의 층상단층 지형으로 상승기류가 좋은 국내 대표 활공장입니다.
+             셔틀로 왕복 이동하며, 조종사·동승자 보험이 적용됩니다.</p>
+        </article>
+        <article class="pillar reveal">
+          <p class="pillar__no">03</p>
+          <h3>리커버리 요가</h3>
+          <p>남한강변 잔디에서 선셋 세션과 모닝 세션 2회. 매트는 현장에 준비되어 있고,
+             참가비 안에 포함됩니다. 요가가 처음이어도 괜찮은 난이도로 구성합니다.</p>
+        </article>
+        <article class="pillar reveal">
+          <p class="pillar__no">04</p>
+          <h3>사운드 세션</h3>
+          <p>DJ 1~2팀과 분산 스피커 세팅. 큰 무대 하나에 사람을 모으는 대신
+             캠프 곳곳에 소리를 깔아 둡니다. 22시 이후에는 앰비언트만 유지합니다.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 타임테이블 ===== -->
+  <section class="sec" id="timetable">
+    <div class="container">
+      <div class="sec__head reveal">
+        <p class="sec__tag">Timetable</p>
+        <h2 class="sec__title">1박 2일, 이렇게 흘러갑니다</h2>
+        <p class="sec__desc">패러글라이딩은 활공장 운영시간과 기상 조건에 따라 A조·B조로 나눠 진행합니다. 세부 시간은 확정 후 업데이트됩니다.</p>
+      </div>
+
+      <div class="days">
+        <div class="day reveal">
+          <div class="day__head">
+            <span class="day__no">DAY 1</span>
+            <span class="day__label">토요일 · 입장 &amp; 사운드</span>
+          </div>
+          <div class="slot"><time>13:00</time><div><h4>체크인 · 캠프 사이트 배정</h4><p>웰컴 키트와 단양 지역 먹거리 바우처를 드립니다.</p></div></div>
+          <div class="slot"><time>14:30</time><div><h4>패러글라이딩 A조</h4><p>셔틀로 카페산 두산활공장 이동. 회차당 40명씩 순환합니다.</p></div></div>
+          <div class="slot"><time>17:00</time><div><h4>선셋 요가 세션</h4><p>남한강변 잔디에서 60분씩 2회, 회당 100명.</p></div></div>
+          <div class="slot"><time>19:00</time><div><h4>웰니스 다이닝 · 로컬 푸드</h4><p>단양 마늘빵을 비롯한 지역 식자재 기반 케이터링.</p></div></div>
+          <div class="slot"><time>20:00</time><div><h4>사운드 세션 (DJ)</h4><p>22:00 사운드 컷오프. 이후에는 앰비언트만 유지합니다.</p></div></div>
+        </div>
+
+        <div class="day reveal">
+          <div class="day__head">
+            <span class="day__no">DAY 2</span>
+            <span class="day__label">일요일 · 무브먼트 &amp; 철수</span>
+          </div>
+          <div class="slot"><time>06:30</time><div><h4>모닝 스트레치 · 리버 워크</h4><p>생태습지와 강변 자전거도로 코스를 걷습니다.</p></div></div>
+          <div class="slot"><time>08:30</time><div><h4>패러글라이딩 B조</h4><p>활공장 운영시간에 맞춰 순차 이동합니다.</p></div></div>
+          <div class="slot"><time>10:00</time><div><h4>로컬 마켓 · 단양구경시장</h4><p>도보권 시장으로 이어지는 자유 일정.</p></div></div>
+          <div class="slot"><time>11:00</time><div><h4>클로징 사운드 · 단체 촬영</h4><p>대형 그룹샷과 드론 촬영. 사진은 참가자에게 무료 제공합니다.</p></div></div>
+          <div class="slot"><time>12:00</time><div><h4>철수 · 사이트 원복 (LNT)</h4><p>쓰레기 전량 반출, 원상복구 확인 후 종료합니다.</p></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 숙박 ===== -->
+  <section class="sec sec--soft" id="stay">
+    <div class="container">
+      <div class="sec__head reveal">
+        <p class="sec__tag">Stay</p>
+        <h2 class="sec__title">텐트가 전부는 아닙니다</h2>
+        <p class="sec__desc">전원을 텐트에 몰지 않습니다. 캠프와 리조트 두 갈래로 나눠 원하는 방식으로 하룻밤을 보낼 수 있게 합니다.</p>
+      </div>
+
+      <div class="tiers">
+        <article class="tier tier--a reveal">
+          <p class="tier__label">Tier A</p>
+          <h3 class="tier__name">백패킹 캠프</h3>
+          <p class="tier__num">500명</p>
+          <ul>
+            <li>단양생태체육공원 노지 캠핑 구역</li>
+            <li>구역제 운영 · 개수대 · 화장실 기존 시설 활용</li>
+            <li>이동식 화장실 · 샤워부스 추가 반입</li>
+            <li>장비 미보유자를 위한 렌탈 존 운영</li>
+            <li>LNT 원칙 · 쓰레기 전량 반출</li>
+          </ul>
+        </article>
+
+        <article class="tier tier--b reveal">
+          <p class="tier__label">Tier B</p>
+          <h3 class="tier__name">리조트 숙박</h3>
+          <p class="tier__num">200명</p>
+          <ul>
+            <li>인근 리조트 단체 객실 (협의 진행 중)</li>
+            <li>캠핑 장비 없이도 참가 가능</li>
+            <li>동반 가족 · 커플 참가자에게 권장</li>
+            <li>셔틀로 행사장 왕복 운행</li>
+            <li>객실 수 · 요금은 확정 후 공지</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 주최 실적 ===== -->
+  <section class="sec" id="organizer">
+    <div class="container">
+      <div class="sec__head reveal">
+        <p class="sec__tag">Organizer</p>
+        <h2 class="sec__title">누가 만드나요</h2>
+        <p class="sec__desc">
+          (주)앤트릭스가 기획 · 모집 · 현장운영 · 안전 · 사후 리포트를 전부 직접 수행합니다.
+          2026년 3월 헬리녹스 트레일 세션, 6월 원주 마무트 마운틴 레이스를 한 시즌에 연달아 운영했고
+          두 건 모두 중대사고 없이 종료했습니다.
+        </p>
+      </div>
+
+      <dl class="stats reveal">
+        <div class="stat"><dt>2026 WMR 참가</dt><dd><b>800+</b><span>원주시 발표 기준</span></dd></div>
+        <div class="stat"><dt>중대사고</dt><dd><b>0건</b><span>병원 이송 0건</span></dd></div>
+        <div class="stat"><dt>완주율</dt><dd><b>93%</b><span>35K 85% · 15K 97%</span></dd></div>
+        <div class="stat"><dt>언론 보도</dt><dd><b>19건</b><span>고유 기사 16건</span></dd></div>
+        <div class="stat"><dt>공식 촬영 원본</dt><dd><b>10,000+</b><span>포토그래퍼 8명</span></dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section class="sec sec--soft" id="faq">
+    <div class="container">
+      <div class="sec__head reveal">
+        <p class="sec__tag">FAQ</p>
+        <h2 class="sec__title">자주 묻는 질문</h2>
+      </div>
+
+      <div class="faq reveal">
+        <details>
+          <summary>날짜와 참가비는 언제 공개되나요?</summary>
+          <p>장소·일정 협의가 마무리되는 대로 공개합니다. 사전 알림을 신청해 두시면 확정되는 즉시 문자와 이메일로 가장 먼저 안내드립니다.</p>
+        </details>
+        <details>
+          <summary>캠핑 장비가 없는데 참가할 수 있나요?</summary>
+          <p>가능합니다. 텐트·매트·침낭 렌탈 존을 운영하며, 캠핑 자체가 부담스러우시면 리조트 숙박(Tier B)을 선택하실 수 있습니다.</p>
+        </details>
+        <details>
+          <summary>패러글라이딩은 모든 참가자가 하나요?</summary>
+          <p>희망자에 한해 진행합니다. 활공장 운영시간과 기상 조건이 있어 A조·B조로 나눠 순환하며, 신청 시 별도로 선택하시게 됩니다. 조종사·동승자 보험이 적용됩니다.</p>
+        </details>
+        <details>
+          <summary>요가나 운동 경험이 없어도 괜찮나요?</summary>
+          <p>괜찮습니다. 기록이나 순위를 다투는 행사가 아닙니다. 요가 세션은 처음 하시는 분 기준으로 구성하고, 매트는 현장에 준비되어 있습니다.</p>
+        </details>
+        <details>
+          <summary>혼자 가도 괜찮을까요?</summary>
+          <p>네. 참가자 상당수가 1인 참가입니다. 요가 · 다이닝 · 사운드 세션이 자연스럽게 섞이는 구조라 혼자 오셔도 어색하지 않게 설계했습니다.</p>
+        </details>
+        <details>
+          <summary>밤새 시끄럽지 않나요?</summary>
+          <p>22:00에 사운드를 컷오프합니다. 이후에는 낮은 볼륨의 앰비언트만 유지하고, 스피커도 한 곳에 몰지 않고 분산 배치해 최대 음압을 낮춥니다.</p>
+        </details>
+        <details>
+          <summary>우천 시에는 어떻게 되나요?</summary>
+          <p>실내 대체 프로그램과 예비일을 별도로 수립합니다. 기상 상황에 따른 변경 사항은 신청자에게 사전 공지합니다.</p>
+        </details>
+        <details>
+          <summary>주차는 되나요?</summary>
+          <p>행사장 주차면이 한정되어 인근 공영주차장을 연계하고 단양역·시내 순환 셔틀을 운영할 예정입니다. 확정되면 안내드립니다.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 사전 알림 신청 ===== -->
+  <section class="sec notify" id="notify">
+    <div class="container">
+      <div class="sec__head reveal">
+        <p class="sec__tag">Pre-register</p>
+        <h2 class="sec__title">사전 알림 신청</h2>
+        <p class="sec__desc">
+          모집이 열리면 신청하신 분께 가장 먼저 알려드립니다. 정원이 있는 행사라 사전 알림 신청자에게 우선 안내됩니다.
+        </p>
+      </div>
+
+      <form class="form reveal" id="notifyForm" novalidate>
+        <div class="field">
+          <label for="f-name">이름<span class="req" aria-hidden="true">*</span></label>
+          <input type="text" id="f-name" name="name" required autocomplete="name" placeholder="홍길동">
+        </div>
+
+        <div class="field">
+          <label for="f-phone">휴대폰 번호<span class="req" aria-hidden="true">*</span></label>
+          <input type="tel" id="f-phone" name="phone" required autocomplete="tel" inputmode="numeric" placeholder="010-0000-0000">
+        </div>
+
+        <div class="field">
+          <label for="f-email">이메일<span class="req" aria-hidden="true">*</span></label>
+          <input type="email" id="f-email" name="email" required autocomplete="email" placeholder="you@example.com">
+        </div>
+
+        <fieldset class="field" style="border:0;">
+          <legend class="legend">희망 참가 형태<span class="req" aria-hidden="true">*</span></legend>
+          <div class="chips">
+            <label class="chip"><input type="radio" name="stay" value="캠프" required><span>백패킹 캠프</span></label>
+            <label class="chip"><input type="radio" name="stay" value="리조트"><span>리조트 숙박</span></label>
+            <label class="chip"><input type="radio" name="stay" value="미정"><span>아직 미정</span></label>
+          </div>
+        </fieldset>
+
+        <fieldset class="field" style="border:0;">
+          <legend class="legend">패러글라이딩 참여 희망</legend>
+          <div class="chips">
+            <label class="chip"><input type="radio" name="para" value="예"><span>참여하고 싶어요</span></label>
+            <label class="chip"><input type="radio" name="para" value="아니오"><span>안 할래요</span></label>
+            <label class="chip"><input type="radio" name="para" value="미정"><span>미정</span></label>
+          </div>
+        </fieldset>
+
+        <div class="field">
+          <label for="f-companion">동반 인원</label>
+          <select id="f-companion" name="companion">
+            <option value="0">없음 (혼자 참가)</option>
+            <option value="1">1명</option>
+            <option value="2">2명</option>
+            <option value="3+">3명 이상</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="f-gear">캠핑 장비 렌탈이 필요하신가요?</label>
+          <select id="f-gear" name="gear">
+            <option value="">선택해 주세요</option>
+            <option value="필요">필요합니다</option>
+            <option value="일부">일부만 필요합니다</option>
+            <option value="불필요">전부 보유하고 있습니다</option>
+            <option value="해당없음">리조트 숙박이라 해당 없음</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="f-region">거주 지역</label>
+          <select id="f-region" name="region">
+            <option value="">선택해 주세요</option>
+            <option>서울</option><option>경기</option><option>인천</option>
+            <option>충북</option><option>충남 · 대전 · 세종</option>
+            <option>강원</option><option>경북 · 대구</option><option>경남 · 부산 · 울산</option>
+            <option>전북</option><option>전남 · 광주</option><option>제주</option><option>해외</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="f-source">어떻게 알게 되셨나요?</label>
+          <select id="f-source" name="source">
+            <option value="">선택해 주세요</option>
+            <option>인스타그램</option>
+            <option>마운틴 레이스 (mountain-race.com)</option>
+            <option>지인 추천</option>
+            <option>검색</option>
+            <option>기타</option>
+          </select>
+        </div>
+
+        <label class="agree">
+          <input type="checkbox" name="privacy" required>
+          <span>[필수] 사전 알림 발송을 위한 개인정보 수집·이용에 동의합니다.
+            수집 항목: 이름, 휴대폰 번호, 이메일, 참가 희망 정보 · 이용 목적: 행사 안내 및 접수 알림 ·
+            보유 기간: 행사 종료 후 6개월 (동의 철회 시 즉시 파기)</span>
+        </label>
+        <label class="agree">
+          <input type="checkbox" name="marketing">
+          <span>[선택] OVERNIGHT의 다른 도시 행사 소식도 받아보겠습니다.</span>
+        </label>
+
+        <button type="submit" class="btn btn--primary">사전 알림 신청하기</button>
+        <p class="form__note">모집 오픈, 참가비, 확정 일정을 문자와 이메일로 안내드립니다.</p>
+        <p class="formmsg" id="formMsg" hidden role="status"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===== 푸터 ===== -->
+<footer class="ftr">
+  <div class="container">
+    <div class="ftr__top">
+      <div class="ftr__brand">
+        <b>OVERNIGHT</b>
+        <p>도시의 자연에서 하룻밤. 2026 단양을 시작으로 이어집니다.</p>
+      </div>
+      <nav class="ftr__links" aria-label="푸터 메뉴">
+        <a href="#program">프로그램</a>
+        <a href="#stay">숙박</a>
+        <a href="#faq">FAQ</a>
+        <a href="#notify">사전 알림</a>
+        <!-- 인스타 핸들 확정되면 아래 href 교체 -->
+        <a href="https://instagram.com/overnight.asia" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.mountain-race.com" target="_blank" rel="noopener">Mountain Race</a>
+      </nav>
+    </div>
+
+    <p class="disclaimer">
+      본 페이지는 준비 중인 행사의 사전 안내 페이지입니다. 일정 · 참가비 · 숙박 · 프로그램 세부 사항은
+      관계 기관 및 업체 협의 결과에 따라 변경될 수 있으며, 확정 시 본 페이지와 사전 알림 신청자에게 공지합니다.
+    </p>
+
+    <p class="ftr__legal">
+      주최 · 운영 (주)앤트릭스 · ANTRIX Inc.<br>
+      문의 010-7623-8449 · <a href="https://www.mountain-race.com">www.mountain-race.com</a><br>
+      © 2026 ANTRIX Inc. All rights reserved.
+    </p>
+  </div>
+</footer>
+
+<script>
+(function () {
+  'use strict';
+
+  /* 헤더 스크롤 상태 */
+  var hdr = document.getElementById('hdr');
+  var onScroll = function () {
+    hdr.classList.toggle('is-scrolled', window.scrollY > 12);
+  };
+  onScroll();
+  window.addEventListener('scroll', onScroll, { passive: true });
+
+  /* 모바일 메뉴 */
+  var toggle = document.getElementById('navToggle');
+  var gnb = document.getElementById('gnb');
+  var closeNav = function () {
+    gnb.classList.remove('is-open');
+    toggle.setAttribute('aria-expanded', 'false');
+    toggle.setAttribute('aria-label', '메뉴 열기');
+  };
+  toggle.addEventListener('click', function () {
+    var open = gnb.classList.toggle('is-open');
+    toggle.setAttribute('aria-expanded', String(open));
+    toggle.setAttribute('aria-label', open ? '메뉴 닫기' : '메뉴 열기');
+  });
+  gnb.addEventListener('click', function (e) {
+    if (e.target.tagName === 'A') closeNav();
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') closeNav();
+  });
+
+  /* 스크롤 등장 애니메이션 */
+  var targets = document.querySelectorAll('.reveal');
+  if (!('IntersectionObserver' in window)) {
+    targets.forEach(function (el) { el.classList.add('is-in'); });
+  } else {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-in');
+          io.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12, rootMargin: '0px 0px -8% 0px' });
+    targets.forEach(function (el) { io.observe(el); });
+  }
+
+  /*
+    사전 알림 폼
+    ----------------------------------------------------------------
+    현재는 데모 동작입니다(전송되지 않음). 실제로 받으시려면 둘 중 하나:
+      A) 구글폼 / 스티비 / 메일침프 등의 폼 URL을 form 태그에 넣고
+         아래 preventDefault 블록을 지우세요.
+      B) ENDPOINT 에 수집용 URL(예: Google Apps Script, Formspree)을 넣으세요.
+  */
+  var ENDPOINT = ''; // 예: 'https://formspree.io/f/xxxxxxx'
+  var form = document.getElementById('notifyForm');
+  var msg = document.getElementById('formMsg');
+
+  var show = function (text) {
+    msg.textContent = text;
+    msg.hidden = false;
+  };
+
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+
+    /* form.name 은 폼 엘리먼트 자체의 속성이므로 elements 로 접근합니다 */
+    var el = form.elements;
+    var name = el.namedItem('name').value.trim();
+    var phone = el.namedItem('phone').value.trim();
+    var email = el.namedItem('email').value.trim();
+    var stay = form.querySelector('input[name="stay"]:checked');
+
+    if (!name || !phone || !email) { show('이름 · 휴대폰 · 이메일을 모두 입력해 주세요.'); return; }
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { show('이메일 형식을 확인해 주세요.'); return; }
+    if (!/^[0-9\-+\s()]{9,}$/.test(phone)) { show('휴대폰 번호를 확인해 주세요.'); return; }
+    if (!stay) { show('희망 참가 형태를 선택해 주세요.'); return; }
+    if (!el.namedItem('privacy').checked) { show('개인정보 수집·이용 동의가 필요합니다.'); return; }
+
+    if (!ENDPOINT) {
+      show('신청이 접수되었습니다. 모집이 열리면 ' + name + '님께 가장 먼저 알려드리겠습니다. (데모 동작 — 실제 전송은 연동 후 활성화됩니다)');
+      form.reset();
+      return;
+    }
+
+    var btn = form.querySelector('button[type="submit"]');
+    btn.disabled = true;
+    fetch(ENDPOINT, {
+      method: 'POST',
+      headers: { 'Accept': 'application/json' },
+      body: new FormData(form)
+    }).then(function (res) {
+      if (!res.ok) throw new Error('bad status');
+      show('신청이 접수되었습니다. 모집이 열리면 가장 먼저 알려드리겠습니다.');
+      form.reset();
+    }).catch(function () {
+      show('전송에 실패했습니다. 잠시 후 다시 시도해 주세요.');
+    }).finally(function () {
+      btn.disabled = false;
+    });
+  });
+})();
+</script>
+</body>
+</html>
