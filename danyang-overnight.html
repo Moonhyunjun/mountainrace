@@ -103,6 +103,27 @@ a{color:inherit;text-decoration:none;}
   position:absolute;inset:0;z-index:-1;
   background:linear-gradient(180deg,rgba(4,6,10,.34) 0%,rgba(4,6,10,.52) 46%,rgba(4,6,10,.9) 100%);
 }
+/* 밝은 사진(일몰·주간)을 배경으로 쓸 때:
+   아래 <section class="hero"> 의 class 에 hero--bright 를 덧붙이세요.
+   글자가 놓이는 왼쪽만 눌러서 사진 오른쪽은 밝게 살립니다. */
+.hero--bright .hero__scrim{
+  background:
+    linear-gradient(100deg, rgba(4,6,10,.90) 0%, rgba(4,6,10,.74) 30%,
+                            rgba(4,6,10,.30) 62%, rgba(4,6,10,.04) 100%),
+    linear-gradient(180deg, rgba(4,6,10,.28) 0%, rgba(4,6,10,.08) 42%, rgba(4,6,10,.74) 100%);
+}
+.hero--bright .hero__lead{color:#d6e2ef;}
+.hero--bright .hero__note{color:#bccadb;}
+.hero--bright .facts li{background:rgba(6,9,15,.72);}
+.hero--bright .hero__title,
+.hero--bright .hero__kr{text-shadow:0 2px 28px rgba(0,0,0,.55);}
+.hero--bright .hero__lead{text-shadow:0 1px 18px rgba(0,0,0,.6);}
+@media (max-width:900px){
+  .hero--bright .hero__scrim{
+    background:linear-gradient(180deg, rgba(4,6,10,.62) 0%, rgba(4,6,10,.52) 40%, rgba(4,6,10,.88) 100%);
+  }
+}
+
 .hero__ridge{position:absolute;left:0;right:0;bottom:-1px;z-index:-1;width:100%;height:min(34vh,300px);}
 .hero__ridge .r1{fill:#0c1220;opacity:.95;}
 .hero__ridge .r2{fill:#080d17;opacity:.95;}

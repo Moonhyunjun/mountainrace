@@ -66,6 +66,38 @@
   background:linear-gradient(180deg,
     rgba(4,6,10,.34) 0%, rgba(4,6,10,.52) 46%, rgba(4,6,10,.86) 100%);
 }
+/* ===========================================================================
+   밝은 사진(일몰·주간·패러글라이딩)을 배경으로 쓸 때
+   ---------------------------------------------------------------------------
+   이 파일 맨 아래 히어로 여는 태그의 class 값 뒤에 한 칸 띄고
+   ovn-hero--bright 를 덧붙이기만 하면 됩니다. (class="ovn-hero ovn-hero--bright")
+   그러면
+     · 화면 전체를 덮지 않고 "글자가 놓이는 왼쪽"만 눌러서 사진 오른쪽은 밝게 살립니다
+     · 본문 글씨를 밝게 올리고 그림자를 넣어 어떤 사진 위에서도 읽히게 합니다
+   어두운 사진이나 배경 없이 쓰실 때는 이 클래스를 빼세요.
+   =========================================================================== */
+.ovn-hero--bright .ovn-hero__scrim{
+  background:
+    linear-gradient(100deg,
+      rgba(4,6,10,.90) 0%, rgba(4,6,10,.74) 30%,
+      rgba(4,6,10,.30) 62%, rgba(4,6,10,.04) 100%),
+    linear-gradient(180deg,
+      rgba(4,6,10,.28) 0%, rgba(4,6,10,.08) 42%, rgba(4,6,10,.74) 100%);
+}
+.ovn-hero--bright .ovn-hero__lead{ color:#d6e2ef; }
+.ovn-hero--bright .ovn-hero__note{ color:#bccadb; }
+.ovn-hero--bright .ovn-hero__facts li{ background:rgba(6,9,15,.72); }
+.ovn-hero--bright .ovn-hero__title,
+.ovn-hero--bright .ovn-hero__kr{ text-shadow:0 2px 28px rgba(0,0,0,.55); }
+.ovn-hero--bright .ovn-hero__lead{ text-shadow:0 1px 18px rgba(0,0,0,.6); }
+/* 모바일은 글자가 가로 전체를 쓰므로 좌우 그라데이션 대신 위아래로 누릅니다 */
+@media (max-width:860px){
+  .ovn-hero--bright .ovn-hero__scrim{
+    background:linear-gradient(180deg,
+      rgba(4,6,10,.62) 0%, rgba(4,6,10,.52) 40%, rgba(4,6,10,.88) 100%);
+  }
+}
+
 .ovn-hero__ridge{
   position:absolute; left:0; right:0; bottom:-1px; z-index:-1;
   width:100%; height:min(34vh,280px); display:block;
