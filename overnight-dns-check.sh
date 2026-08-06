@@ -101,7 +101,7 @@ run_check() {
   local ns
   ns="$(lookup "$DOMAIN" NS)"
   if [ -n "$ns" ]; then
-    ok "네임서버 확인됨"
+    ok "네임서버 확인됨 (공용 리졸버 기준)"
     printf "%s" "$ns" | while IFS= read -r line; do info "$line"; done
   elif [ "$DNS_OK" = "0" ]; then
     warn "확인 불가 (DNS 조회 차단됨)"
@@ -109,6 +109,55 @@ run_check() {
     bad "네임서버가 조회되지 않습니다."
     warn "→ 도메인이 아직 등록되지 않았거나, 등록 직후 전파 전입니다."
     warn "→ 구매처에서 ${DOMAIN} 소유 상태를 먼저 확인하세요."
+  fi
+
+  # ---- 1-B. 네임서버 위임 진단 ------------------------------------------------
+  # 네임서버를 바꿨는데 반영이 안 될 때, 원인이 두 가지로 갈립니다.
+  #   (가) 등록기관(후이즈)이 레지스트리에 아직 제출하지 않음  → 후이즈에서 해결
+  #   (나) 레지스트리엔 반영됐는데 공용 리졸버 캐시가 남음      → 기다리면 해결
+  # 둘을 구분하려면 TLD(.asia) 서버에 직접 물어봐야 합니다.
+  if [ "$DNS_OK" = "1" ] && [ "$DNS_MODE" = "dig" ]; then
+    head_ "1-B. 위임 상태 (레지스트리 직접 조회)"
+    local tld tldns reg
+    tld="${DOMAIN#*.}"
+    tldns="$(dig +short NS "${tld}." @1.1.1.1 2>/dev/null | head -1)"
+    if [ -n "$tldns" ]; then
+      # 레지스트리가 실제로 들고 있는 위임 정보 (캐시 영향 없음)
+      reg="$(dig +noall +authority +additional NS "$DOMAIN" "@${tldns}" 2>/dev/null \
+             | awk '$4=="NS"{print $5}' | sed 's/\.$//' | sort -u)"
+      if [ -n "$reg" ]; then
+        ok "레지스트리(${tld}) 등록된 네임서버:"
+        printf "%s" "$reg" | while IFS= read -r line; do info "→ $line"; done
+
+        local pub
+        pub="$(printf "%s" "$ns" | sed 's/\.$//' | sort -u)"
+        if [ -n "$pub" ] && [ "$pub" != "$reg" ]; then
+          warn "공용 리졸버 값과 다릅니다 — 캐시가 아직 옛 값을 들고 있습니다."
+          warn "→ 레지스트리는 이미 바뀌었으니 기다리시면 됩니다 (보통 몇 시간)."
+        elif [ -n "$pub" ]; then
+          ok "공용 리졸버와 일치 — 위임 전파 완료"
+        fi
+
+        if [ -n "${EXPECT_NS:-}" ]; then
+          local miss=0 e
+          for e in $(printf "%s" "$EXPECT_NS" | tr ', ' '\n\n' | sed 's/\.$//;/^$/d'); do
+            printf "%s" "$reg" | grep -qix "$e" || { bad "기대값 누락: $e"; miss=1; }
+          done
+          [ "$miss" = "0" ] && ok "기대한 네임서버(EXPECT_NS)와 모두 일치합니다."
+          [ "$miss" = "1" ] && warn "→ 후이즈 네임서버 변경이 아직 레지스트리에 반영되지 않았습니다."
+        else
+          info "아임웹이 준 값과 대조하려면:"
+          info "  EXPECT_NS=\"ns1.example.com,ns2.example.com\" $0"
+        fi
+      else
+        bad "레지스트리에 위임 정보가 없습니다 — 후이즈에서 변경이 제출되지 않았습니다."
+        warn "→ 후이즈 네임서버 변경 화면에서 '적용/신청'까지 눌렀는지 확인하세요."
+      fi
+    else
+      info "TLD 네임서버를 찾지 못해 위임 진단을 건너뜁니다."
+    fi
+  elif [ "$DNS_OK" = "1" ]; then
+    info "위임 진단은 dig 이 필요합니다 (apt-get install -y dnsutils)."
   fi
 
   # ---- 2. A / CNAME ----------------------------------------------------------
