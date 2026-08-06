@@ -40,7 +40,8 @@ assets/img/     # 대회 사진을 넣는 폴더 (아래 참고)
 | `overnight-imweb-copy.md` | 아임웹 섹션별 복붙 카피 · SEO · 폼 항목 · 인스타 바이오 |
 | `overnight-hero-block.html` | 아임웹 `위젯 추가 > HTML` 에 통째로 붙여넣는 히어로 (`ovn-` 접두사) |
 | `danyang-overnight.html` | 단독 실행 원페이지. 아임웹이 막히면 정적 호스팅에 올리는 대안 |
-| `overnight-dns-check.sh` | 도메인 전파 · SSL 발급 상태 자동 점검 (`--watch` 로 반복) |
+| `overnight-dns-check.sh` | 도메인 전파 · SSL 상태 점검 — macOS · Linux · WSL (`--watch` 로 반복) |
+| `overnight-dns-check.ps1` | 같은 점검의 Windows PowerShell 버전 |
 
 ## 로컬 미리보기
 

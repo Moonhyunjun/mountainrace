@@ -166,6 +166,30 @@ bns4.hostcocoa.com
 
 **반영됐는지 확인** (아임웹 화면 표시는 지연되므로 이걸로 보세요)
 
+셋 중 아무거나 쓰시면 됩니다. **위에서부터 확실합니다.**
+
+**① 설치 없이 — whatsmydns.net** (권장)
+`whatsmydns.net` 접속 → `overnight.asia` 입력 → 타입을 **`NS`** 로 선택 → 조회
+전 세계 리졸버가 각각 뭘 보고 있는지 지도로 보여줍니다. 초록색이 늘어나면 전파 중입니다.
+
+**② Windows 기본 명령** — 명령 프롬프트(cmd)에서
+
+```
+nslookup -type=NS overnight.asia 8.8.8.8
+```
+
+`bns1~4.hostcocoa.com` 이 나오면 반영된 것이고, `ns1~4.whoisdomain.kr` 이 나오면 아직입니다.
+
+**③ PowerShell 스크립트** — 레지스트리 직접 조회까지 해줍니다
+
+```powershell
+.\overnight-dns-check.ps1
+```
+
+실행이 차단되면: `powershell -ExecutionPolicy Bypass -File .\overnight-dns-check.ps1`
+
+**④ macOS · Linux · WSL**
+
 ```bash
 EXPECT_NS="bns1.hostcocoa.com,bns2.hostcocoa.com,bns3.hostcocoa.com,bns4.hostcocoa.com" \
   ./overnight-dns-check.sh
