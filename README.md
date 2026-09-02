@@ -39,6 +39,20 @@ imweb/          # 아임웹(mountain-race.com) 연동용 코드 위젯 (imweb/RE
 | 사전알림 폼 연동 | `index.html`의 `#notifyForm` | 스티비/메일침프/구글폼 등 사용하는 서비스의 폼 URL을 `action`에 연결 (현재는 데모 동작) |
 | 코스/참가비 정보 | `index.html`의 `#courses` 섹션 | 2027 코스 확정 시 카드 내용 수정 |
 
+## 별도 프로젝트 — OVERNIGHT (overnight.asia)
+
+같은 저장소에 2026 단양 행사(`overnight.asia`) 런칭 파일이 함께 들어 있습니다.
+원주 마운틴 레이스 사이트(`index.html`)와는 **별개 브랜드**이며 서로 영향을 주지 않습니다.
+
+| 파일 | 용도 |
+|---|---|
+| `overnight-domain-setup.md` | **여기부터 읽으세요.** 아임웹 연동 · 도메인 · SSL 런북 |
+| `overnight-imweb-copy.md` | 아임웹 섹션별 복붙 카피 · SEO · 폼 항목 · 인스타 바이오 |
+| `overnight-hero-block.html` | 아임웹 `위젯 추가 > HTML` 에 통째로 붙여넣는 히어로 (`ovn-` 접두사) |
+| `danyang-overnight.html` | 단독 실행 원페이지. 아임웹이 막히면 정적 호스팅에 올리는 대안 |
+| `overnight-dns-check.sh` | 도메인 전파 · SSL 상태 점검 — macOS · Linux · WSL (`--watch` 로 반복) |
+| `overnight-dns-check.ps1` | 같은 점검의 Windows PowerShell 버전 |
+
 ## 로컬 미리보기
 
 빌드 과정이 없는 정적 사이트입니다.

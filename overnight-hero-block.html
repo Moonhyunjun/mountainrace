@@ -1,0 +1,303 @@
+<!--
+  ============================================================================
+  OVERNIGHT DANYANG 2026 — 히어로 블록 (아임웹 HTML 위젯 전용)
+  ============================================================================
+  사용법
+    아임웹 편집기 → 섹션 추가 → 위젯 → HTML → 이 파일 전체를 붙여넣기
+    (아래 <style> 부터 마지막 </div> 까지 전부 포함해서 통째로 복사)
+
+  주의
+    · 모든 클래스에 ovn- 접두사를 붙여 아임웹 테마 CSS와 충돌하지 않게 했습니다.
+    · CSS는 전부 .ovn-hero 하위로만 적용됩니다. 다른 블록에 영향 없음.
+    · 아임웹 섹션 상하 여백이 이미 있으므로 이 블록 자체 여백은 최소로 잡았습니다.
+
+  배경 사진 넣는 법  ★ 여기만 보시면 됩니다
+    1) 아임웹 관리자 → 사이트 관리 → 파일 업로드(또는 이미지 블록에 잠깐 올려서 URL 복사)
+    2) 아래 CSS 의 "배경 사진" 표시를 찾아, 그 두 줄 맨 앞의 밑줄 표시를 지우고
+       (즉 주석 여는 기호와 닫는 기호를 삭제하고)
+       PHOTO_URL_HERE 를 복사한 이미지 주소로 바꾸세요.
+    추천 컷: WMR 2026 야간 캠프 / 남한강변 일몰 / 카페산 활공 장면 (가로 2000px 이상)
+  ============================================================================
+-->
+
+<style>
+/* ---- 토큰 (이 블록 안에서만 사용) ---- */
+.ovn-hero{
+  --ovn-bg:#080b11;
+  --ovn-ink:#f2f5f9;
+  --ovn-dim:#96a6bb;
+  --ovn-accent:#ff7a2f;      /* 선셋 오렌지 */
+  --ovn-accent2:#6f8cff;     /* 더스크 블루 */
+  --ovn-line:rgba(255,255,255,.12);
+
+  position:relative;
+  isolation:isolate;
+  margin:0 calc(50% - 50vw);   /* 아임웹 섹션 안에서도 풀블리드 */
+  width:100vw;
+  min-height:min(88vh, 760px);
+  display:flex;
+  align-items:center;
+  background:var(--ovn-bg);
+  color:var(--ovn-ink);
+  overflow:hidden;
+  font-family:"Pretendard Variable",Pretendard,-apple-system,BlinkMacSystemFont,
+    "Apple SD Gothic Neo","Malgun Gothic","Segoe UI",sans-serif;
+  line-height:1.6;
+  word-break:keep-all;
+  -webkit-font-smoothing:antialiased;
+}
+.ovn-hero *{box-sizing:border-box;}
+
+/* ---- 배경: 사진 없을 때 쓰는 그라데이션 + 능선 ---- */
+.ovn-hero__bg{
+  position:absolute; inset:0; z-index:-2;
+  background:
+    radial-gradient(120% 90% at 78% 8%,  rgba(255,122,47,.30) 0%, transparent 55%),
+    radial-gradient(90% 80% at 12% 92%,  rgba(111,140,255,.26) 0%, transparent 60%),
+    linear-gradient(180deg,#0a0f18 0%,#080b11 60%,#05070b 100%);
+
+  /* ★ 배경 사진 — 아래 두 줄을 감싼 주석 기호만 지우고 PHOTO_URL_HERE 를 교체하세요 ★ */
+  /* background-image:url("PHOTO_URL_HERE"); */
+  /* background-size:cover; background-position:center; background-repeat:no-repeat; */
+}
+/* 사진을 넣으면 이 레이어가 글씨 가독성을 지켜줍니다 */
+.ovn-hero__scrim{
+  position:absolute; inset:0; z-index:-1;
+  background:linear-gradient(180deg,
+    rgba(4,6,10,.34) 0%, rgba(4,6,10,.52) 46%, rgba(4,6,10,.86) 100%);
+}
+/* ===========================================================================
+   밝은 사진(일몰·주간·패러글라이딩)을 배경으로 쓸 때
+   ---------------------------------------------------------------------------
+   이 파일 맨 아래 히어로 여는 태그의 class 값 뒤에 한 칸 띄고
+   ovn-hero--bright 를 덧붙이기만 하면 됩니다. (class="ovn-hero ovn-hero--bright")
+   그러면
+     · 화면 전체를 덮지 않고 "글자가 놓이는 왼쪽"만 눌러서 사진 오른쪽은 밝게 살립니다
+     · 본문 글씨를 밝게 올리고 그림자를 넣어 어떤 사진 위에서도 읽히게 합니다
+   어두운 사진이나 배경 없이 쓰실 때는 이 클래스를 빼세요.
+   =========================================================================== */
+.ovn-hero--bright .ovn-hero__scrim{
+  background:
+    linear-gradient(100deg,
+      rgba(4,6,10,.90) 0%, rgba(4,6,10,.74) 30%,
+      rgba(4,6,10,.30) 62%, rgba(4,6,10,.04) 100%),
+    linear-gradient(180deg,
+      rgba(4,6,10,.28) 0%, rgba(4,6,10,.08) 42%, rgba(4,6,10,.74) 100%);
+}
+.ovn-hero--bright .ovn-hero__lead{ color:#d6e2ef; }
+.ovn-hero--bright .ovn-hero__note{ color:#bccadb; }
+.ovn-hero--bright .ovn-hero__facts li{ background:rgba(6,9,15,.72); }
+.ovn-hero--bright .ovn-hero__title,
+.ovn-hero--bright .ovn-hero__kr{ text-shadow:0 2px 28px rgba(0,0,0,.55); }
+.ovn-hero--bright .ovn-hero__lead{ text-shadow:0 1px 18px rgba(0,0,0,.6); }
+/* 모바일은 글자가 가로 전체를 쓰므로 좌우 그라데이션 대신 위아래로 누릅니다 */
+@media (max-width:860px){
+  .ovn-hero--bright .ovn-hero__scrim{
+    background:linear-gradient(180deg,
+      rgba(4,6,10,.62) 0%, rgba(4,6,10,.52) 40%, rgba(4,6,10,.88) 100%);
+  }
+}
+
+.ovn-hero__ridge{
+  position:absolute; left:0; right:0; bottom:-1px; z-index:-1;
+  width:100%; height:min(34vh,280px); display:block;
+}
+.ovn-hero__ridge .r1{fill:#0c1220;opacity:.95;}
+.ovn-hero__ridge .r2{fill:#080d17;opacity:.95;}
+.ovn-hero__ridge .r3{fill:#05070b;}
+
+/* ---- 콘텐츠 ---- */
+.ovn-hero__inner{
+  width:min(100% - 44px,1120px);
+  margin-inline:auto;
+  padding:104px 0 92px;
+  position:relative; z-index:1;
+}
+.ovn-hero__eyebrow{
+  display:inline-flex; align-items:center; gap:10px;
+  margin:0 0 22px;
+  padding:7px 15px 7px 12px;
+  border:1px solid var(--ovn-line);
+  border-radius:999px;
+  background:rgba(255,255,255,.05);
+  backdrop-filter:blur(8px); -webkit-backdrop-filter:blur(8px);
+  font-size:.78rem; font-weight:700; letter-spacing:.13em;
+  color:#dbe6f2; text-transform:uppercase;
+}
+.ovn-hero__dot{
+  width:7px; height:7px; border-radius:50%;
+  background:var(--ovn-accent);
+  box-shadow:0 0 0 4px rgba(255,122,47,.20);
+  animation:ovn-pulse 2.4s ease-in-out infinite;
+}
+@keyframes ovn-pulse{
+  0%,100%{opacity:1;transform:scale(1);}
+  50%    {opacity:.45;transform:scale(.82);}
+}
+.ovn-hero__title{
+  margin:0 0 6px;
+  font-size:clamp(2.9rem,8.4vw,6.4rem);
+  font-weight:900;
+  letter-spacing:-.035em;
+  line-height:.96;
+  text-transform:uppercase;
+}
+.ovn-hero__title em{
+  display:block; font-style:normal;
+  background:linear-gradient(96deg,var(--ovn-accent) 0%,#ffb877 46%,var(--ovn-accent2) 100%);
+  -webkit-background-clip:text; background-clip:text;
+  color:transparent;
+}
+.ovn-hero__kr{
+  margin:20px 0 0;
+  font-size:clamp(1.02rem,2.5vw,1.36rem);
+  font-weight:600; color:#e4ecf5;
+  max-width:22em;
+}
+.ovn-hero__lead{
+  margin:14px 0 0;
+  font-size:clamp(.94rem,2vw,1.06rem);
+  color:var(--ovn-dim);
+  max-width:34em;
+}
+
+/* ---- 팩트 스트립 ---- */
+.ovn-hero__facts{
+  display:grid;
+  grid-template-columns:repeat(4,minmax(0,1fr));
+  gap:1px;
+  margin:42px 0 0;
+  padding:0; list-style:none;
+  background:var(--ovn-line);
+  border:1px solid var(--ovn-line);
+  border-radius:14px;
+  overflow:hidden;
+  max-width:760px;
+}
+.ovn-hero__facts li{
+  background:rgba(8,12,20,.62);
+  backdrop-filter:blur(10px); -webkit-backdrop-filter:blur(10px);
+  padding:16px 18px;
+}
+.ovn-hero__facts dt{
+  margin:0 0 6px;
+  font-size:.68rem; font-weight:700; letter-spacing:.12em;
+  color:#8194ab; text-transform:uppercase;
+}
+.ovn-hero__facts dd{
+  margin:0;
+  font-size:clamp(.95rem,2.1vw,1.14rem);
+  font-weight:800; color:var(--ovn-ink);
+  letter-spacing:-.01em;
+}
+
+/* ---- CTA ---- */
+.ovn-hero__cta{
+  display:flex; flex-wrap:wrap; gap:12px;
+  margin:38px 0 0;
+}
+.ovn-btn{
+  display:inline-flex; align-items:center; justify-content:center; gap:9px;
+  padding:15px 30px;
+  border-radius:999px;
+  font-size:1rem; font-weight:800; letter-spacing:-.01em;
+  text-decoration:none !important;
+  border:1px solid transparent;
+  transition:transform .18s ease, box-shadow .18s ease, background .18s ease;
+  cursor:pointer;
+}
+.ovn-btn--primary{
+  background:var(--ovn-accent);
+  color:#12060a !important;
+  box-shadow:0 12px 34px rgba(255,122,47,.32);
+}
+.ovn-btn--primary:hover{transform:translateY(-2px);box-shadow:0 18px 44px rgba(255,122,47,.42);}
+.ovn-btn--ghost{
+  background:rgba(255,255,255,.06);
+  border-color:var(--ovn-line);
+  color:var(--ovn-ink) !important;
+  backdrop-filter:blur(8px); -webkit-backdrop-filter:blur(8px);
+}
+.ovn-btn--ghost:hover{background:rgba(255,255,255,.12);transform:translateY(-2px);}
+.ovn-hero__note{
+  margin:16px 0 0;
+  font-size:.82rem; color:#7f90a6;
+}
+
+/* ---- 모바일 ---- */
+@media (max-width:860px){
+  .ovn-hero{min-height:auto;}
+  .ovn-hero__inner{padding:84px 0 72px;}
+  .ovn-hero__facts{grid-template-columns:repeat(2,minmax(0,1fr));max-width:none;}
+}
+@media (max-width:420px){
+  .ovn-btn{width:100%;}
+}
+@media (prefers-reduced-motion:reduce){
+  .ovn-hero__dot{animation:none;}
+  .ovn-btn{transition:none;}
+}
+</style>
+
+<div class="ovn-hero">
+  <div class="ovn-hero__bg" aria-hidden="true"></div>
+  <div class="ovn-hero__scrim" aria-hidden="true"></div>
+
+  <svg class="ovn-hero__ridge" viewBox="0 0 1440 300" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
+    <polygon class="r1" points="0,300 220,132 372,214 540,96 742,300"/>
+    <polygon class="r2" points="480,300 706,150 852,232 1030,84 1268,300"/>
+    <polygon class="r3" points="-60,300 150,196 336,258 512,168 760,300 1040,190 1240,246 1440,150 1440,300"/>
+  </svg>
+
+  <div class="ovn-hero__inner">
+
+    <p class="ovn-hero__eyebrow">
+      <span class="ovn-hero__dot" aria-hidden="true"></span>
+      DANYANG · KOREA · 1박 2일
+    </p>
+
+    <h1 class="ovn-hero__title">
+      OVERNIGHT
+      <em>DANYANG</em>
+    </h1>
+
+    <p class="ovn-hero__kr">
+      단양의 하늘과 강을, 하룻밤 머무는 경험으로.
+    </p>
+
+    <p class="ovn-hero__lead">
+      백패킹 캠프 · 패러글라이딩 · 리버사이드 요가 · 사운드 세션.<br>
+      기록도 순위도 없습니다. 남한강변에서 하룻밤을 보내는 웰니스 캠프 페스티벌.
+    </p>
+
+    <ul class="ovn-hero__facts">
+      <li><dl>
+        <dt>DATE</dt>
+        <dd>2026 · 곧 공개</dd>
+      </dl></li>
+      <li><dl>
+        <dt>VENUE</dt>
+        <dd>단양생태체육공원</dd>
+      </dl></li>
+      <li><dl>
+        <dt>PAX</dt>
+        <dd>700명</dd>
+      </dl></li>
+      <li><dl>
+        <dt>STAY</dt>
+        <dd>캠프 · 리조트</dd>
+      </dl></li>
+    </ul>
+
+    <div class="ovn-hero__cta">
+      <!-- ↓ 아임웹 폼 블록의 앵커 ID로 바꾸세요 (런북 5-3 참고) -->
+      <a class="ovn-btn ovn-btn--primary" href="#ovn-notify">사전 알림 신청</a>
+      <a class="ovn-btn ovn-btn--ghost" href="#ovn-program">프로그램 보기</a>
+    </div>
+
+    <p class="ovn-hero__note">
+      모집 오픈 시 신청하신 분께 가장 먼저 알려드립니다. · 주최 (주)앤트릭스
+    </p>
+
+  </div>
+</div>
