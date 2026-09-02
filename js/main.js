@@ -29,10 +29,20 @@ navToggle.addEventListener('click', function () {
   navToggle.setAttribute('aria-expanded', String(open));
   navToggle.setAttribute('aria-label', open ? '메뉴 닫기' : '메뉴 열기');
 });
+function closeMenu() {
+  gnb.classList.remove('is-open');
+  navToggle.setAttribute('aria-expanded', 'false');
+  navToggle.setAttribute('aria-label', '메뉴 열기');
+}
 gnb.addEventListener('click', function (e) {
   if (e.target.tagName === 'A' && gnb.classList.contains('is-open')) {
-    gnb.classList.remove('is-open');
-    navToggle.setAttribute('aria-expanded', 'false');
+    closeMenu();
+  }
+});
+document.addEventListener('keydown', function (e) {
+  if (e.key === 'Escape' && gnb.classList.contains('is-open')) {
+    closeMenu();
+    navToggle.focus();
   }
 });
 
