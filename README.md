@@ -49,3 +49,53 @@ GitHub Pages를 쓰는 경우: 저장소 Settings → Pages → 배포 브랜치
 2026 대회 수치(6/21 개최, 800여 명 참가, 35K 35.92km / +1,962m / 제한 8시간 / 보급소 3개소 / ITRA 2포인트)는
 공개된 대회 결과 및 ITRA 등록 정보 기준입니다. 2027 관련 날짜는 모두 "예정"으로 표기되어 있으며
 확정 시 위 표의 항목만 수정하면 됩니다.
+
+---
+
+## AI Website Cloner Template (추가 세팅)
+
+이 저장소에는 [ai-website-cloner-template](https://github.com/JCodesMore/ai-website-cloner-template)
+(커밋 `92872bc`)이 함께 세팅되어 있습니다. **기존 정적 사이트(`index.html`, `css/`, `js/`, `assets/`)는
+그대로 유지**되며, 템플릿은 Next.js 작업 공간으로 옆에 추가된 형태입니다.
+
+### 사용법
+
+```bash
+npm install
+claude --chrome          # 또는 사용하는 AI 코딩 에이전트
+/clone-website <복제할 사이트 URL>
+```
+
+`/clone-website` 스킬은 대상 사이트를 분석해 `src/app/` 아래 Next.js 페이지로 재구성합니다.
+Claude Code 외에 Codex, Cursor, Gemini, Copilot 등 13개 에이전트용 설정이 함께 들어 있습니다
+(`.claude/`, `.codex/`, `.cursor/`, `.gemini/` 등).
+
+### 요구 사항
+
+- **Node.js 24 이상** (`package.json`의 `engines.node: ">=24"`, `.nvmrc: 24`)
+- 스택: Next.js 16.3.0 / React 19.2.4 / TypeScript strict / Tailwind CSS v4 / shadcn(base-ui)
+
+### 명령어
+
+| 명령 | 설명 |
+|---|---|
+| `npm run dev` | 개발 서버 |
+| `npm run build` | 프로덕션 빌드 |
+| `npm run lint` | ESLint |
+| `npm run typecheck` | 타입 검사 |
+| `npm run check` | lint + typecheck + build 일괄 |
+
+### 두 사이트의 관계
+
+| | 현재 운영 사이트 | 템플릿 작업 공간 |
+|---|---|---|
+| 진입점 | 루트 `index.html` | `src/app/page.tsx` |
+| 빌드 | 없음 (정적) | `npm run build` |
+| 배포 | 정적 호스팅 그대로 | Vercel/Netlify 등 Next.js 호스팅 |
+
+정적 사이트를 그대로 배포하는 현재 방식은 영향을 받지 않습니다.
+Next.js 쪽으로 전환할지는 `/clone-website` 결과물을 본 뒤 결정하면 됩니다.
+
+- 템플릿 원본 README: `docs/TEMPLATE_README.md`
+- 프로젝트 규칙(에이전트용): `AGENTS.md` (수정 후 `bash scripts/sync-agent-rules.sh` 실행)
+- 템플릿 제작자 후원 설정(`.github/FUNDING.yml`)은 이 저장소와 무관하여 제거했습니다.
