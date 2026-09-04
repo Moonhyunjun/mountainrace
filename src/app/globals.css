@@ -1,3 +1,4 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css");
 @import "tailwindcss";
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
@@ -127,4 +128,118 @@
   html {
     @apply font-sans;
   }
+}
+/* =====================================================================
+   WONJU MOUNTAIN RACE — design tokens cloned from molo.com/en-DK
+   Source of truth: docs/research/www-molo-com-51adfc9a/en-dk-42785c00/DESIGN_TOKENS.md
+   Molo's root font-size is 62.5% (1rem = 10px); every rem value from the
+   original is expressed here in px so the shadcn scaffold's own rem scale
+   is left untouched.
+   ===================================================================== */
+:root {
+  /* colour */
+  --mr-black: rgb(24, 24, 24);
+  --mr-black-hover: rgba(24, 24, 24, 0.5);
+  --mr-inactive: rgba(24, 24, 24, 0.35);
+  --mr-white: rgb(251, 251, 251);
+  --mr-image-bg: rgb(241, 241, 239);
+  --mr-light-gray: rgb(237, 237, 237);
+  --mr-gray: rgb(217, 217, 217);
+  --mr-dark-gray: rgb(69, 69, 69);
+  --mr-border: rgb(230, 230, 230);
+  --mr-placeholder: #999;
+  --mr-blue: #48a3dc;
+  --mr-green: rgb(0, 175, 102);
+  --mr-main: #2c622c;
+  --mr-link: #234923;
+
+  /* type — see the substitution table in DESIGN_TOKENS.md */
+  --mr-font-mono: var(--font-ibm-plex-mono), "IBM Plex Mono", "SF Mono", Menlo,
+    Consolas, "Liberation Mono", monospace;
+  --mr-font-text: "Pretendard Variable", Pretendard, "Helvetica Neue", Arial, sans-serif;
+  --mr-font-display: var(--mr-font-text);
+
+  /* spacing */
+  --mr-site-padding: 60px;
+  --mr-module-gap: 156px;
+  --mr-header-height: 88px;
+  --mr-header-height-scrolled: 56px;
+  --mr-usp-height: 32px;
+  --mr-grid-gap: 80px;
+  --mr-grid-col: 270px;
+
+  /* motion */
+  --mr-ease-out-quart: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+@media (max-width: 1024px) {
+  :root {
+    --mr-module-gap: 120px;
+    --mr-grid-gap: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  :root {
+    --mr-site-padding: 20px;
+    --mr-module-gap: 80px;
+    --mr-header-height: 56px;
+    --mr-grid-gap: 12px;
+  }
+}
+
+.mr-page {
+  background-color: var(--mr-white);
+  color: var(--mr-black);
+  font-family: var(--mr-font-text);
+  font-size: 14px;
+}
+
+/* Molo's every label is mono 11px/15.4px, -0.11px, uppercase */
+.mr-label {
+  font-family: var(--mr-font-mono);
+  font-size: 11px;
+  line-height: 15.4px;
+  letter-spacing: -0.11px;
+  text-transform: uppercase;
+}
+
+/* Overlay labels ride on mix-blend-mode: difference so they invert over
+   dark media without any JS colour swap. */
+.mr-invert {
+  color: rgb(255, 255, 255);
+  mix-blend-mode: difference;
+}
+
+.mr-link:hover {
+  color: var(--mr-black-hover);
+}
+
+/* Marquee: a doubled track translated -50%, matching react-fast-marquee */
+@keyframes mr-marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.mr-marquee {
+  animation: mr-marquee var(--mr-marquee-duration, 60s) linear infinite;
+  will-change: transform;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .mr-marquee {
+    animation: none;
+  }
+}
+
+.mr-noscrollbar {
+  scrollbar-width: none;
+}
+
+.mr-noscrollbar::-webkit-scrollbar {
+  display: none;
 }

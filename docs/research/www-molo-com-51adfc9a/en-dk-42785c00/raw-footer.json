@@ -1,0 +1,55 @@
+{
+  "styles": {
+    "bg": "rgb(72, 163, 220)",
+    "color": "rgb(24, 24, 24)",
+    "padding": "37px 60px 56px",
+    "fs": "11px",
+    "ff": "simon, \"simon Fallback\", \"IBM Plex Mono\", \"SF Mono\", Menlo, Consolas, \"Liberation Mono\", monospace"
+  },
+  "innerText": "HELP\nTERMS AND CONDITIONS\nPRIVACY POLICY\nFAQ\nCONTACT\nCOOKIE SETTINGS\nABOUT\nOUR STORY\nRESPONSIBILITY\nSTORE FINDER\nONLINE PARTNERS\nFOLLOW US\nINSTAGRAM\nJOIN OUR NEWSLETTER AND ENJOY 10% OFF YOUR FIRST ORDER*. STAY UPDATED ON COLLECTION LAUNCHES, LATEST NEWS, AND EXCLUSIVE OFFERS.\nSIGN UP\n\nI accept the terms and conditions\n\nEN / DKK\n\n© MOLO 2026\n\nCERTIFIED BY E-MÆRKET\n\nREAD MORE",
+  "h": 468,
+  "cols": [
+    {
+      "cls": "Footer-module-scss-module__wcgw9G__grid",
+      "d": "grid",
+      "cols": "270px 270px 270px 270px",
+      "gap": "normal 80px",
+      "text": "HELP TERMS AND CONDITIONS PRIVACY POLICY FAQ CONTACT COOKIE SETTINGS ABOUT OUR STORY RESPONSIBILITY STORE FINDER ONLINE PARTNERS FOLLOW US INSTAGRAM JOIN OUR NEWSLETTER AND ENJOY 10% OFF YOUR FIRST OR"
+    },
+    {
+      "cls": "Footer-module-scss-module__wcgw9G__list",
+      "d": "grid",
+      "cols": "270px 270px 270px",
+      "gap": "normal 80px",
+      "text": "HELP TERMS AND CONDITIONS PRIVACY POLICY FAQ CONTACT COOKIE SETTINGS ABOUT OUR STORY RESPONSIBILITY STORE FINDER ONLINE PARTNERS FOLLOW US INSTAGRAM"
+    },
+    {
+      "cls": "",
+      "d": "flex",
+      "cols": "none",
+      "gap": "6px",
+      "text": "TERMS AND CONDITIONS PRIVACY POLICY FAQ CONTACT COOKIE SETTINGS"
+    },
+    {
+      "cls": "",
+      "d": "flex",
+      "cols": "none",
+      "gap": "6px",
+      "text": "OUR STORY RESPONSIBILITY STORE FINDER ONLINE PARTNERS"
+    },
+    {
+      "cls": "",
+      "d": "flex",
+      "cols": "none",
+      "gap": "6px",
+      "text": "INSTAGRAM"
+    },
+    {
+      "cls": "Footer-module-scss-module__wcgw9G__bottom",
+      "d": "grid",
+      "cols": "270px 270px 270px 270px",
+      "gap": "normal 80px",
+      "text": "EN / DKK © MOLO 2026 CERTIFIED BY E-MÆRKET READ MORE"
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "title": "Molo Official Webshop | Children’s Fashion with Imagination and Character | Molo",
+  "lang": "en",
+  "bodyBg": "rgba(0, 0, 0, 0)",
+  "bodyColor": "rgb(24, 24, 24)",
+  "bodyFont": "text, \"text Fallback\", \"Helvetica Neue Medium\", sans-serif",
+  "bodyFontSize": "14px",
+  "htmlClasses": "simon_b4acd4ea-module__XYaiYG__variable text_16371027-module__vL6KFa__variable display_1839df19-module__c2XypW__variable js",
+  "bodyClasses": "",
+  "metaDesc": "We believe that children’s clothing should be designed on children’s terms, allowing them to express their creativity and personality through what they wear. Our clothes are made for play and everyday life — comfortable, practical and full of character. Certification is key—as we progress on our journey toward better practices, we are proud to be a GOTS*, GRS*, and OCS* certified brand, ensuring that every step we take aligns with globally recognized standards.",
+  "fontFaces": [
+    "@font-face { font-family: text; src: url(\"../media/text-s.p.1159a9r1_w73g.woff?dpl=dpl_DpvWNZEcdBbchKdGo9LXaxvJLUGA\") format(\"woff\"); font-display: swap; font-weight: 400; }",
+    "@font-face { font-family: \"text Fallback\"; src: local(\"Arial\"); ascent-override: 91.87%; descent-override: 23.71%; line-gap-override: 0%; size-adjust: 107.55%; }",
+    "@font-face { font-family: display; src: url(\"../media/display-s.p.0rdhs__r.t-bg.woff?dpl=dpl_DpvWNZEcdBbchKdGo9LXaxvJLUGA\") format(\"woff\"); font-display: swap; font-weight: 400; }",
+    "@font-face { font-family: \"display Fallback\"; src: local(\"Arial\"); ascent-override: 95.29%; descent-override: 26.95%; line-gap-override: 0%; size-adjust: 97.59%; }",
+    "@font-face { font-family: simon; src: url(\"../media/SimonMono_Regular-s.p.0m~2kd4uy5c6v.woff?dpl=dpl_DpvWNZEcdBbchKdGo9LXaxvJLUGA\") format(\"woff\"); font-display: swap; font-weight: 400; }",
+    "@font-face { font-family: \"simon Fallback\"; src: local(\"Arial\"); ascent-override: 66.43%; descent-override: 22.14%; line-gap-override: 0%; size-adjust: 149.02%; }"
+  ],
+  "fontLinks": [
+    "https://www.molo.com/_next/static/media/SimonMono_Regular-s.p.0m~2kd4uy5c6v.woff?dpl=dpl_DpvWNZEcdBbchKdGo9LXaxvJLUGA",
+    "https://www.molo.com/_next/static/media/display-s.p.0rdhs__r.t-bg.woff?dpl=dpl_DpvWNZEcdBbchKdGo9LXaxvJLUGA",
+    "https://www.molo.com/_next/static/media/text-s.p.1159a9r1_w73g.woff?dpl=dpl_DpvWNZEcdBbchKdGo9LXaxvJLUGA"
+  ],
+  "favicons": [
+    {
+      "href": "https://www.molo.com/favicon.ico?favicon.10reloely0mdg.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    },
+    {
+      "href": "https://www.molo.com/apple-icon.png?apple-icon.06u_jptdwcsto.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "fontMap": {
+    "button": [
+      "text, \"text Fallback\", \"Helvetica Neue Medium\", sans-serif | 15px | 400 | normal | normal | none | rgb(251, 251, 251)",
+      "simon, \"simon Fallback\", \"IBM Plex Mono\", \"SF Mono\", Menlo, Consolas, \"Liberation Mono\", monospace | 11px | 400 | 15.4px | -0.11px | uppercase | rgb(251, 251, 251)",
+      "simon, \"simon Fallback\", \"IBM Plex Mono\", \"SF Mono\", Menlo, Consolas, \"Liberation Mono\", monospace | 11px | 400 | 15.4px | -0.11px | uppercase | rgb(0, 0, 0)",
+      "simon, \"simon Fallback\", \"IBM Plex Mono\", \"SF Mono\", Menlo, Consolas, \"Liberation Mono\", monospace | 11px | 400 | 15.4px | -0.11px | uppercase | rgb(24, 24, 24)",
+      "text, \"text Fallback\", \"Helvetica Neue Medium\", sans-serif | 14px | 400 | normal | normal | none | rgb(24, 24, 24)",
+      "simon, \"simon Fallback\", \"IBM Plex Mono\", \"SF Mono\", Menlo, Consolas, \"Liberation Mono\", monospace | 10px | 400 | 15px | -0.2px | none | rgb(251, 251, 251)",
+      "text, \"text Fallback\", \"Helvetica Neue Medium\", sans-serif | 18px | 400 | 25.2px | -0.36px | uppercase | rgb(24, 24, 24)"
+    ],
+    "h2": [
+      "simon, \"simon Fallback\", \"IBM Plex Mono\", \"SF Mono\", Menlo, Consolas, \"Liberation Mono\", monospace | 11px | 400 | 15.4px | -0.11px | uppercase | rgb(251, 251, 251)"
+    ],
+    "li": [
+      "simon, \"simon Fallback\", \"IBM Plex Mono\", \"SF Mono\", Menlo, Consolas, \"Liberation Mono\", monospace | 11px | 400 | normal | -0.33px | none | rgb(251, 251, 251)",
+      "simon, \"simon Fallback\", \"IBM Plex Mono\", \"SF Mono\", Menlo, Consolas, \"Liberation Mono\", monospace | 11px | 400 | 16.5px | -0.33px | none | rgb(251, 251, 251)",
+      "text, \"text Fallback\", \"Helvetica Neue Medium\", sans-serif | 14px | 400 | normal | normal | none | rgb(24, 24, 24)",
+      "text, \"text Fallback\", \"Helvetica Neue Medium\", sans-serif | 18px | 400 | 25.2px | -0.36px | uppercase | rgb(24, 24, 24)",
+      "simon, \"simon Fallback\", \"IBM Plex Mono\", \"SF Mono\", Menlo, Consolas, \"Liberation Mono\", monospace | 11px | 400 | 15.4px | -0.11px | uppercase | rgb(24, 24, 24)"
+    ],
+    "a": [
+      "simon, \"simon Fallback\", \"IBM Plex Mono\", \"SF Mono\", Menlo, Consolas, \"Liberation Mono\", monospace | 11px | 400 | 15.4px | -0.11px | uppercase | rgb(251, 251, 251)",
+      "simon, \"simon Fallback\", \"IBM Plex Mono\", \"SF Mono\", Menlo, Consolas, \"Liberation Mono\", monospace | 11px | 400 | 16.5px | -0.33px | none | rgb(251, 251, 251)",
+      "simon, \"simon Fallback\", \"IBM Plex Mono\", \"SF Mono\", Menlo, Consolas, \"Liberation Mono\", monospace | 10px | 400 | 15px | -0.2px | capitalize | rgb(251, 251, 251)",
+      "simon, \"simon Fallback\", \"IBM Plex Mono\", \"SF Mono\", Menlo, Consolas, \"Liberation Mono\", monospace | 11px | 400 | 16.5px | -0.33px | capitalize | rgb(251, 251, 251)",
+      "text, \"text Fallback\", \"Helvetica Neue Medium\", sans-serif | 14px | 400 | normal | normal | none | rgb(255, 255, 255)",
+      "text, \"text Fallback\", \"Helvetica Neue Medium\", sans-serif | 18px | 400 | 25.2px | -0.36px | uppercase | rgb(24, 24, 24)",
+      "simon, \"simon Fallback\", \"IBM Plex Mono\", \"SF Mono\", Menlo, Consolas, \"Liberation Mono\", monospace | 11px | 400 | 15.4px | -0.11px | uppercase | rgb(24, 24, 24)"
+    ],
+    "h3": [
+      "simon, \"simon Fallback\", \"IBM Plex Mono\", \"SF Mono\", Menlo, Consolas, \"Liberation Mono\", monospace | 11px | 400 | 15.4px | -0.11px | uppercase | rgb(251, 251, 251)"
+    ],
+    "span": [
+      "simon, \"simon Fallback\", \"IBM Plex Mono\", \"SF Mono\", Menlo, Consolas, \"Liberation Mono\", monospace | 11px | 400 | 16.5px | -0.33px | none | rgb(251, 251, 251)",
+      "simon, \"simon Fallback\", \"IBM Plex Mono\", \"SF Mono\", Menlo, Consolas, \"Liberation Mono\", monospace | 11px | 400 | normal | -0.11px | uppercase | rgb(251, 251, 251)",
+      "text, \"text Fallback\", \"Helvetica Neue Medium\", sans-serif | 15px | 400 | normal | normal | none | rgb(251, 251, 251)",
+      "simon, \"simon Fallback\", \"IBM Plex Mono\", \"SF Mono\", Menlo, Consolas, \"Liberation Mono\", monospace | 10px | 400 | 15px | -0.2px | capitalize | rgb(251, 251, 251)",
+      "simon, \"simon Fallback\", \"IBM Plex Mono\", \"SF Mono\", Menlo, Consolas, \"Liberation Mono\", monospace | 11px | 400 | normal | -0.33px | none | rgb(251, 251, 251)",
+      "simon, \"simon Fallback\", \"IBM Plex Mono\", \"SF Mono\", Menlo, Consolas, \"Liberation Mono\", monospace | 10px | 400 | 15px | -0.2px | none | rgb(251, 251, 251)",
+      "simon, \"simon Fallback\", \"IBM Plex Mono\", \"SF Mono\", Menlo, Consolas, \"Liberation Mono\", monospace | 11px | 400 | 15.4px | -0.11px | uppercase | rgb(24, 24, 24)"
+    ],
+    "p": [
+      "simon, \"simon Fallback\", \"IBM Plex Mono\", \"SF Mono\", Menlo, Consolas, \"Liberation Mono\", monospace | 11px | 400 | 16.5px | -0.33px | none | rgb(251, 251, 251)"
+    ]
+  },
+  "colors": [
+    "rgb(24, 24, 24)",
+    "rgb(251, 251, 251)",
+    "rgba(24, 24, 24, 0.1)",
+    "rgb(251, 251, 251) rgb(251, 251, 251) rgb(204, 204, 204)",
+    "rgb(34, 34, 34)",
+    "rgb(128, 128, 128)",
+    "rgb(230, 230, 230)",
+    "rgb(0, 0, 0)",
+    "rgb(246, 246, 246)",
+    "rgb(136, 136, 136)",
+    "rgb(251, 251, 251) rgb(251, 251, 251) rgb(251, 251, 251) rgb(24, 24, 24)",
+    "rgb(255, 255, 255)",
+    "rgba(24, 24, 24, 0.35)"
+  ],
+  "scrollLibs": {
+    "lenis": false,
+    "locomotive": false
+  },
+  "cssVars": {
+    "--color-inactive": "rgba(24, 24, 24, .35)",
+    "--color-green-rgb": "0, 175, 102",
+    "--font-simon": "\"simon\", \"simon Fallback\"",
+    "--header-height": "8.8rem",
+    "--decline-color": "#f6f6f6",
+    "--color-black-rgb": "24, 24, 24",
+    "--font-text": "\"text\", \"text Fallback\"",
+    "--color-low-stock": "rgb(203, 101, 7)",
+    "--decline-text": "#000",
+    "--border-radius": ".2rem",
+    "--dialog-padding": "2.4rem",
+    "--ratio-portrait": "calc(4 / 5)",
+    "--focus-outline": "2px solid rgb(24, 24, 24)",
+    "--hover-color": "#234923",
+    "--color-image-background": "rgb(241, 241, 239)",
+    "--sw": "1",
+    "--color-warning": "rgb(255, 165, 0)",
+    "--color-low-stock-rgb": "203, 101, 7",
+    "--color-placeholder": "#999",
+    "--ratio-product": "calc(7 / 10)",
+    "--grid-column-width": "calc((100vw - (6rem * 2) - (8rem * 3)) / 4)",
+    "--color-success": "rgb(51, 172, 107)",
+    "--color-gray-rgb": "217, 217, 217",
+    "--color-dark-gray": "rgb(69, 69, 69)",
+    "--drawer-max-width": "43.2rem",
+    "--decline-hover": "#dddddd",
+    "--color-orange": "rgb(255, 175, 46)",
+    "--color-black-hover": "rgba(24, 24, 24, .5)",
+    "--button-height": "4.8rem",
+    "--grid-column-width-6": "calc((100vw - (6rem * 2) - (8rem * 5)) / 6)",
+    "--grid-column-width-8": "calc((100vw - (6rem * 2) - (8rem * 7)) / 8)",
+    "--easeOutQuart": "cubic-bezier(.165, .84, .44, 1)",
+    "--grid-column-gap": "8rem",
+    "--color-gray": "rgb(217, 217, 217)",
+    "--color-white": "rgb(251, 251, 251)",
+    "--backdrop-z-index": "99",
+    "--color-orange-rgb": "255, 175, 46",
+    "--color-border-rgb": "230, 230, 230",
+    "--site-padding": "6rem",
+    "--module-gap": "15.6rem",
+    "--color-error": "rgb(204, 102, 119)",
+    "--campaign-popup-z-index": "31",
+    "--font-family-text": "\"text\", \"text Fallback\", \"Helvetica Neue Medium\", sans-serif",
+    "--dialog-z-index": "100",
+    "--color-border": "rgb(230, 230, 230)",
+    "--color-light-gray-rgb": "237, 237, 237",
+    "--color-focused": "rgb(0, 128, 255)",
+    "--usp-height": "3.2rem",
+    "--color-border-black-rgb": "82, 82, 82",
+    "--color-black": "rgb(24, 24, 24)",
+    "--text-color": "#222",
+    "--main-color": "#2C622C",
+    "--header-backdrop-z-index": "49",
+    "--control-padding-x": "2rem",
+    "--color-green": "rgb(0, 175, 102)",
+    "--modal-width": "calc(100vw / 3)",
+    "--color-blue": "#48a3dc",
+    "--control-padding-y": "1.55rem",
+    "--color-light-gray": "rgb(237, 237, 237)",
+    "--color-error-rgb": "204, 102, 119",
+    "--color-success-rgb": "51, 172, 107",
+    "--color-focused-rgb": "0, 128, 255",
+    "--color-border-black": "rgb(82, 82, 82)",
+    "--color-image-background-rgb": "241, 241, 239",
+    "--font-display": "\"display\", \"display Fallback\"",
+    "--color-dark-gray-rgb": "69, 69, 69",
+    "--ratio-landscape": "calc(5 / 4)",
+    "--sticky-buy-z-index": "20",
+    "--font-family-display": "\"display\", \"display Fallback\", \"Helvetica Neue Medium\", sans-serif",
+    "--newsletter-popup-z-index": "30",
+    "--font-family-mono": "\"simon\", \"simon Fallback\", \"IBM Plex Mono\", \"SF Mono\", \"Menlo\", \"Consolas\", \"Liberation Mono\", monospace",
+    "--link-color": "#234923",
+    "--footer-background": "#f6f6f6",
+    "--color-warning-rgb": "255, 165, 0",
+    "--header-z-index": "50",
+    "--color-white-rgb": "251, 251, 251"
+  },
+  "scrollHeight": 11948
+}

@@ -1,0 +1,824 @@
+{
+  "images": [
+    {
+      "src": "https://a.storyblok.com/f/287543645078635/1826x1358/647df2b046/250925_molo_day2_033_2060_work_argb_low.jpg",
+      "alt": "",
+      "w": 1826,
+      "h": 1358,
+      "cls": "Image-module-scss-module__nePNJW__image Image-module-scss-module__nePNJW__fill",
+      "parentCls": " ",
+      "pos": "absolute",
+      "fit": "cover",
+      "srcset": "https://a.storyblok.com/f/287543645078635/1826x1358/647df2b046/250925_molo_day2_033_2060_work_argb_low.jpg/m/640x0/filters:quality(75) 640w, https://a.storyblok.com/f/287543645078635/1826x1358/647df2b046/250925_molo_day2_033_2060_work_argb_low.jpg/m/750x0/filters:quality(75) 750w, https://a.storyblo"
+    },
+    {
+      "src": "https://a.storyblok.com/f/287543645078635/1246x1649/9f7fdf808f/250925_molo_day2_03_0145_work_argb_low.jpg/m/3840x0/filters:quality(75)",
+      "alt": "",
+      "w": 0,
+      "h": 0,
+      "cls": "Image-module-scss-module__nePNJW__image Image-module-scss-module__nePNJW__fill",
+      "parentCls": " ",
+      "pos": "absolute",
+      "fit": "cover",
+      "srcset": "https://a.storyblok.com/f/287543645078635/1246x1649/9f7fdf808f/250925_molo_day2_03_0145_work_argb_low.jpg/m/640x0/filters:quality(75) 640w, https://a.storyblok.com/f/287543645078635/1246x1649/9f7fdf808f/250925_molo_day2_03_0145_work_argb_low.jpg/m/750x0/filters:quality(75) 750w, https://a.storyblok."
+    },
+    {
+      "src": "https://a.storyblok.com/f/287543645078635/5360x3574/6d90088cb5/molo_21_sep_202510897_ws_work_argb_high.jpg/m/3840x0/filters:quality(75)",
+      "alt": "",
+      "w": 0,
+      "h": 0,
+      "cls": "Image-module-scss-module__nePNJW__image Image-module-scss-module__nePNJW__fill",
+      "parentCls": " ",
+      "pos": "absolute",
+      "fit": "cover",
+      "srcset": "https://a.storyblok.com/f/287543645078635/5360x3574/6d90088cb5/molo_21_sep_202510897_ws_work_argb_high.jpg/m/640x0/filters:quality(75) 640w, https://a.storyblok.com/f/287543645078635/5360x3574/6d90088cb5/molo_21_sep_202510897_ws_work_argb_high.jpg/m/750x0/filters:quality(75) 750w, https://a.storyblo"
+    },
+    {
+      "src": "https://a.storyblok.com/f/287543645078635/1800x2592/50353316bc/110925_molo_l_b_p_67_0063.jpg/m/3840x0/filters:quality(75)",
+      "alt": "",
+      "w": 0,
+      "h": 0,
+      "cls": "Image-module-scss-module__nePNJW__image Image-module-scss-module__nePNJW__fill",
+      "parentCls": " ",
+      "pos": "absolute",
+      "fit": "cover",
+      "srcset": "https://a.storyblok.com/f/287543645078635/1800x2592/50353316bc/110925_molo_l_b_p_67_0063.jpg/m/640x0/filters:quality(75) 640w, https://a.storyblok.com/f/287543645078635/1800x2592/50353316bc/110925_molo_l_b_p_67_0063.jpg/m/750x0/filters:quality(75) 750w, https://a.storyblok.com/f/287543645078635/1800"
+    },
+    {
+      "src": "https://a.storyblok.com/f/287543645078635/1358x1826/bb49f64202/250925_molo_day2_16_0888_work_argb_low.jpg",
+      "alt": "",
+      "w": 1358,
+      "h": 1826,
+      "cls": "Image-module-scss-module__nePNJW__image Image-module-scss-module__nePNJW__fill",
+      "parentCls": " ",
+      "pos": "absolute",
+      "fit": "cover",
+      "srcset": "https://a.storyblok.com/f/287543645078635/1358x1826/bb49f64202/250925_molo_day2_16_0888_work_argb_low.jpg/m/640x0/filters:quality(75) 640w, https://a.storyblok.com/f/287543645078635/1358x1826/bb49f64202/250925_molo_day2_16_0888_work_argb_low.jpg/m/750x0/filters:quality(75) 750w, https://a.storyblok."
+    },
+    {
+      "src": "https://molo.centracdn.net/client/dynamic/images/7544_2W26J213_5788_A.jpg",
+      "alt": "Mille Shirt",
+      "w": 181,
+      "h": 260,
+      "cls": "Image-module-scss-module__nePNJW__image Image-module-scss-module__nePNJW__fill",
+      "parentCls": "",
+      "pos": "absolute",
+      "fit": "cover",
+      "srcset": "https://molo.centracdn.net/client/dynamic/images/7544_2W26J213_5788_A.jpg 256w, https://molo.centracdn.net/client/dynamic/images/7544_2W26J213_5788_A.jpg 384w, https://molo.centracdn.net/client/dynamic/images/7544_2W26J213_5788_A.jpg 640w, https://molo.centracdn.net/client/dynamic/images/7544_2W26J2"
+    },
+    {
+      "src": "https://molo.centracdn.net/client/dynamic/images/7514_2W26D106_5721_A.jpg",
+      "alt": "Britta Skirt",
+      "w": 181,
+      "h": 260,
+      "cls": "Image-module-scss-module__nePNJW__image Image-module-scss-module__nePNJW__fill",
+      "parentCls": "",
+      "pos": "absolute",
+      "fit": "cover",
+      "srcset": "https://molo.centracdn.net/client/dynamic/images/7514_2W26D106_5721_A.jpg 256w, https://molo.centracdn.net/client/dynamic/images/7514_2W26D106_5721_A.jpg 384w, https://molo.centracdn.net/client/dynamic/images/7514_2W26D106_5721_A.jpg 640w, https://molo.centracdn.net/client/dynamic/images/7514_2W26D1"
+    },
+    {
+      "src": "https://molo.centracdn.net/client/dynamic/images/7602_6W26J210_5721_A2.jpg",
+      "alt": "Meracer Sweatshirt",
+      "w": 181,
+      "h": 260,
+      "cls": "Image-module-scss-module__nePNJW__image Image-module-scss-module__nePNJW__fill",
+      "parentCls": "",
+      "pos": "absolute",
+      "fit": "cover",
+      "srcset": "https://molo.centracdn.net/client/dynamic/images/7602_6W26J210_5721_A2.jpg 256w, https://molo.centracdn.net/client/dynamic/images/7602_6W26J210_5721_A2.jpg 384w, https://molo.centracdn.net/client/dynamic/images/7602_6W26J210_5721_A2.jpg 640w, https://molo.centracdn.net/client/dynamic/images/7602_6W2"
+    },
+    {
+      "src": "https://molo.centracdn.net/client/dynamic/images/7599_6W26I217_5721_A.jpg",
+      "alt": "Ash Pants",
+      "w": 181,
+      "h": 260,
+      "cls": "Image-module-scss-module__nePNJW__image Image-module-scss-module__nePNJW__fill",
+      "parentCls": "",
+      "pos": "absolute",
+      "fit": "cover",
+      "srcset": "https://molo.centracdn.net/client/dynamic/images/7599_6W26I217_5721_A.jpg 256w, https://molo.centracdn.net/client/dynamic/images/7599_6W26I217_5721_A.jpg 384w, https://molo.centracdn.net/client/dynamic/images/7599_6W26I217_5721_A.jpg 640w, https://molo.centracdn.net/client/dynamic/images/7599_6W26I2"
+    },
+    {
+      "src": "https://a.storyblok.com/f/287543645078635/1358x1826/3a7998d062/250925_molo_day2_022_1306_work_argb_low.jpg/m/3840x0/filters:quality(75)",
+      "alt": "",
+      "w": 0,
+      "h": 0,
+      "cls": "Image-module-scss-module__nePNJW__image Image-module-scss-module__nePNJW__fill",
+      "parentCls": " ",
+      "pos": "absolute",
+      "fit": "cover",
+      "srcset": "https://a.storyblok.com/f/287543645078635/1358x1826/3a7998d062/250925_molo_day2_022_1306_work_argb_low.jpg/m/640x0/filters:quality(75) 640w, https://a.storyblok.com/f/287543645078635/1358x1826/3a7998d062/250925_molo_day2_022_1306_work_argb_low.jpg/m/750x0/filters:quality(75) 750w, https://a.storyblo"
+    },
+    {
+      "src": "https://a.storyblok.com/f/287543645078635/1358x1826/bc32342e9b/250925_molo_day2_022_1222_work_argb_low.jpg/m/3840x0/filters:quality(75)",
+      "alt": "",
+      "w": 0,
+      "h": 0,
+      "cls": "Image-module-scss-module__nePNJW__image Image-module-scss-module__nePNJW__fill",
+      "parentCls": " ",
+      "pos": "absolute",
+      "fit": "cover",
+      "srcset": "https://a.storyblok.com/f/287543645078635/1358x1826/bc32342e9b/250925_molo_day2_022_1222_work_argb_low.jpg/m/640x0/filters:quality(75) 640w, https://a.storyblok.com/f/287543645078635/1358x1826/bc32342e9b/250925_molo_day2_022_1222_work_argb_low.jpg/m/750x0/filters:quality(75) 750w, https://a.storyblo"
+    },
+    {
+      "src": "https://molo.centracdn.net/client/dynamic/originals/7531_2W26I105_5721_A-original.jpg",
+      "alt": "Alaine Pants",
+      "w": 0,
+      "h": 0,
+      "cls": "Image-module-scss-module__nePNJW__image Image-module-scss-module__nePNJW__fill",
+      "parentCls": "",
+      "pos": "absolute",
+      "fit": "cover",
+      "srcset": "https://molo.centracdn.net/client/dynamic/images/7531_2W26I105_5721_A.jpg 256w, https://molo.centracdn.net/client/dynamic/images/7531_2W26I105_5721_A.jpg 384w, https://molo.centracdn.net/client/dynamic/images/7531_2W26I105_5721_A.jpg 640w, https://molo.centracdn.net/client/dynamic/images/7531_2W26I1"
+    },
+    {
+      "src": "https://molo.centracdn.net/client/dynamic/originals/7422_2W26K315_2444_A-original.jpg",
+      "alt": "Gemma Cardigan",
+      "w": 0,
+      "h": 0,
+      "cls": "Image-module-scss-module__nePNJW__image Image-module-scss-module__nePNJW__fill",
+      "parentCls": "",
+      "pos": "absolute",
+      "fit": "cover",
+      "srcset": "https://molo.centracdn.net/client/dynamic/images/7422_2W26K315_2444_A.jpg 256w, https://molo.centracdn.net/client/dynamic/images/7422_2W26K315_2444_A.jpg 384w, https://molo.centracdn.net/client/dynamic/images/7422_2W26K315_2444_A.jpg 640w, https://molo.centracdn.net/client/dynamic/images/7422_2W26K3"
+    },
+    {
+      "src": "https://molo.centracdn.net/client/dynamic/originals/7305_2W26C201_5839_A-original.jpg",
+      "alt": "Rolanda Shirt",
+      "w": 0,
+      "h": 0,
+      "cls": "Image-module-scss-module__nePNJW__image Image-module-scss-module__nePNJW__fill",
+      "parentCls": "",
+      "pos": "absolute",
+      "fit": "cover",
+      "srcset": "https://molo.centracdn.net/client/dynamic/images/7305_2W26C201_5839_A.jpg 256w, https://molo.centracdn.net/client/dynamic/images/7305_2W26C201_5839_A.jpg 384w, https://molo.centracdn.net/client/dynamic/images/7305_2W26C201_5839_A.jpg 640w, https://molo.centracdn.net/client/dynamic/images/7305_2W26C2"
+    },
+    {
+      "src": "https://molo.centracdn.net/client/dynamic/originals/7437_5W26M304_5725_A-original.jpg",
+      "alt": "Haywood Jacket",
+      "w": 0,
+      "h": 0,
+      "cls": "Image-module-scss-module__nePNJW__image Image-module-scss-module__nePNJW__fill",
+      "parentCls": "",
+      "pos": "absolute",
+      "fit": "cover",
+      "srcset": "https://molo.centracdn.net/client/dynamic/images/7437_5W26M304_5725_A.jpg 256w, https://molo.centracdn.net/client/dynamic/images/7437_5W26M304_5725_A.jpg 384w, https://molo.centracdn.net/client/dynamic/images/7437_5W26M304_5725_A.jpg 640w, https://molo.centracdn.net/client/dynamic/images/7437_5W26M3"
+    },
+    {
+      "src": "https://molo.centracdn.net/client/dynamic/originals/7485_1W26C201_5900_A-original.jpg",
+      "alt": "Rozzy Shirt",
+      "w": 0,
+      "h": 0,
+      "cls": "Image-module-scss-module__nePNJW__image Image-module-scss-module__nePNJW__fill",
+      "parentCls": "",
+      "pos": "absolute",
+      "fit": "cover",
+      "srcset": "https://molo.centracdn.net/client/dynamic/images/7485_1W26C201_5900_A.jpg 256w, https://molo.centracdn.net/client/dynamic/images/7485_1W26C201_5900_A.jpg 384w, https://molo.centracdn.net/client/dynamic/images/7485_1W26C201_5900_A.jpg 640w, https://molo.centracdn.net/client/dynamic/images/7485_1W26C2"
+    },
+    {
+      "src": "https://molo.centracdn.net/client/dynamic/originals/7489_1W26I105_5723_A-original.jpg",
+      "alt": "Alter Jeans",
+      "w": 0,
+      "h": 0,
+      "cls": "Image-module-scss-module__nePNJW__image Image-module-scss-module__nePNJW__fill",
+      "parentCls": "",
+      "pos": "absolute",
+      "fit": "cover",
+      "srcset": "https://molo.centracdn.net/client/dynamic/images/7489_1W26I105_5723_A.jpg 256w, https://molo.centracdn.net/client/dynamic/images/7489_1W26I105_5723_A.jpg 384w, https://molo.centracdn.net/client/dynamic/images/7489_1W26I105_5723_A.jpg 640w, https://molo.centracdn.net/client/dynamic/images/7489_1W26I1"
+    },
+    {
+      "src": "https://molo.centracdn.net/client/dynamic/originals/7278_1W26J206_9799_A2-original.jpg",
+      "alt": "Monto Sweatshirt",
+      "w": 0,
+      "h": 0,
+      "cls": "Image-module-scss-module__nePNJW__image Image-module-scss-module__nePNJW__fill",
+      "parentCls": "",
+      "pos": "absolute",
+      "fit": "cover",
+      "srcset": "https://molo.centracdn.net/client/dynamic/images/7278_1W26J206_9799_A2.jpg 256w, https://molo.centracdn.net/client/dynamic/images/7278_1W26J206_9799_A2.jpg 384w, https://molo.centracdn.net/client/dynamic/images/7278_1W26J206_9799_A2.jpg 640w, https://molo.centracdn.net/client/dynamic/images/7278_1W2"
+    },
+    {
+      "src": "https://molo.centracdn.net/client/dynamic/originals/7592_6W26I104_5915_A-original.jpg",
+      "alt": "Aiden Jeans",
+      "w": 0,
+      "h": 0,
+      "cls": "Image-module-scss-module__nePNJW__image Image-module-scss-module__nePNJW__fill",
+      "parentCls": "",
+      "pos": "absolute",
+      "fit": "cover",
+      "srcset": "https://molo.centracdn.net/client/dynamic/images/7592_6W26I104_5915_A.jpg 256w, https://molo.centracdn.net/client/dynamic/images/7592_6W26I104_5915_A.jpg 384w, https://molo.centracdn.net/client/dynamic/images/7592_6W26I104_5915_A.jpg 640w, https://molo.centracdn.net/client/dynamic/images/7592_6W26I1"
+    },
+    {
+      "src": "https://molo.centracdn.net/client/dynamic/originals/7477_1W26A301_2482_A-original.jpg",
+      "alt": "Reyo Shirt",
+      "w": 0,
+      "h": 0,
+      "cls": "Image-module-scss-module__nePNJW__image Image-module-scss-module__nePNJW__fill",
+      "parentCls": "",
+      "pos": "absolute",
+      "fit": "cover",
+      "srcset": "https://molo.centracdn.net/client/dynamic/images/7477_1W26A301_2482_A.jpg 256w, https://molo.centracdn.net/client/dynamic/images/7477_1W26A301_2482_A.jpg 384w, https://molo.centracdn.net/client/dynamic/images/7477_1W26A301_2482_A.jpg 640w, https://molo.centracdn.net/client/dynamic/images/7477_1W26A3"
+    },
+    {
+      "src": "https://molo.centracdn.net/client/dynamic/originals/7492_1W26J203_5921_A2-original.jpg",
+      "alt": "Mattis Sweatshirt",
+      "w": 0,
+      "h": 0,
+      "cls": "Image-module-scss-module__nePNJW__image Image-module-scss-module__nePNJW__fill",
+      "parentCls": "",
+      "pos": "absolute",
+      "fit": "cover",
+      "srcset": "https://molo.centracdn.net/client/dynamic/images/7492_1W26J203_5921_A2.jpg 256w, https://molo.centracdn.net/client/dynamic/images/7492_1W26J203_5921_A2.jpg 384w, https://molo.centracdn.net/client/dynamic/images/7492_1W26J203_5921_A2.jpg 640w, https://molo.centracdn.net/client/dynamic/images/7492_1W2"
+    },
+    {
+      "src": "https://a.storyblok.com/f/287543645078635/1626x1078/3ffefd9066/000092480030_work_argb_low.jpg/m/3840x0/filters:quality(75)",
+      "alt": "",
+      "w": 0,
+      "h": 0,
+      "cls": "Image-module-scss-module__nePNJW__image Image-module-scss-module__nePNJW__fill",
+      "parentCls": " ",
+      "pos": "absolute",
+      "fit": "cover",
+      "srcset": "https://a.storyblok.com/f/287543645078635/1626x1078/3ffefd9066/000092480030_work_argb_low.jpg/m/640x0/filters:quality(75) 640w, https://a.storyblok.com/f/287543645078635/1626x1078/3ffefd9066/000092480030_work_argb_low.jpg/m/750x0/filters:quality(75) 750w, https://a.storyblok.com/f/287543645078635/16"
+    },
+    {
+      "src": "https://a.storyblok.com/f/287543645078635/858x1286/149b014f57/molo_21_sep_202510780_ws_work_argb_low.jpg/m/3840x0/filters:quality(75)",
+      "alt": "",
+      "w": 0,
+      "h": 0,
+      "cls": "Image-module-scss-module__nePNJW__image Image-module-scss-module__nePNJW__fill",
+      "parentCls": " ",
+      "pos": "absolute",
+      "fit": "cover",
+      "srcset": "https://a.storyblok.com/f/287543645078635/858x1286/149b014f57/molo_21_sep_202510780_ws_work_argb_low.jpg/m/640x0/filters:quality(75) 640w, https://a.storyblok.com/f/287543645078635/858x1286/149b014f57/molo_21_sep_202510780_ws_work_argb_low.jpg/m/750x0/filters:quality(75) 750w, https://a.storyblok.co"
+    },
+    {
+      "src": "https://a.storyblok.com/f/287543645078635/858x1286/43c432459e/molo_21_sep_202510800_ws_work_argb_low.jpg/m/3840x0/filters:quality(75)",
+      "alt": "",
+      "w": 0,
+      "h": 0,
+      "cls": "Image-module-scss-module__nePNJW__image Image-module-scss-module__nePNJW__fill",
+      "parentCls": " ",
+      "pos": "absolute",
+      "fit": "cover",
+      "srcset": "https://a.storyblok.com/f/287543645078635/858x1286/43c432459e/molo_21_sep_202510800_ws_work_argb_low.jpg/m/640x0/filters:quality(75) 640w, https://a.storyblok.com/f/287543645078635/858x1286/43c432459e/molo_21_sep_202510800_ws_work_argb_low.jpg/m/750x0/filters:quality(75) 750w, https://a.storyblok.co"
+    },
+    {
+      "src": "https://a.storyblok.com/f/287543645078635/876x1274/c0844a0457/molo_21_sep_202510704_ws_work_argb_low.jpg/m/3840x0/filters:quality(75)",
+      "alt": "",
+      "w": 0,
+      "h": 0,
+      "cls": "Image-module-scss-module__nePNJW__image Image-module-scss-module__nePNJW__fill",
+      "parentCls": " ",
+      "pos": "absolute",
+      "fit": "cover",
+      "srcset": "https://a.storyblok.com/f/287543645078635/876x1274/c0844a0457/molo_21_sep_202510704_ws_work_argb_low.jpg/m/640x0/filters:quality(75) 640w, https://a.storyblok.com/f/287543645078635/876x1274/c0844a0457/molo_21_sep_202510704_ws_work_argb_low.jpg/m/750x0/filters:quality(75) 750w, https://a.storyblok.co"
+    },
+    {
+      "src": "https://www.molo.com/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2Ff285573ae0%2F5s26m308_9479_z1.png&w=3840&q=75",
+      "alt": "",
+      "w": 0,
+      "h": 0,
+      "cls": "Image-module-scss-module__nePNJW__image Image-module-scss-module__nePNJW__fill",
+      "parentCls": "ModuleLookSlider-module-scss-module__N48FTa__imageWrapper",
+      "pos": "absolute",
+      "fit": "cover",
+      "srcset": "/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2Ff285573ae0%2F5s26m308_9479_z1.png&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2Ff285573ae0%2F5s26m308_9479_z1.png&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Fa"
+    },
+    {
+      "src": "https://www.molo.com/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2F99cbef4120%2F6s26i113_2691_z1.png&w=3840&q=75",
+      "alt": "",
+      "w": 0,
+      "h": 0,
+      "cls": "Image-module-scss-module__nePNJW__image Image-module-scss-module__nePNJW__fill",
+      "parentCls": "ModuleLookSlider-module-scss-module__N48FTa__imageWrapper",
+      "pos": "absolute",
+      "fit": "cover",
+      "srcset": "/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2F99cbef4120%2F6s26i113_2691_z1.png&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2F99cbef4120%2F6s26i113_2691_z1.png&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Fa"
+    },
+    {
+      "src": "https://www.molo.com/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2Fb87e88a096%2F1s26a407_5988_a2.png&w=3840&q=75",
+      "alt": "",
+      "w": 0,
+      "h": 0,
+      "cls": "Image-module-scss-module__nePNJW__image Image-module-scss-module__nePNJW__fill",
+      "parentCls": "ModuleLookSlider-module-scss-module__N48FTa__imageWrapper",
+      "pos": "absolute",
+      "fit": "cover",
+      "srcset": "/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2Fb87e88a096%2F1s26a407_5988_a2.png&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2Fb87e88a096%2F1s26a407_5988_a2.png&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Fa"
+    },
+    {
+      "src": "https://www.molo.com/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2F55ec800b5a%2F6s26i114_1866_z3.png&w=3840&q=75",
+      "alt": "",
+      "w": 0,
+      "h": 0,
+      "cls": "Image-module-scss-module__nePNJW__image Image-module-scss-module__nePNJW__fill",
+      "parentCls": "ModuleLookSlider-module-scss-module__N48FTa__imageWrapper",
+      "pos": "absolute",
+      "fit": "cover",
+      "srcset": "/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2F55ec800b5a%2F6s26i114_1866_z3.png&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2F55ec800b5a%2F6s26i114_1866_z3.png&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Fa"
+    },
+    {
+      "src": "https://www.molo.com/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2F924b8ed130%2F2s26c304_5663_z1.png&w=3840&q=75",
+      "alt": "",
+      "w": 0,
+      "h": 0,
+      "cls": "Image-module-scss-module__nePNJW__image Image-module-scss-module__nePNJW__fill",
+      "parentCls": "ModuleLookSlider-module-scss-module__N48FTa__imageWrapper",
+      "pos": "absolute",
+      "fit": "cover",
+      "srcset": "/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2F924b8ed130%2F2s26c304_5663_z1.png&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2F924b8ed130%2F2s26c304_5663_z1.png&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Fa"
+    },
+    {
+      "src": "https://www.molo.com/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2F99cbef4120%2F6s26i113_2691_z1.png&w=3840&q=75",
+      "alt": "",
+      "w": 0,
+      "h": 0,
+      "cls": "Image-module-scss-module__nePNJW__image Image-module-scss-module__nePNJW__fill",
+      "parentCls": "ModuleLookSlider-module-scss-module__N48FTa__imageWrapper",
+      "pos": "absolute",
+      "fit": "cover",
+      "srcset": "/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2F99cbef4120%2F6s26i113_2691_z1.png&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2F99cbef4120%2F6s26i113_2691_z1.png&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Fa"
+    },
+    {
+      "src": "https://www.molo.com/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2Fbc7d07bf9d%2F1s26i103_5656_a2.png&w=3840&q=75",
+      "alt": "",
+      "w": 0,
+      "h": 0,
+      "cls": "Image-module-scss-module__nePNJW__image Image-module-scss-module__nePNJW__fill",
+      "parentCls": "ModuleLookSlider-module-scss-module__N48FTa__imageWrapper",
+      "pos": "absolute",
+      "fit": "cover",
+      "srcset": "/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2Fbc7d07bf9d%2F1s26i103_5656_a2.png&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2Fbc7d07bf9d%2F1s26i103_5656_a2.png&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Fa"
+    },
+    {
+      "src": "https://www.molo.com/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2F2f7dcc48d7%2Fholly-ny-2.png&w=3840&q=75",
+      "alt": "",
+      "w": 0,
+      "h": 0,
+      "cls": "Image-module-scss-module__nePNJW__image Image-module-scss-module__nePNJW__fill",
+      "parentCls": "ModuleLookSlider-module-scss-module__N48FTa__imageWrapper",
+      "pos": "absolute",
+      "fit": "cover",
+      "srcset": "/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2F2f7dcc48d7%2Fholly-ny-2.png&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2F2f7dcc48d7%2Fholly-ny-2.png&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Fa.storyblok.c"
+    },
+    {
+      "src": "https://www.molo.com/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2Fb87e88a096%2F1s26a407_5988_a2.png&w=3840&q=75",
+      "alt": "",
+      "w": 0,
+      "h": 0,
+      "cls": "Image-module-scss-module__nePNJW__image Image-module-scss-module__nePNJW__fill",
+      "parentCls": "ModuleLookSlider-module-scss-module__N48FTa__imageWrapper",
+      "pos": "absolute",
+      "fit": "cover",
+      "srcset": "/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2Fb87e88a096%2F1s26a407_5988_a2.png&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2Fb87e88a096%2F1s26a407_5988_a2.png&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Fa"
+    },
+    {
+      "src": "https://www.molo.com/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2F934254696f%2F1s26a212_9907_a2.png&w=3840&q=75",
+      "alt": "",
+      "w": 0,
+      "h": 0,
+      "cls": "Image-module-scss-module__nePNJW__image Image-module-scss-module__nePNJW__fill",
+      "parentCls": "ModuleLookSlider-module-scss-module__N48FTa__imageWrapper",
+      "pos": "absolute",
+      "fit": "cover",
+      "srcset": "/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2F934254696f%2F1s26a212_9907_a2.png&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2F934254696f%2F1s26a212_9907_a2.png&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Fa"
+    },
+    {
+      "src": "https://www.molo.com/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2Ff285573ae0%2F5s26m308_9479_z1.png&w=3840&q=75",
+      "alt": "",
+      "w": 0,
+      "h": 0,
+      "cls": "Image-module-scss-module__nePNJW__image Image-module-scss-module__nePNJW__fill",
+      "parentCls": "ModuleLookSlider-module-scss-module__N48FTa__imageWrapper",
+      "pos": "absolute",
+      "fit": "cover",
+      "srcset": "/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2Ff285573ae0%2F5s26m308_9479_z1.png&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2Ff285573ae0%2F5s26m308_9479_z1.png&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Fa"
+    },
+    {
+      "src": "https://www.molo.com/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2F99cbef4120%2F6s26i113_2691_z1.png&w=3840&q=75",
+      "alt": "",
+      "w": 0,
+      "h": 0,
+      "cls": "Image-module-scss-module__nePNJW__image Image-module-scss-module__nePNJW__fill",
+      "parentCls": "ModuleLookSlider-module-scss-module__N48FTa__imageWrapper",
+      "pos": "absolute",
+      "fit": "cover",
+      "srcset": "/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2F99cbef4120%2F6s26i113_2691_z1.png&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2F99cbef4120%2F6s26i113_2691_z1.png&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Fa"
+    },
+    {
+      "src": "https://www.molo.com/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2Fb87e88a096%2F1s26a407_5988_a2.png&w=3840&q=75",
+      "alt": "",
+      "w": 0,
+      "h": 0,
+      "cls": "Image-module-scss-module__nePNJW__image Image-module-scss-module__nePNJW__fill",
+      "parentCls": "ModuleLookSlider-module-scss-module__N48FTa__imageWrapper",
+      "pos": "absolute",
+      "fit": "cover",
+      "srcset": "/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2Fb87e88a096%2F1s26a407_5988_a2.png&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2Fb87e88a096%2F1s26a407_5988_a2.png&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Fa"
+    },
+    {
+      "src": "https://www.molo.com/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2F55ec800b5a%2F6s26i114_1866_z3.png&w=3840&q=75",
+      "alt": "",
+      "w": 0,
+      "h": 0,
+      "cls": "Image-module-scss-module__nePNJW__image Image-module-scss-module__nePNJW__fill",
+      "parentCls": "ModuleLookSlider-module-scss-module__N48FTa__imageWrapper",
+      "pos": "absolute",
+      "fit": "cover",
+      "srcset": "/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2F55ec800b5a%2F6s26i114_1866_z3.png&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2F55ec800b5a%2F6s26i114_1866_z3.png&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Fa"
+    },
+    {
+      "src": "https://www.molo.com/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2F924b8ed130%2F2s26c304_5663_z1.png&w=3840&q=75",
+      "alt": "",
+      "w": 0,
+      "h": 0,
+      "cls": "Image-module-scss-module__nePNJW__image Image-module-scss-module__nePNJW__fill",
+      "parentCls": "ModuleLookSlider-module-scss-module__N48FTa__imageWrapper",
+      "pos": "absolute",
+      "fit": "cover",
+      "srcset": "/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2F924b8ed130%2F2s26c304_5663_z1.png&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2F924b8ed130%2F2s26c304_5663_z1.png&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Fa"
+    },
+    {
+      "src": "https://www.molo.com/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2F99cbef4120%2F6s26i113_2691_z1.png&w=3840&q=75",
+      "alt": "",
+      "w": 0,
+      "h": 0,
+      "cls": "Image-module-scss-module__nePNJW__image Image-module-scss-module__nePNJW__fill",
+      "parentCls": "ModuleLookSlider-module-scss-module__N48FTa__imageWrapper",
+      "pos": "absolute",
+      "fit": "cover",
+      "srcset": "/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2F99cbef4120%2F6s26i113_2691_z1.png&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2F99cbef4120%2F6s26i113_2691_z1.png&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Fa"
+    },
+    {
+      "src": "https://www.molo.com/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2Fbc7d07bf9d%2F1s26i103_5656_a2.png&w=3840&q=75",
+      "alt": "",
+      "w": 0,
+      "h": 0,
+      "cls": "Image-module-scss-module__nePNJW__image Image-module-scss-module__nePNJW__fill",
+      "parentCls": "ModuleLookSlider-module-scss-module__N48FTa__imageWrapper",
+      "pos": "absolute",
+      "fit": "cover",
+      "srcset": "/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2Fbc7d07bf9d%2F1s26i103_5656_a2.png&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2Fbc7d07bf9d%2F1s26i103_5656_a2.png&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Fa"
+    },
+    {
+      "src": "https://www.molo.com/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2F2f7dcc48d7%2Fholly-ny-2.png&w=3840&q=75",
+      "alt": "",
+      "w": 0,
+      "h": 0,
+      "cls": "Image-module-scss-module__nePNJW__image Image-module-scss-module__nePNJW__fill",
+      "parentCls": "ModuleLookSlider-module-scss-module__N48FTa__imageWrapper",
+      "pos": "absolute",
+      "fit": "cover",
+      "srcset": "/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2F2f7dcc48d7%2Fholly-ny-2.png&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2F2f7dcc48d7%2Fholly-ny-2.png&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Fa.storyblok.c"
+    },
+    {
+      "src": "https://www.molo.com/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2Fb87e88a096%2F1s26a407_5988_a2.png&w=3840&q=75",
+      "alt": "",
+      "w": 0,
+      "h": 0,
+      "cls": "Image-module-scss-module__nePNJW__image Image-module-scss-module__nePNJW__fill",
+      "parentCls": "ModuleLookSlider-module-scss-module__N48FTa__imageWrapper",
+      "pos": "absolute",
+      "fit": "cover",
+      "srcset": "/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2Fb87e88a096%2F1s26a407_5988_a2.png&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2Fb87e88a096%2F1s26a407_5988_a2.png&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Fa"
+    },
+    {
+      "src": "https://www.molo.com/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2F934254696f%2F1s26a212_9907_a2.png&w=3840&q=75",
+      "alt": "",
+      "w": 0,
+      "h": 0,
+      "cls": "Image-module-scss-module__nePNJW__image Image-module-scss-module__nePNJW__fill",
+      "parentCls": "ModuleLookSlider-module-scss-module__N48FTa__imageWrapper",
+      "pos": "absolute",
+      "fit": "cover",
+      "srcset": "/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2F934254696f%2F1s26a212_9907_a2.png&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2F934254696f%2F1s26a212_9907_a2.png&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Fa"
+    },
+    {
+      "src": "https://a.storyblok.com/f/287543645078635/1078x1626/92a9a0e4fb/000092430008_work_argb_low.jpg/m/3840x0/filters:quality(75)",
+      "alt": "",
+      "w": 0,
+      "h": 0,
+      "cls": "Image-module-scss-module__nePNJW__image Image-module-scss-module__nePNJW__fill",
+      "parentCls": " ",
+      "pos": "absolute",
+      "fit": "cover",
+      "srcset": "https://a.storyblok.com/f/287543645078635/1078x1626/92a9a0e4fb/000092430008_work_argb_low.jpg/m/640x0/filters:quality(75) 640w, https://a.storyblok.com/f/287543645078635/1078x1626/92a9a0e4fb/000092430008_work_argb_low.jpg/m/750x0/filters:quality(75) 750w, https://a.storyblok.com/f/287543645078635/10"
+    },
+    {
+      "src": "https://a.storyblok.com/f/287543645078635/1342x1789/8683ab73b1/250925_molo_day2_030_1906_work_argb_low.jpg/m/3840x0/filters:quality(75)",
+      "alt": "",
+      "w": 0,
+      "h": 0,
+      "cls": "Image-module-scss-module__nePNJW__image Image-module-scss-module__nePNJW__fill",
+      "parentCls": " ",
+      "pos": "absolute",
+      "fit": "cover",
+      "srcset": "https://a.storyblok.com/f/287543645078635/1342x1789/8683ab73b1/250925_molo_day2_030_1906_work_argb_low.jpg/m/640x0/filters:quality(75) 640w, https://a.storyblok.com/f/287543645078635/1342x1789/8683ab73b1/250925_molo_day2_030_1906_work_argb_low.jpg/m/750x0/filters:quality(75) 750w, https://a.storyblo"
+    },
+    {
+      "src": "https://bat.bing.net/action/0?ti=187146988&tm=gtm002&Ver=2&mid=817f0321-aa89-48cb-93a4-928aae33c36b&bo=2&pi=918639831&lg=en-US&sw=1440&sh=900&sc=24&nwd=1&tl=Molo%20Official%20Webshop%20%7C%20Children%E2%80%99s%20Fashion%20with%20Imagination%20and%20Character%20%7C%20Molo&p=https%3A%2F%2Fwww.molo.com%2Fen-DK%3Fref%3Dminimal.gallery&r=&lt=1342&pt=1788520376722,,,,,0,0,0,2,345,225,345,383,473,451,661,661,661,1341,1342,1342&pn=0,0&evt=pageLoad&sv=2&asc=D&cdb=AQIR&rn=647064",
+      "alt": "",
+      "w": 0,
+      "h": 0,
+      "cls": "",
+      "parentCls": "",
+      "pos": "static",
+      "fit": "fill",
+      "srcset": ""
+    }
+  ],
+  "videos": [
+    {
+      "src": "https://cdn.molohub.com/videos/d2-explore-2-79co3j.mp4",
+      "poster": "",
+      "autoplay": true,
+      "loop": true,
+      "muted": true
+    }
+  ],
+  "bgImages": [],
+  "svgs": [
+    {
+      "cls": null,
+      "vb": "0 0 304.4 304.4",
+      "w": null,
+      "h": null,
+      "html": "<svg version=\"1.1\" id=\"coi-renew-svg\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 304.4 304.4\" style=\"enable-background:new 0 0 304.4 304.4;\" xml:space=\"preserve\">\n                 <g>\n                 \t<path class=\"renew_path\" d=\"M80.8,53.3c-6.6-8.2-19.5-8.5-27.5,0.5C33,76.8,1.7,124.4,16.4,187.7c0,0-4.1,1.2-9.3,2.7\n                 \t\tc-5.1,1.5-2.5,9.7,5.9,18.3l35.9,36.9c8.4,8.6,16.6,6,18.4-5.9l7.2-48.3c1.8-11.9-2.3-19.9-9.1-17.9L53,177\n                 \t\tc-8.9-42.1,10-75.1,24.7-93.3C85.3,74.4,87.4,61.5,80.8,53.3z\"></path>\n                   <path class=\"renew_path\" d=\"M121.7,300.8c9.5,1.9,21.6,3.6,35.3,3.6c29.2,0,65.3-7.7,97.5-36.7c0,0,4.1,3.9,9.2,8.8\n                 \t\tc5.1,4.9,11.8-0.5,15.1-12.1l14.1-49.5c3.3-11.6-3.1-17.4-14.3-13l-45.4,17.8c-11.2,4.4-17.1,11-13.3,14.7l7,6.7\n                 \t\tc-31.7,27.1-68.7,27.1-91.4,23"
+    },
+    {
+      "cls": null,
+      "vb": "0 0 9 9",
+      "w": "9",
+      "h": "9",
+      "html": "<svg width=\"9\" height=\"9\" viewBox=\"0 0 9 9\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M8.2832 0.28125L0.283203 8.28125\" stroke=\"#181818\" stroke-width=\"0.8\"></path><path d=\"M0.283203 0.28125L8.2832 8.28125\" stroke=\"#181818\" stroke-width=\"0.8\"></path></svg>"
+    },
+    {
+      "cls": null,
+      "vb": "0 0 9 8",
+      "w": "9",
+      "h": "8",
+      "html": "<svg width=\"9\" height=\"8\" viewBox=\"0 0 9 8\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" style=\"transform:rotate(180deg)\"><path d=\"M4.61816 0.105469L8.13672 3.60547L8.17285 3.64062L8.13672 3.67578L4.61816 7.17578L4.58301 7.21094L4.54785 7.17578L4.09473 6.72461L4.05859 6.68945L4.09473 6.6543L6.74414 4.01855H0.0517578V3.2627H6.74414L4.09473 0.626953L4.05859 0.591797L4.09473 0.556641L4.54785 0.105469L4.58301 0.0703125L4.61816 0.105469Z\" fill=\"#181818\" stroke=\"#181818\" stroke-width=\"0.1\"></path></svg>"
+    },
+    {
+      "cls": null,
+      "vb": "0 0 9 8",
+      "w": "9",
+      "h": "8",
+      "html": "<svg width=\"9\" height=\"8\" viewBox=\"0 0 9 8\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" style=\"transform:rotate(180deg)\"><path d=\"M4.61816 0.105469L8.13672 3.60547L8.17285 3.64062L8.13672 3.67578L4.61816 7.17578L4.58301 7.21094L4.54785 7.17578L4.09473 6.72461L4.05859 6.68945L4.09473 6.6543L6.74414 4.01855H0.0517578V3.2627H6.74414L4.09473 0.626953L4.05859 0.591797L4.09473 0.556641L4.54785 0.105469L4.58301 0.0703125L4.61816 0.105469Z\" fill=\"#181818\" stroke=\"#181818\" stroke-width=\"0.1\"></path></svg>"
+    },
+    {
+      "cls": null,
+      "vb": "0 0 9 8",
+      "w": "9",
+      "h": "8",
+      "html": "<svg width=\"9\" height=\"8\" viewBox=\"0 0 9 8\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" style=\"transform:rotate(180deg)\"><path d=\"M4.61816 0.105469L8.13672 3.60547L8.17285 3.64062L8.13672 3.67578L4.61816 7.17578L4.58301 7.21094L4.54785 7.17578L4.09473 6.72461L4.05859 6.68945L4.09473 6.6543L6.74414 4.01855H0.0517578V3.2627H6.74414L4.09473 0.626953L4.05859 0.591797L4.09473 0.556641L4.54785 0.105469L4.58301 0.0703125L4.61816 0.105469Z\" fill=\"#181818\" stroke=\"#181818\" stroke-width=\"0.1\"></path></svg>"
+    },
+    {
+      "cls": null,
+      "vb": "0 0 9 8",
+      "w": "9",
+      "h": "8",
+      "html": "<svg width=\"9\" height=\"8\" viewBox=\"0 0 9 8\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" style=\"transform:rotate(180deg)\"><path d=\"M4.61816 0.105469L8.13672 3.60547L8.17285 3.64062L8.13672 3.67578L4.61816 7.17578L4.58301 7.21094L4.54785 7.17578L4.09473 6.72461L4.05859 6.68945L4.09473 6.6543L6.74414 4.01855H0.0517578V3.2627H6.74414L4.09473 0.626953L4.05859 0.591797L4.09473 0.556641L4.54785 0.105469L4.58301 0.0703125L4.61816 0.105469Z\" fill=\"#181818\" stroke=\"#181818\" stroke-width=\"0.1\"></path></svg>"
+    },
+    {
+      "cls": null,
+      "vb": "0 0 9 8",
+      "w": "9",
+      "h": "8",
+      "html": "<svg width=\"9\" height=\"8\" viewBox=\"0 0 9 8\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" style=\"transform:rotate(180deg)\"><path d=\"M4.61816 0.105469L8.13672 3.60547L8.17285 3.64062L8.13672 3.67578L4.61816 7.17578L4.58301 7.21094L4.54785 7.17578L4.09473 6.72461L4.05859 6.68945L4.09473 6.6543L6.74414 4.01855H0.0517578V3.2627H6.74414L4.09473 0.626953L4.05859 0.591797L4.09473 0.556641L4.54785 0.105469L4.58301 0.0703125L4.61816 0.105469Z\" fill=\"#181818\" stroke=\"#181818\" stroke-width=\"0.1\"></path></svg>"
+    },
+    {
+      "cls": null,
+      "vb": "0 0 9 8",
+      "w": "9",
+      "h": "8",
+      "html": "<svg width=\"9\" height=\"8\" viewBox=\"0 0 9 8\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" style=\"transform:rotate(180deg)\"><path d=\"M4.61816 0.105469L8.13672 3.60547L8.17285 3.64062L8.13672 3.67578L4.61816 7.17578L4.58301 7.21094L4.54785 7.17578L4.09473 6.72461L4.05859 6.68945L4.09473 6.6543L6.74414 4.01855H0.0517578V3.2627H6.74414L4.09473 0.626953L4.05859 0.591797L4.09473 0.556641L4.54785 0.105469L4.58301 0.0703125L4.61816 0.105469Z\" fill=\"#181818\" stroke=\"#181818\" stroke-width=\"0.1\"></path></svg>"
+    },
+    {
+      "cls": null,
+      "vb": "0 0 9 8",
+      "w": "9",
+      "h": "8",
+      "html": "<svg width=\"9\" height=\"8\" viewBox=\"0 0 9 8\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" style=\"transform:rotate(180deg)\"><path d=\"M4.61816 0.105469L8.13672 3.60547L8.17285 3.64062L8.13672 3.67578L4.61816 7.17578L4.58301 7.21094L4.54785 7.17578L4.09473 6.72461L4.05859 6.68945L4.09473 6.6543L6.74414 4.01855H0.0517578V3.2627H6.74414L4.09473 0.626953L4.05859 0.591797L4.09473 0.556641L4.54785 0.105469L4.58301 0.0703125L4.61816 0.105469Z\" fill=\"#181818\" stroke=\"#181818\" stroke-width=\"0.1\"></path></svg>"
+    },
+    {
+      "cls": null,
+      "vb": "0 0 9 8",
+      "w": "9",
+      "h": "8",
+      "html": "<svg width=\"9\" height=\"8\" viewBox=\"0 0 9 8\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" style=\"transform:rotate(180deg)\"><path d=\"M4.61816 0.105469L8.13672 3.60547L8.17285 3.64062L8.13672 3.67578L4.61816 7.17578L4.58301 7.21094L4.54785 7.17578L4.09473 6.72461L4.05859 6.68945L4.09473 6.6543L6.74414 4.01855H0.0517578V3.2627H6.74414L4.09473 0.626953L4.05859 0.591797L4.09473 0.556641L4.54785 0.105469L4.58301 0.0703125L4.61816 0.105469Z\" fill=\"#181818\" stroke=\"#181818\" stroke-width=\"0.1\"></path></svg>"
+    },
+    {
+      "cls": null,
+      "vb": "0 0 9 8",
+      "w": "9",
+      "h": "8",
+      "html": "<svg width=\"9\" height=\"8\" viewBox=\"0 0 9 8\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" style=\"transform:rotate(180deg)\"><path d=\"M4.61816 0.105469L8.13672 3.60547L8.17285 3.64062L8.13672 3.67578L4.61816 7.17578L4.58301 7.21094L4.54785 7.17578L4.09473 6.72461L4.05859 6.68945L4.09473 6.6543L6.74414 4.01855H0.0517578V3.2627H6.74414L4.09473 0.626953L4.05859 0.591797L4.09473 0.556641L4.54785 0.105469L4.58301 0.0703125L4.61816 0.105469Z\" fill=\"#181818\" stroke=\"#181818\" stroke-width=\"0.1\"></path></svg>"
+    },
+    {
+      "cls": null,
+      "vb": "0 0 9 8",
+      "w": "9",
+      "h": "8",
+      "html": "<svg width=\"9\" height=\"8\" viewBox=\"0 0 9 8\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" style=\"transform:rotate(180deg)\"><path d=\"M4.61816 0.105469L8.13672 3.60547L8.17285 3.64062L8.13672 3.67578L4.61816 7.17578L4.58301 7.21094L4.54785 7.17578L4.09473 6.72461L4.05859 6.68945L4.09473 6.6543L6.74414 4.01855H0.0517578V3.2627H6.74414L4.09473 0.626953L4.05859 0.591797L4.09473 0.556641L4.54785 0.105469L4.58301 0.0703125L4.61816 0.105469Z\" fill=\"#181818\" stroke=\"#181818\" stroke-width=\"0.1\"></path></svg>"
+    },
+    {
+      "cls": null,
+      "vb": "0 0 9 8",
+      "w": "9",
+      "h": "8",
+      "html": "<svg width=\"9\" height=\"8\" viewBox=\"0 0 9 8\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" style=\"transform:rotate(180deg)\"><path d=\"M4.61816 0.105469L8.13672 3.60547L8.17285 3.64062L8.13672 3.67578L4.61816 7.17578L4.58301 7.21094L4.54785 7.17578L4.09473 6.72461L4.05859 6.68945L4.09473 6.6543L6.74414 4.01855H0.0517578V3.2627H6.74414L4.09473 0.626953L4.05859 0.591797L4.09473 0.556641L4.54785 0.105469L4.58301 0.0703125L4.61816 0.105469Z\" fill=\"#181818\" stroke=\"#181818\" stroke-width=\"0.1\"></path></svg>"
+    },
+    {
+      "cls": null,
+      "vb": "0 0 9 8",
+      "w": "9",
+      "h": "8",
+      "html": "<svg width=\"9\" height=\"8\" viewBox=\"0 0 9 8\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" style=\"transform:rotate(180deg)\"><path d=\"M4.61816 0.105469L8.13672 3.60547L8.17285 3.64062L8.13672 3.67578L4.61816 7.17578L4.58301 7.21094L4.54785 7.17578L4.09473 6.72461L4.05859 6.68945L4.09473 6.6543L6.74414 4.01855H0.0517578V3.2627H6.74414L4.09473 0.626953L4.05859 0.591797L4.09473 0.556641L4.54785 0.105469L4.58301 0.0703125L4.61816 0.105469Z\" fill=\"#181818\" stroke=\"#181818\" stroke-width=\"0.1\"></path></svg>"
+    },
+    {
+      "cls": null,
+      "vb": "0 0 9 8",
+      "w": "9",
+      "h": "8",
+      "html": "<svg width=\"9\" height=\"8\" viewBox=\"0 0 9 8\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" style=\"transform:rotate(180deg)\"><path d=\"M4.61816 0.105469L8.13672 3.60547L8.17285 3.64062L8.13672 3.67578L4.61816 7.17578L4.58301 7.21094L4.54785 7.17578L4.09473 6.72461L4.05859 6.68945L4.09473 6.6543L6.74414 4.01855H0.0517578V3.2627H6.74414L4.09473 0.626953L4.05859 0.591797L4.09473 0.556641L4.54785 0.105469L4.58301 0.0703125L4.61816 0.105469Z\" fill=\"#181818\" stroke=\"#181818\" stroke-width=\"0.1\"></path></svg>"
+    },
+    {
+      "cls": null,
+      "vb": "0 0 9 8",
+      "w": "9",
+      "h": "8",
+      "html": "<svg width=\"9\" height=\"8\" viewBox=\"0 0 9 8\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" style=\"transform:rotate(180deg)\"><path d=\"M4.61816 0.105469L8.13672 3.60547L8.17285 3.64062L8.13672 3.67578L4.61816 7.17578L4.58301 7.21094L4.54785 7.17578L4.09473 6.72461L4.05859 6.68945L4.09473 6.6543L6.74414 4.01855H0.0517578V3.2627H6.74414L4.09473 0.626953L4.05859 0.591797L4.09473 0.556641L4.54785 0.105469L4.58301 0.0703125L4.61816 0.105469Z\" fill=\"#181818\" stroke=\"#181818\" stroke-width=\"0.1\"></path></svg>"
+    },
+    {
+      "cls": null,
+      "vb": "0 0 9 8",
+      "w": "9",
+      "h": "8",
+      "html": "<svg width=\"9\" height=\"8\" viewBox=\"0 0 9 8\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" style=\"transform:rotate(180deg)\"><path d=\"M4.61816 0.105469L8.13672 3.60547L8.17285 3.64062L8.13672 3.67578L4.61816 7.17578L4.58301 7.21094L4.54785 7.17578L4.09473 6.72461L4.05859 6.68945L4.09473 6.6543L6.74414 4.01855H0.0517578V3.2627H6.74414L4.09473 0.626953L4.05859 0.591797L4.09473 0.556641L4.54785 0.105469L4.58301 0.0703125L4.61816 0.105469Z\" fill=\"#181818\" stroke=\"#181818\" stroke-width=\"0.1\"></path></svg>"
+    },
+    {
+      "cls": null,
+      "vb": "0 0 9 8",
+      "w": "9",
+      "h": "8",
+      "html": "<svg width=\"9\" height=\"8\" viewBox=\"0 0 9 8\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" style=\"transform:rotate(180deg)\"><path d=\"M4.61816 0.105469L8.13672 3.60547L8.17285 3.64062L8.13672 3.67578L4.61816 7.17578L4.58301 7.21094L4.54785 7.17578L4.09473 6.72461L4.05859 6.68945L4.09473 6.6543L6.74414 4.01855H0.0517578V3.2627H6.74414L4.09473 0.626953L4.05859 0.591797L4.09473 0.556641L4.54785 0.105469L4.58301 0.0703125L4.61816 0.105469Z\" fill=\"#181818\" stroke=\"#181818\" stroke-width=\"0.1\"></path></svg>"
+    },
+    {
+      "cls": null,
+      "vb": "0 0 9 8",
+      "w": "9",
+      "h": "8",
+      "html": "<svg width=\"9\" height=\"8\" viewBox=\"0 0 9 8\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" style=\"transform:rotate(180deg)\"><path d=\"M4.61816 0.105469L8.13672 3.60547L8.17285 3.64062L8.13672 3.67578L4.61816 7.17578L4.58301 7.21094L4.54785 7.17578L4.09473 6.72461L4.05859 6.68945L4.09473 6.6543L6.74414 4.01855H0.0517578V3.2627H6.74414L4.09473 0.626953L4.05859 0.591797L4.09473 0.556641L4.54785 0.105469L4.58301 0.0703125L4.61816 0.105469Z\" fill=\"#181818\" stroke=\"#181818\" stroke-width=\"0.1\"></path></svg>"
+    },
+    {
+      "cls": null,
+      "vb": "0 0 9 8",
+      "w": "9",
+      "h": "8",
+      "html": "<svg width=\"9\" height=\"8\" viewBox=\"0 0 9 8\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" style=\"transform:rotate(180deg)\"><path d=\"M4.61816 0.105469L8.13672 3.60547L8.17285 3.64062L8.13672 3.67578L4.61816 7.17578L4.58301 7.21094L4.54785 7.17578L4.09473 6.72461L4.05859 6.68945L4.09473 6.6543L6.74414 4.01855H0.0517578V3.2627H6.74414L4.09473 0.626953L4.05859 0.591797L4.09473 0.556641L4.54785 0.105469L4.58301 0.0703125L4.61816 0.105469Z\" fill=\"#181818\" stroke=\"#181818\" stroke-width=\"0.1\"></path></svg>"
+    },
+    {
+      "cls": null,
+      "vb": "0 0 9 8",
+      "w": "9",
+      "h": "8",
+      "html": "<svg width=\"9\" height=\"8\" viewBox=\"0 0 9 8\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" style=\"transform:rotate(180deg)\"><path d=\"M4.61816 0.105469L8.13672 3.60547L8.17285 3.64062L8.13672 3.67578L4.61816 7.17578L4.58301 7.21094L4.54785 7.17578L4.09473 6.72461L4.05859 6.68945L4.09473 6.6543L6.74414 4.01855H0.0517578V3.2627H6.74414L4.09473 0.626953L4.05859 0.591797L4.09473 0.556641L4.54785 0.105469L4.58301 0.0703125L4.61816 0.105469Z\" fill=\"#181818\" stroke=\"#181818\" stroke-width=\"0.1\"></path></svg>"
+    },
+    {
+      "cls": null,
+      "vb": "0 0 9 8",
+      "w": "9",
+      "h": "8",
+      "html": "<svg width=\"9\" height=\"8\" viewBox=\"0 0 9 8\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" style=\"transform:rotate(180deg)\"><path d=\"M4.61816 0.105469L8.13672 3.60547L8.17285 3.64062L8.13672 3.67578L4.61816 7.17578L4.58301 7.21094L4.54785 7.17578L4.09473 6.72461L4.05859 6.68945L4.09473 6.6543L6.74414 4.01855H0.0517578V3.2627H6.74414L4.09473 0.626953L4.05859 0.591797L4.09473 0.556641L4.54785 0.105469L4.58301 0.0703125L4.61816 0.105469Z\" fill=\"#181818\" stroke=\"#181818\" stroke-width=\"0.1\"></path></svg>"
+    },
+    {
+      "cls": null,
+      "vb": "0 0 9 8",
+      "w": "9",
+      "h": "8",
+      "html": "<svg width=\"9\" height=\"8\" viewBox=\"0 0 9 8\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" style=\"transform:rotate(180deg)\"><path d=\"M4.61816 0.105469L8.13672 3.60547L8.17285 3.64062L8.13672 3.67578L4.61816 7.17578L4.58301 7.21094L4.54785 7.17578L4.09473 6.72461L4.05859 6.68945L4.09473 6.6543L6.74414 4.01855H0.0517578V3.2627H6.74414L4.09473 0.626953L4.05859 0.591797L4.09473 0.556641L4.54785 0.105469L4.58301 0.0703125L4.61816 0.105469Z\" fill=\"#181818\" stroke=\"#181818\" stroke-width=\"0.1\"></path></svg>"
+    },
+    {
+      "cls": null,
+      "vb": "0 0 9 8",
+      "w": "9",
+      "h": "8",
+      "html": "<svg width=\"9\" height=\"8\" viewBox=\"0 0 9 8\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" style=\"transform:rotate(180deg)\"><path d=\"M4.61816 0.105469L8.13672 3.60547L8.17285 3.64062L8.13672 3.67578L4.61816 7.17578L4.58301 7.21094L4.54785 7.17578L4.09473 6.72461L4.05859 6.68945L4.09473 6.6543L6.74414 4.01855H0.0517578V3.2627H6.74414L4.09473 0.626953L4.05859 0.591797L4.09473 0.556641L4.54785 0.105469L4.58301 0.0703125L4.61816 0.105469Z\" fill=\"#181818\" stroke=\"#181818\" stroke-width=\"0.1\"></path></svg>"
+    },
+    {
+      "cls": null,
+      "vb": "0 0 9 8",
+      "w": "9",
+      "h": "8",
+      "html": "<svg width=\"9\" height=\"8\" viewBox=\"0 0 9 8\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" style=\"transform:rotate(180deg)\"><path d=\"M4.61816 0.105469L8.13672 3.60547L8.17285 3.64062L8.13672 3.67578L4.61816 7.17578L4.58301 7.21094L4.54785 7.17578L4.09473 6.72461L4.05859 6.68945L4.09473 6.6543L6.74414 4.01855H0.0517578V3.2627H6.74414L4.09473 0.626953L4.05859 0.591797L4.09473 0.556641L4.54785 0.105469L4.58301 0.0703125L4.61816 0.105469Z\" fill=\"#181818\" stroke=\"#181818\" stroke-width=\"0.1\"></path></svg>"
+    },
+    {
+      "cls": null,
+      "vb": "0 0 9 8",
+      "w": "9",
+      "h": "8",
+      "html": "<svg width=\"9\" height=\"8\" viewBox=\"0 0 9 8\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" style=\"transform:rotate(180deg)\"><path d=\"M4.61816 0.105469L8.13672 3.60547L8.17285 3.64062L8.13672 3.67578L4.61816 7.17578L4.58301 7.21094L4.54785 7.17578L4.09473 6.72461L4.05859 6.68945L4.09473 6.6543L6.74414 4.01855H0.0517578V3.2627H6.74414L4.09473 0.626953L4.05859 0.591797L4.09473 0.556641L4.54785 0.105469L4.58301 0.0703125L4.61816 0.105469Z\" fill=\"#181818\" stroke=\"#181818\" stroke-width=\"0.1\"></path></svg>"
+    },
+    {
+      "cls": null,
+      "vb": "0 0 98 37",
+      "w": "98",
+      "h": "37",
+      "html": "<svg width=\"98\" height=\"37\" viewBox=\"0 0 98 37\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M35.1079 33.9175L35.0879 33.9191L29.2514 34.4311L29.2499 34.4112L27.4991 14.4074L21.3851 35.118H21.3713L16.5942 35.5365L16.5881 35.5258L6.74102 16.2655L8.49028 36.2463L8.47035 36.2478L2.66452 36.7568L2.66299 36.7369L0 6.30804L0.0199302 6.30651L7.36192 5.66414L7.36805 5.67487L18.3481 26.9466L25.0722 4.11418H25.086L32.4418 3.46875L32.4433 3.48868L35.1079 33.9175Z\" fill=\"currentColor\"></path><path d=\"M71.863 30.6973L71.8446 30.6988L66.0219 31.2078L66.0204 31.1894L63.3574 0.76052L63.3774 0.758987L69.2 0.25L69.2016 0.268397L71.863 30.6973Z\" fill=\"currentColor\"></path><path d=\"M61.067 20.3624C60.9213 18.7143 60.4921 17.1644 59.8114 15.78C59.1292 14.3971 58.1955 13.1783 57.0441 12.1926C55.0097 10.4525 52.3973 9.52344 49.5918 9.52344C49.2177 9.52344 48.8406 9.5403 48.4603 9.5725C45.25 9.85459 "
+    },
+    {
+      "cls": null,
+      "vb": "0 0 4 8",
+      "w": "4",
+      "h": "8",
+      "html": "<svg width=\"4\" height=\"8\" viewBox=\"0 0 4 8\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" style=\"transform:rotate(180deg)\"><path d=\"M0.303711 7.25781L3.30371 3.75781L0.303711 0.257812\" stroke=\"#181818\" stroke-width=\"0.8\"></path></svg>"
+    },
+    {
+      "cls": null,
+      "vb": "0 0 4 8",
+      "w": "4",
+      "h": "8",
+      "html": "<svg width=\"4\" height=\"8\" viewBox=\"0 0 4 8\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" style=\"transform:rotate(0deg)\"><path d=\"M0.303711 7.25781L3.30371 3.75781L0.303711 0.257812\" stroke=\"#181818\" stroke-width=\"0.8\"></path></svg>"
+    },
+    {
+      "cls": null,
+      "vb": "0 0 8 10",
+      "w": "8",
+      "h": "10",
+      "html": "<svg width=\"8\" height=\"10\" viewBox=\"0 0 8 10\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.09961 0.400391V9.23145L4.17676 7.18945H4.17578C4.04966 7.10159 3.90098 7.05469 3.75 7.05469C3.59902 7.05469 3.45034 7.10159 3.32422 7.18945H3.32324L0.400391 9.23145V0.400391H7.09961Z\" stroke=\"#181818\" stroke-width=\"0.8\"></path></svg>"
+    },
+    {
+      "cls": null,
+      "vb": "0 0 7 7",
+      "w": "7",
+      "h": "7",
+      "html": "<svg width=\"7\" height=\"7\" viewBox=\"0 0 7 7\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><line y1=\"3.6\" x2=\"7\" y2=\"3.6\" stroke=\"currentColor\" stroke-width=\"0.8\"></line><line x1=\"3.4\" y1=\"1.74846e-08\" x2=\"3.4\" y2=\"7\" stroke=\"currentColor\" stroke-width=\"0.8\"></line></svg>"
+    },
+    {
+      "cls": null,
+      "vb": "0 0 8 10",
+      "w": "8",
+      "h": "10",
+      "html": "<svg width=\"8\" height=\"10\" viewBox=\"0 0 8 10\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.09961 0.400391V9.23145L4.17676 7.18945H4.17578C4.04966 7.10159 3.90098 7.05469 3.75 7.05469C3.59902 7.05469 3.45034 7.10159 3.32422 7.18945H3.32324L0.400391 9.23145V0.400391H7.09961Z\" stroke=\"#181818\" stroke-width=\"0.8\"></path></svg>"
+    },
+    {
+      "cls": null,
+      "vb": "0 0 7 7",
+      "w": "7",
+      "h": "7",
+      "html": "<svg width=\"7\" height=\"7\" viewBox=\"0 0 7 7\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><line y1=\"3.6\" x2=\"7\" y2=\"3.6\" stroke=\"currentColor\" stroke-width=\"0.8\"></line><line x1=\"3.4\" y1=\"1.74846e-08\" x2=\"3.4\" y2=\"7\" stroke=\"currentColor\" stroke-width=\"0.8\"></line></svg>"
+    },
+    {
+      "cls": null,
+      "vb": "0 0 8 10",
+      "w": "8",
+      "h": "10",
+      "html": "<svg width=\"8\" height=\"10\" viewBox=\"0 0 8 10\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.09961 0.400391V9.23145L4.17676 7.18945H4.17578C4.04966 7.10159 3.90098 7.05469 3.75 7.05469C3.59902 7.05469 3.45034 7.10159 3.32422 7.18945H3.32324L0.400391 9.23145V0.400391H7.09961Z\" stroke=\"#181818\" stroke-width=\"0.8\"></path></svg>"
+    },
+    {
+      "cls": null,
+      "vb": "0 0 7 7",
+      "w": "7",
+      "h": "7",
+      "html": "<svg width=\"7\" height=\"7\" viewBox=\"0 0 7 7\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><line y1=\"3.6\" x2=\"7\" y2=\"3.6\" stroke=\"currentColor\" stroke-width=\"0.8\"></line><line x1=\"3.4\" y1=\"1.74846e-08\" x2=\"3.4\" y2=\"7\" stroke=\"currentColor\" stroke-width=\"0.8\"></line></svg>"
+    },
+    {
+      "cls": null,
+      "vb": "0 0 8 10",
+      "w": "8",
+      "h": "10",
+      "html": "<svg width=\"8\" height=\"10\" viewBox=\"0 0 8 10\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.09961 0.400391V9.23145L4.17676 7.18945H4.17578C4.04966 7.10159 3.90098 7.05469 3.75 7.05469C3.59902 7.05469 3.45034 7.10159 3.32422 7.18945H3.32324L0.400391 9.23145V0.400391H7.09961Z\" stroke=\"#181818\" stroke-width=\"0.8\"></path></svg>"
+    },
+    {
+      "cls": null,
+      "vb": "0 0 7 7",
+      "w": "7",
+      "h": "7",
+      "html": "<svg width=\"7\" height=\"7\" viewBox=\"0 0 7 7\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><line y1=\"3.6\" x2=\"7\" y2=\"3.6\" stroke=\"currentColor\" stroke-width=\"0.8\"></line><line x1=\"3.4\" y1=\"1.74846e-08\" x2=\"3.4\" y2=\"7\" stroke=\"currentColor\" stroke-width=\"0.8\"></line></svg>"
+    },
+    {
+      "cls": null,
+      "vb": "0 0 8 10",
+      "w": "8",
+      "h": "10",
+      "html": "<svg width=\"8\" height=\"10\" viewBox=\"0 0 8 10\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.09961 0.400391V9.23145L4.17676 7.18945H4.17578C4.04966 7.10159 3.90098 7.05469 3.75 7.05469C3.59902 7.05469 3.45034 7.10159 3.32422 7.18945H3.32324L0.400391 9.23145V0.400391H7.09961Z\" stroke=\"#181818\" stroke-width=\"0.8\"></path></svg>"
+    },
+    {
+      "cls": null,
+      "vb": "0 0 7 7",
+      "w": "7",
+      "h": "7",
+      "html": "<svg width=\"7\" height=\"7\" viewBox=\"0 0 7 7\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><line y1=\"3.6\" x2=\"7\" y2=\"3.6\" stroke=\"currentColor\" stroke-width=\"0.8\"></line><line x1=\"3.4\" y1=\"1.74846e-08\" x2=\"3.4\" y2=\"7\" stroke=\"currentColor\" stroke-width=\"0.8\"></line></svg>"
+    },
+    {
+      "cls": null,
+      "vb": "0 0 8 10",
+      "w": "8",
+      "h": "10",
+      "html": "<svg width=\"8\" height=\"10\" viewBox=\"0 0 8 10\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.09961 0.400391V9.23145L4.17676 7.18945H4.17578C4.04966 7.10159 3.90098 7.05469 3.75 7.05469C3.59902 7.05469 3.45034 7.10159 3.32422 7.18945H3.32324L0.400391 9.23145V0.400391H7.09961Z\" stroke=\"#181818\" stroke-width=\"0.8\"></path></svg>"
+    }
+  ]
+}

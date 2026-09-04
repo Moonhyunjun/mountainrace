@@ -1,0 +1,2136 @@
+{
+  "headerA": {
+    "header": {
+      "position": "fixed",
+      "top": "32px",
+      "height": "88px",
+      "padding": "0px 60px",
+      "paddingLeft": "60px",
+      "paddingRight": "60px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none",
+      "boxShadow": "none",
+      "borderBottom": "0px none rgb(24, 24, 24)",
+      "transform": "none",
+      "transition": "height 0.3s",
+      "zIndex": "50",
+      "opacity": "1",
+      "mixBlendMode": "difference",
+      "color": "rgb(24, 24, 24)"
+    },
+    "headerText": "TEEN\nJUNIOR\nBABY & TODDLER\nABOUT\nSEARCH\nLOGIN\nFAVOURITES 00\nCART 00",
+    "usp": {
+      "position": "static",
+      "top": "auto",
+      "height": "0px",
+      "padding": "0px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "backdropFilter": "none",
+      "boxShadow": "none",
+      "borderBottom": "0px none rgb(24, 24, 24)",
+      "transform": "none",
+      "transition": "all",
+      "zIndex": "auto",
+      "opacity": "1",
+      "mixBlendMode": "normal",
+      "color": "rgb(24, 24, 24)"
+    }
+  },
+  "headerB": {
+    "position": "fixed",
+    "top": "32px",
+    "height": "56px",
+    "padding": "0px 60px",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "backdropFilter": "none",
+    "boxShadow": "none",
+    "borderBottom": "0px none rgb(24, 24, 24)",
+    "transform": "none",
+    "transition": "height 0.3s",
+    "zIndex": "50",
+    "opacity": "1",
+    "color": "rgb(24, 24, 24)"
+  },
+  "usp": [
+    {
+      "cls": "UspBanner-module-scss-module__kQWAfW__container",
+      "h": 32,
+      "bg": "rgb(24, 24, 24)",
+      "color": "rgb(251, 251, 251)",
+      "fs": "10px",
+      "ff": "simon, \"simon Fallback\", \"IBM Plex Mono\", \"SF Mono\", Menlo, Consolas, \"Liberation Mono\", monospace",
+      "ls": "-0.2px",
+      "tt": "none",
+      "text": "Free shipping on orders over 600 kr Free shipping on orders over 600 kr Free shipping on orders over 600 kr Free shipping on orders over 600 kr Free shipping on orders over 600 kr Free shipping on ord"
+    }
+  ],
+  "sections": [
+    {
+      "i": 0,
+      "top": 32,
+      "h": 868,
+      "cls": "StartTemplate-module-scss-module__9nFWpG__section StartTemplate-module-scss-module__9nFWpG__marginBottom",
+      "styles": {
+        "display": "block",
+        "margin": "0px 0px 156px",
+        "marginBottom": "156px",
+        "width": "1440px",
+        "height": "868px",
+        "position": "static",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "flexDirection": "row",
+        "overflow": "visible",
+        "textAlign": "start"
+      },
+      "texts": [
+        {
+          "tag": "h2",
+          "text": "New Arrivals\nExplore Now",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "16.5px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(255, 255, 255)",
+          "td": "none"
+        },
+        {
+          "tag": "h2",
+          "text": "Seasonal Outerwear\nShop now",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "16.5px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(255, 255, 255)",
+          "td": "none"
+        },
+        {
+          "tag": "h2",
+          "text": "Accessories\nExplore the full selection",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "16.5px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(255, 255, 255)",
+          "td": "none"
+        },
+        {
+          "tag": "h2",
+          "text": "Baby & Toddler \nGirls",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "16.5px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(255, 255, 255)",
+          "td": "none"
+        },
+        {
+          "tag": "h2",
+          "text": "Homewear\nShop now",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "16.5px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(255, 255, 255)",
+          "td": "none"
+        },
+        {
+          "tag": "span",
+          "text": "1",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(255, 255, 255)",
+          "td": "none"
+        },
+        {
+          "tag": "span",
+          "text": "/",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(255, 255, 255)",
+          "td": "none"
+        },
+        {
+          "tag": "span",
+          "text": "5",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(255, 255, 255)",
+          "td": "none"
+        }
+      ],
+      "imgs": [
+        {
+          "src": "https://a.storyblok.com/f/287543645078635/1826x1358/647df2b046/250925_molo_day2_033_2060_work_argb_low.jpg",
+          "alt": "",
+          "w": 780,
+          "h": 546,
+          "fit": "cover",
+          "ar": "auto",
+          "radius": "0px"
+        },
+        {
+          "src": "https://a.storyblok.com/f/287543645078635/1246x1649/9f7fdf808f/250925_molo_day2_03_0145_work_argb_low.jpg",
+          "alt": "",
+          "w": 430,
+          "h": 614,
+          "fit": "cover",
+          "ar": "auto",
+          "radius": "0px"
+        },
+        {
+          "src": "https://a.storyblok.com/f/287543645078635/5360x3574/6d90088cb5/molo_21_sep_202510897_ws_work_argb_high.jpg",
+          "alt": "",
+          "w": 1440,
+          "h": 868,
+          "fit": "cover",
+          "ar": "auto",
+          "radius": "0px"
+        },
+        {
+          "src": "https://a.storyblok.com/f/287543645078635/1800x2592/50353316bc/110925_molo_l_b_p_67_0063.jpg",
+          "alt": "",
+          "w": 430,
+          "h": 614,
+          "fit": "cover",
+          "ar": "auto",
+          "radius": "0px"
+        }
+      ],
+      "vids": [
+        {
+          "src": "https://cdn.molohub.com/videos/d2-explore-2-79co3j.mp4",
+          "poster": "",
+          "autoplay": true,
+          "loop": true,
+          "muted": true
+        }
+      ],
+      "grids": []
+    },
+    {
+      "i": 1,
+      "top": 1056,
+      "h": 900,
+      "cls": "StartTemplate-module-scss-module__9nFWpG__section StartTemplate-module-scss-module__9nFWpG__marginBottom",
+      "styles": {
+        "display": "block",
+        "margin": "0px 0px 156px",
+        "marginBottom": "156px",
+        "width": "1440px",
+        "height": "900px",
+        "position": "static",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "flexDirection": "row",
+        "overflow": "visible",
+        "textAlign": "start"
+      },
+      "texts": [
+        {
+          "tag": "p",
+          "text": "New Arrivals",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "16.5px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(255, 255, 255)",
+          "td": "none"
+        },
+        {
+          "tag": "p",
+          "text": "Explore Now",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "16.5px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(255, 255, 255)",
+          "td": "none"
+        }
+      ],
+      "imgs": [
+        {
+          "src": "https://a.storyblok.com/f/287543645078635/1358x1826/bb49f64202/250925_molo_day2_16_0888_work_argb_low.jpg",
+          "alt": "",
+          "w": 430,
+          "h": 614,
+          "fit": "cover",
+          "ar": "auto",
+          "radius": "0px"
+        }
+      ],
+      "vids": [],
+      "grids": []
+    },
+    {
+      "i": 2,
+      "top": 2112,
+      "h": 440,
+      "cls": "StartTemplate-module-scss-module__9nFWpG__section StartTemplate-module-scss-module__9nFWpG__marginBottom",
+      "styles": {
+        "display": "block",
+        "margin": "0px 0px 156px",
+        "marginBottom": "156px",
+        "width": "1440px",
+        "height": "440.484px",
+        "position": "static",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "flexDirection": "row",
+        "overflow": "visible",
+        "textAlign": "start"
+      },
+      "texts": [
+        {
+          "tag": "span",
+          "text": "Sold out",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "capitalize",
+          "color": "rgb(153, 153, 153)",
+          "td": "none"
+        },
+        {
+          "tag": "span",
+          "text": "Sold out",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "capitalize",
+          "color": "rgb(153, 153, 153)",
+          "td": "none"
+        },
+        {
+          "tag": "span",
+          "text": "104",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(69, 69, 69)",
+          "td": "none"
+        },
+        {
+          "tag": "span",
+          "text": "110",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(69, 69, 69)",
+          "td": "none"
+        },
+        {
+          "tag": "span",
+          "text": "116",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(69, 69, 69)",
+          "td": "none"
+        },
+        {
+          "tag": "span",
+          "text": "122",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(69, 69, 69)",
+          "td": "none"
+        },
+        {
+          "tag": "p",
+          "text": "Mille Shirt",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(24, 24, 24)",
+          "td": "none"
+        },
+        {
+          "tag": "span",
+          "text": "From",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(24, 24, 24)",
+          "td": "none"
+        },
+        {
+          "tag": "span",
+          "text": "350,00 kr",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(24, 24, 24)",
+          "td": "none"
+        },
+        {
+          "tag": "span",
+          "text": "98/104",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(69, 69, 69)",
+          "td": "none"
+        },
+        {
+          "tag": "span",
+          "text": "110/116",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(69, 69, 69)",
+          "td": "none"
+        },
+        {
+          "tag": "p",
+          "text": "Britta Skirt",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(24, 24, 24)",
+          "td": "none"
+        },
+        {
+          "tag": "span",
+          "text": "From",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(24, 24, 24)",
+          "td": "none"
+        },
+        {
+          "tag": "span",
+          "text": "350,00 kr",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(24, 24, 24)",
+          "td": "none"
+        },
+        {
+          "tag": "span",
+          "text": "Sold out",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "capitalize",
+          "color": "rgb(153, 153, 153)",
+          "td": "none"
+        },
+        {
+          "tag": "span",
+          "text": "Sold out",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "capitalize",
+          "color": "rgb(153, 153, 153)",
+          "td": "none"
+        },
+        {
+          "tag": "span",
+          "text": "Sold out",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "capitalize",
+          "color": "rgb(153, 153, 153)",
+          "td": "none"
+        },
+        {
+          "tag": "span",
+          "text": "Sold out",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "capitalize",
+          "color": "rgb(153, 153, 153)",
+          "td": "none"
+        },
+        {
+          "tag": "p",
+          "text": "Meracer Sweatshirt",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(24, 24, 24)",
+          "td": "none"
+        },
+        {
+          "tag": "span",
+          "text": "From",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(24, 24, 24)",
+          "td": "none"
+        },
+        {
+          "tag": "span",
+          "text": "450,00 kr",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(24, 24, 24)",
+          "td": "none"
+        },
+        {
+          "tag": "span",
+          "text": "Sold out",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "capitalize",
+          "color": "rgb(153, 153, 153)",
+          "td": "none"
+        },
+        {
+          "tag": "span",
+          "text": "98",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(69, 69, 69)",
+          "td": "none"
+        },
+        {
+          "tag": "span",
+          "text": "Sold out",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "capitalize",
+          "color": "rgb(153, 153, 153)",
+          "td": "none"
+        },
+        {
+          "tag": "span",
+          "text": "110",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(69, 69, 69)",
+          "td": "none"
+        },
+        {
+          "tag": "span",
+          "text": "116",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(69, 69, 69)",
+          "td": "none"
+        },
+        {
+          "tag": "span",
+          "text": "122",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(69, 69, 69)",
+          "td": "none"
+        },
+        {
+          "tag": "p",
+          "text": "Ash Pants",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(24, 24, 24)",
+          "td": "none"
+        },
+        {
+          "tag": "span",
+          "text": "From",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(24, 24, 24)",
+          "td": "none"
+        },
+        {
+          "tag": "span",
+          "text": "399,00 kr",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(24, 24, 24)",
+          "td": "none"
+        }
+      ],
+      "imgs": [
+        {
+          "src": "https://molo.centracdn.net/client/dynamic/images/7544_2W26J213_5788_A.jpg",
+          "alt": "Mille Shirt",
+          "w": 270,
+          "h": 386,
+          "fit": "cover",
+          "ar": "auto",
+          "radius": "0px"
+        },
+        {
+          "src": "https://molo.centracdn.net/client/dynamic/images/7514_2W26D106_5721_A.jpg",
+          "alt": "Britta Skirt",
+          "w": 270,
+          "h": 386,
+          "fit": "cover",
+          "ar": "auto",
+          "radius": "0px"
+        },
+        {
+          "src": "https://molo.centracdn.net/client/dynamic/images/7602_6W26J210_5721_A2.jpg",
+          "alt": "Meracer Sweatshirt",
+          "w": 270,
+          "h": 386,
+          "fit": "cover",
+          "ar": "auto",
+          "radius": "0px"
+        },
+        {
+          "src": "https://molo.centracdn.net/client/dynamic/images/7599_6W26I217_5721_A.jpg",
+          "alt": "Ash Pants",
+          "w": 270,
+          "h": 386,
+          "fit": "cover",
+          "ar": "auto",
+          "radius": "0px"
+        }
+      ],
+      "vids": [],
+      "grids": []
+    },
+    {
+      "i": 3,
+      "top": 2708,
+      "h": 120,
+      "cls": "StartTemplate-module-scss-module__9nFWpG__section StartTemplate-module-scss-module__9nFWpG__marginBottom",
+      "styles": {
+        "display": "block",
+        "margin": "0px 0px 156px",
+        "marginBottom": "156px",
+        "width": "1440px",
+        "height": "120px",
+        "position": "static",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "flexDirection": "row",
+        "overflow": "visible",
+        "textAlign": "start"
+      },
+      "texts": [
+        {
+          "tag": "p",
+          "text": "Friendships, play and new discoveries make every day an adventure. A season full of curiosity starts here.",
+          "ff": "display",
+          "fs": "40px",
+          "fw": "400",
+          "lh": "40px",
+          "ls": "-0.8px",
+          "tt": "none",
+          "color": "rgb(24, 24, 24)",
+          "td": "none"
+        }
+      ],
+      "imgs": [],
+      "vids": [],
+      "grids": []
+    },
+    {
+      "i": 4,
+      "top": 2984,
+      "h": 900,
+      "cls": "StartTemplate-module-scss-module__9nFWpG__section StartTemplate-module-scss-module__9nFWpG__marginBottom",
+      "styles": {
+        "display": "block",
+        "margin": "0px 0px 156px",
+        "marginBottom": "156px",
+        "width": "1440px",
+        "height": "900px",
+        "position": "static",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "flexDirection": "row",
+        "overflow": "visible",
+        "textAlign": "start"
+      },
+      "texts": [],
+      "imgs": [
+        {
+          "src": "https://a.storyblok.com/f/287543645078635/1358x1826/3a7998d062/250925_molo_day2_022_1306_work_argb_low.jpg",
+          "alt": "",
+          "w": 720,
+          "h": 900,
+          "fit": "cover",
+          "ar": "auto",
+          "radius": "0px"
+        },
+        {
+          "src": "https://a.storyblok.com/f/287543645078635/1358x1826/bc32342e9b/250925_molo_day2_022_1222_work_argb_low.jpg",
+          "alt": "",
+          "w": 720,
+          "h": 900,
+          "fit": "cover",
+          "ar": "auto",
+          "radius": "0px"
+        }
+      ],
+      "vids": [],
+      "grids": []
+    },
+    {
+      "i": 5,
+      "top": 4040,
+      "h": 440,
+      "cls": "StartTemplate-module-scss-module__9nFWpG__section StartTemplate-module-scss-module__9nFWpG__marginBottom",
+      "styles": {
+        "display": "block",
+        "margin": "0px 0px 156px",
+        "marginBottom": "156px",
+        "width": "1440px",
+        "height": "440.484px",
+        "position": "static",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "flexDirection": "row",
+        "overflow": "visible",
+        "textAlign": "start"
+      },
+      "texts": [
+        {
+          "tag": "span",
+          "text": "Sold out",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "capitalize",
+          "color": "rgb(153, 153, 153)",
+          "td": "none"
+        },
+        {
+          "tag": "span",
+          "text": "104",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(69, 69, 69)",
+          "td": "none"
+        },
+        {
+          "tag": "span",
+          "text": "110",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(69, 69, 69)",
+          "td": "none"
+        },
+        {
+          "tag": "span",
+          "text": "116",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(69, 69, 69)",
+          "td": "none"
+        },
+        {
+          "tag": "span",
+          "text": "122",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(69, 69, 69)",
+          "td": "none"
+        },
+        {
+          "tag": "p",
+          "text": "Alaine Pants",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(24, 24, 24)",
+          "td": "none"
+        },
+        {
+          "tag": "span",
+          "text": "From",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(24, 24, 24)",
+          "td": "none"
+        },
+        {
+          "tag": "span",
+          "text": "450,00 kr",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(24, 24, 24)",
+          "td": "none"
+        },
+        {
+          "tag": "span",
+          "text": "Sold out",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "capitalize",
+          "color": "rgb(153, 153, 153)",
+          "td": "none"
+        },
+        {
+          "tag": "span",
+          "text": "98/104",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(69, 69, 69)",
+          "td": "none"
+        },
+        {
+          "tag": "span",
+          "text": "110/116",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(69, 69, 69)",
+          "td": "none"
+        },
+        {
+          "tag": "p",
+          "text": "Gemma Cardigan",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(24, 24, 24)",
+          "td": "none"
+        },
+        {
+          "tag": "span",
+          "text": "From",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(24, 24, 24)",
+          "td": "none"
+        },
+        {
+          "tag": "span",
+          "text": "450,00 kr",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(24, 24, 24)",
+          "td": "none"
+        },
+        {
+          "tag": "span",
+          "text": "Sold out",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "capitalize",
+          "color": "rgb(153, 153, 153)",
+          "td": "none"
+        },
+        {
+          "tag": "span",
+          "text": "98/104",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(69, 69, 69)",
+          "td": "none"
+        },
+        {
+          "tag": "span",
+          "text": "110/116",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(69, 69, 69)",
+          "td": "none"
+        },
+        {
+          "tag": "p",
+          "text": "Rolanda Shirt",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(24, 24, 24)",
+          "td": "none"
+        },
+        {
+          "tag": "span",
+          "text": "From",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(24, 24, 24)",
+          "td": "none"
+        },
+        {
+          "tag": "span",
+          "text": "399,00 kr",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(24, 24, 24)",
+          "td": "none"
+        },
+        {
+          "tag": "span",
+          "text": "116",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(69, 69, 69)",
+          "td": "none"
+        },
+        {
+          "tag": "span",
+          "text": "122",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(69, 69, 69)",
+          "td": "none"
+        },
+        {
+          "tag": "p",
+          "text": "Haywood Jacket",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(24, 24, 24)",
+          "td": "none"
+        },
+        {
+          "tag": "span",
+          "text": "From",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(24, 24, 24)",
+          "td": "none"
+        },
+        {
+          "tag": "span",
+          "text": "1.100,00 kr",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(24, 24, 24)",
+          "td": "none"
+        }
+      ],
+      "imgs": [
+        {
+          "src": "https://molo.centracdn.net/client/dynamic/images/7531_2W26I105_5721_A.jpg",
+          "alt": "Alaine Pants",
+          "w": 270,
+          "h": 386,
+          "fit": "cover",
+          "ar": "auto",
+          "radius": "0px"
+        },
+        {
+          "src": "https://molo.centracdn.net/client/dynamic/images/7422_2W26K315_2444_A.jpg",
+          "alt": "Gemma Cardigan",
+          "w": 270,
+          "h": 386,
+          "fit": "cover",
+          "ar": "auto",
+          "radius": "0px"
+        },
+        {
+          "src": "https://molo.centracdn.net/client/dynamic/images/7305_2W26C201_5839_A.jpg",
+          "alt": "Rolanda Shirt",
+          "w": 270,
+          "h": 386,
+          "fit": "cover",
+          "ar": "auto",
+          "radius": "0px"
+        },
+        {
+          "src": "https://molo.centracdn.net/client/dynamic/images/7437_5W26M304_5725_A.jpg",
+          "alt": "Haywood Jacket",
+          "w": 270,
+          "h": 386,
+          "fit": "cover",
+          "ar": "auto",
+          "radius": "0px"
+        }
+      ],
+      "vids": [],
+      "grids": []
+    },
+    {
+      "i": 6,
+      "top": 4637,
+      "h": 160,
+      "cls": "StartTemplate-module-scss-module__9nFWpG__section StartTemplate-module-scss-module__9nFWpG__marginBottom",
+      "styles": {
+        "display": "block",
+        "margin": "0px 0px 156px",
+        "marginBottom": "156px",
+        "width": "1440px",
+        "height": "160px",
+        "position": "static",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "flexDirection": "row",
+        "overflow": "visible",
+        "textAlign": "start"
+      },
+      "texts": [
+        {
+          "tag": "p",
+          "text": "Every day brings something new to discover. From the walk to school to hidden corners and colourful streets, the city is full of little surprises for curious minds.",
+          "ff": "display",
+          "fs": "40px",
+          "fw": "400",
+          "lh": "40px",
+          "ls": "-0.8px",
+          "tt": "none",
+          "color": "rgb(24, 24, 24)",
+          "td": "none"
+        }
+      ],
+      "imgs": [],
+      "vids": [],
+      "grids": []
+    },
+    {
+      "i": 7,
+      "top": 4953,
+      "h": 900,
+      "cls": "StartTemplate-module-scss-module__9nFWpG__section StartTemplate-module-scss-module__9nFWpG__marginBottom",
+      "styles": {
+        "display": "block",
+        "margin": "0px 0px 156px",
+        "marginBottom": "156px",
+        "width": "1440px",
+        "height": "900px",
+        "position": "static",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "flexDirection": "row",
+        "overflow": "visible",
+        "textAlign": "start"
+      },
+      "texts": [
+        {
+          "tag": "p",
+          "text": "New Arrivals:\nBoys",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "16.5px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(255, 255, 255)",
+          "td": "none"
+        },
+        {
+          "tag": "p",
+          "text": "Explore Now",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "16.5px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(255, 255, 255)",
+          "td": "none"
+        }
+      ],
+      "imgs": [],
+      "vids": [
+        {
+          "src": "https://cdn.molohub.com/videos/d1-back-to-school-2-h9xx2x.mp4",
+          "poster": "",
+          "autoplay": true,
+          "loop": true,
+          "muted": true
+        }
+      ],
+      "grids": []
+    },
+    {
+      "i": 8,
+      "top": 6009,
+      "h": 496,
+      "cls": "StartTemplate-module-scss-module__9nFWpG__section StartTemplate-module-scss-module__9nFWpG__marginBottom",
+      "styles": {
+        "display": "block",
+        "margin": "0px 0px 156px",
+        "marginBottom": "156px",
+        "width": "1440px",
+        "height": "495.875px",
+        "position": "static",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "flexDirection": "row",
+        "overflow": "visible",
+        "textAlign": "start"
+      },
+      "texts": [
+        {
+          "tag": "button",
+          "text": "Previous",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(24, 24, 24)",
+          "td": "none"
+        },
+        {
+          "tag": "button",
+          "text": "Next",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(24, 24, 24)",
+          "td": "none"
+        },
+        {
+          "tag": "span",
+          "text": "98/104",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(69, 69, 69)",
+          "td": "none"
+        },
+        {
+          "tag": "span",
+          "text": "110/116",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(69, 69, 69)",
+          "td": "none"
+        },
+        {
+          "tag": "p",
+          "text": "Rozzy Shirt",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(24, 24, 24)",
+          "td": "none"
+        },
+        {
+          "tag": "span",
+          "text": "From",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(24, 24, 24)",
+          "td": "none"
+        },
+        {
+          "tag": "span",
+          "text": "399,00 kr",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(24, 24, 24)",
+          "td": "none"
+        },
+        {
+          "tag": "span",
+          "text": "104",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(69, 69, 69)",
+          "td": "none"
+        },
+        {
+          "tag": "span",
+          "text": "110",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(69, 69, 69)",
+          "td": "none"
+        },
+        {
+          "tag": "span",
+          "text": "116",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(69, 69, 69)",
+          "td": "none"
+        },
+        {
+          "tag": "span",
+          "text": "122",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(69, 69, 69)",
+          "td": "none"
+        },
+        {
+          "tag": "p",
+          "text": "Alter Jeans",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(24, 24, 24)",
+          "td": "none"
+        },
+        {
+          "tag": "span",
+          "text": "From",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(24, 24, 24)",
+          "td": "none"
+        },
+        {
+          "tag": "span",
+          "text": "499,00 kr",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(24, 24, 24)",
+          "td": "none"
+        },
+        {
+          "tag": "span",
+          "text": "Sold out",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "capitalize",
+          "color": "rgb(153, 153, 153)",
+          "td": "none"
+        },
+        {
+          "tag": "span",
+          "text": "98",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(69, 69, 69)",
+          "td": "none"
+        },
+        {
+          "tag": "span",
+          "text": "104",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(69, 69, 69)",
+          "td": "none"
+        },
+        {
+          "tag": "span",
+          "text": "110",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(69, 69, 69)",
+          "td": "none"
+        },
+        {
+          "tag": "span",
+          "text": "116",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(69, 69, 69)",
+          "td": "none"
+        },
+        {
+          "tag": "span",
+          "text": "122",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(69, 69, 69)",
+          "td": "none"
+        },
+        {
+          "tag": "p",
+          "text": "Monto Sweatshirt",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(24, 24, 24)",
+          "td": "none"
+        },
+        {
+          "tag": "span",
+          "text": "From",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(24, 24, 24)",
+          "td": "none"
+        },
+        {
+          "tag": "span",
+          "text": "399,00 kr",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(24, 24, 24)",
+          "td": "none"
+        },
+        {
+          "tag": "span",
+          "text": "Sold out",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "capitalize",
+          "color": "rgb(153, 153, 153)",
+          "td": "none"
+        },
+        {
+          "tag": "span",
+          "text": "Sold out",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "capitalize",
+          "color": "rgb(153, 153, 153)",
+          "td": "none"
+        },
+        {
+          "tag": "span",
+          "text": "Sold out",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "capitalize",
+          "color": "rgb(153, 153, 153)",
+          "td": "none"
+        },
+        {
+          "tag": "span",
+          "text": "122",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(69, 69, 69)",
+          "td": "none"
+        },
+        {
+          "tag": "p",
+          "text": "Aiden Jeans",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(24, 24, 24)",
+          "td": "none"
+        },
+        {
+          "tag": "span",
+          "text": "From",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(24, 24, 24)",
+          "td": "none"
+        },
+        {
+          "tag": "span",
+          "text": "599,00 kr",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "15.4px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(24, 24, 24)",
+          "td": "none"
+        }
+      ],
+      "imgs": [
+        {
+          "src": "https://molo.centracdn.net/client/dynamic/images/7485_1W26C201_5900_A.jpg",
+          "alt": "Rozzy Shirt",
+          "w": 270,
+          "h": 386,
+          "fit": "cover",
+          "ar": "auto",
+          "radius": "0px"
+        },
+        {
+          "src": "https://molo.centracdn.net/client/dynamic/images/7489_1W26I105_5723_A.jpg",
+          "alt": "Alter Jeans",
+          "w": 270,
+          "h": 386,
+          "fit": "cover",
+          "ar": "auto",
+          "radius": "0px"
+        },
+        {
+          "src": "https://molo.centracdn.net/client/dynamic/images/7278_1W26J206_9799_A2.jpg",
+          "alt": "Monto Sweatshirt",
+          "w": 270,
+          "h": 386,
+          "fit": "cover",
+          "ar": "auto",
+          "radius": "0px"
+        },
+        {
+          "src": "https://molo.centracdn.net/client/dynamic/images/7592_6W26I104_5915_A.jpg",
+          "alt": "Aiden Jeans",
+          "w": 270,
+          "h": 386,
+          "fit": "cover",
+          "ar": "auto",
+          "radius": "0px"
+        },
+        {
+          "src": "https://molo.centracdn.net/client/dynamic/images/7477_1W26A301_2482_A.jpg",
+          "alt": "Reyo Shirt",
+          "w": 270,
+          "h": 386,
+          "fit": "cover",
+          "ar": "auto",
+          "radius": "0px"
+        },
+        {
+          "src": "https://molo.centracdn.net/client/dynamic/images/7492_1W26J203_5921_A2.jpg",
+          "alt": "Mattis Sweatshirt",
+          "w": 270,
+          "h": 386,
+          "fit": "cover",
+          "ar": "auto",
+          "radius": "0px"
+        }
+      ],
+      "vids": [],
+      "grids": []
+    },
+    {
+      "i": 9,
+      "top": 6661,
+      "h": 900,
+      "cls": "StartTemplate-module-scss-module__9nFWpG__section StartTemplate-module-scss-module__9nFWpG__marginBottom",
+      "styles": {
+        "display": "block",
+        "margin": "0px 0px 156px",
+        "marginBottom": "156px",
+        "width": "1440px",
+        "height": "900px",
+        "position": "static",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "flexDirection": "row",
+        "overflow": "visible",
+        "textAlign": "start"
+      },
+      "texts": [
+        {
+          "tag": "p",
+          "text": "Outerwear",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "16.5px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(255, 255, 255)",
+          "td": "none"
+        },
+        {
+          "tag": "p",
+          "text": "Shop now",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "16.5px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(255, 255, 255)",
+          "td": "none"
+        }
+      ],
+      "imgs": [
+        {
+          "src": "https://a.storyblok.com/f/287543645078635/1626x1078/3ffefd9066/000092480030_work_argb_low.jpg",
+          "alt": "",
+          "w": 780,
+          "h": 546,
+          "fit": "cover",
+          "ar": "auto",
+          "radius": "0px"
+        }
+      ],
+      "vids": [],
+      "grids": []
+    },
+    {
+      "i": 10,
+      "top": 7717,
+      "h": 900,
+      "cls": "StartTemplate-module-scss-module__9nFWpG__section StartTemplate-module-scss-module__9nFWpG__marginBottom",
+      "styles": {
+        "display": "block",
+        "margin": "0px 0px 156px",
+        "marginBottom": "156px",
+        "width": "1440px",
+        "height": "900px",
+        "position": "static",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "flexDirection": "row",
+        "overflow": "visible",
+        "textAlign": "start"
+      },
+      "texts": [
+        {
+          "tag": "h3",
+          "text": "New Arrivals",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "16.5px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(255, 255, 255)",
+          "td": "none"
+        },
+        {
+          "tag": "h3",
+          "text": "Baby & Toddler \nGirls",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "16.5px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(255, 255, 255)",
+          "td": "none"
+        }
+      ],
+      "imgs": [
+        {
+          "src": "https://a.storyblok.com/f/287543645078635/858x1286/149b014f57/molo_21_sep_202510780_ws_work_argb_low.jpg",
+          "alt": "",
+          "w": 720,
+          "h": 900,
+          "fit": "cover",
+          "ar": "auto",
+          "radius": "0px"
+        },
+        {
+          "src": "https://a.storyblok.com/f/287543645078635/858x1286/43c432459e/molo_21_sep_202510800_ws_work_argb_low.jpg",
+          "alt": "",
+          "w": 720,
+          "h": 900,
+          "fit": "cover",
+          "ar": "auto",
+          "radius": "0px"
+        }
+      ],
+      "vids": [],
+      "grids": []
+    },
+    {
+      "i": 11,
+      "top": 8773,
+      "h": 900,
+      "cls": "StartTemplate-module-scss-module__9nFWpG__section StartTemplate-module-scss-module__9nFWpG__marginBottom",
+      "styles": {
+        "display": "block",
+        "margin": "0px 0px 156px",
+        "marginBottom": "156px",
+        "width": "1440px",
+        "height": "900px",
+        "position": "static",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "flexDirection": "row",
+        "overflow": "visible",
+        "textAlign": "start"
+      },
+      "texts": [
+        {
+          "tag": "p",
+          "text": "New Arrivals",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "16.5px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(255, 255, 255)",
+          "td": "none"
+        },
+        {
+          "tag": "p",
+          "text": "Baby & Toddler Boys",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "16.5px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(255, 255, 255)",
+          "td": "none"
+        }
+      ],
+      "imgs": [
+        {
+          "src": "https://a.storyblok.com/f/287543645078635/876x1274/c0844a0457/molo_21_sep_202510704_ws_work_argb_low.jpg",
+          "alt": "",
+          "w": 430,
+          "h": 614,
+          "fit": "cover",
+          "ar": "auto",
+          "radius": "0px"
+        }
+      ],
+      "vids": [],
+      "grids": []
+    },
+    {
+      "i": 12,
+      "top": 9829,
+      "h": 595,
+      "cls": "StartTemplate-module-scss-module__9nFWpG__section StartTemplate-module-scss-module__9nFWpG__marginBottom",
+      "styles": {
+        "display": "block",
+        "margin": "0px 0px 156px",
+        "marginBottom": "156px",
+        "width": "1440px",
+        "height": "595.312px",
+        "position": "static",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "flexDirection": "row",
+        "overflow": "visible",
+        "textAlign": "start"
+      },
+      "texts": [
+        {
+          "tag": "h2",
+          "text": "Explore our world of jeans and get to know our fits, qualities and sizes – making it easy to find the perfect pair for your child.",
+          "ff": "display",
+          "fs": "40px",
+          "fw": "400",
+          "lh": "40px",
+          "ls": "-0.8px",
+          "tt": "none",
+          "color": "rgb(24, 24, 24)",
+          "td": "none"
+        }
+      ],
+      "imgs": [
+        {
+          "src": "https://www.molo.com/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2Ff285573ae0%2F5s26m308_9479_z1.png&w=640&q=75",
+          "alt": "",
+          "w": 160,
+          "h": 396,
+          "fit": "cover",
+          "ar": "auto",
+          "radius": "0px"
+        },
+        {
+          "src": "https://www.molo.com/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2F99cbef4120%2F6s26i113_2691_z1.png&w=640&q=75",
+          "alt": "",
+          "w": 160,
+          "h": 396,
+          "fit": "cover",
+          "ar": "auto",
+          "radius": "0px"
+        },
+        {
+          "src": "https://www.molo.com/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2Fb87e88a096%2F1s26a407_5988_a2.png&w=640&q=75",
+          "alt": "",
+          "w": 160,
+          "h": 396,
+          "fit": "cover",
+          "ar": "auto",
+          "radius": "0px"
+        },
+        {
+          "src": "https://www.molo.com/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2F55ec800b5a%2F6s26i114_1866_z3.png&w=640&q=75",
+          "alt": "",
+          "w": 160,
+          "h": 396,
+          "fit": "cover",
+          "ar": "auto",
+          "radius": "0px"
+        },
+        {
+          "src": "https://www.molo.com/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2F924b8ed130%2F2s26c304_5663_z1.png&w=640&q=75",
+          "alt": "",
+          "w": 160,
+          "h": 396,
+          "fit": "cover",
+          "ar": "auto",
+          "radius": "0px"
+        },
+        {
+          "src": "https://www.molo.com/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2F99cbef4120%2F6s26i113_2691_z1.png&w=640&q=75",
+          "alt": "",
+          "w": 160,
+          "h": 396,
+          "fit": "cover",
+          "ar": "auto",
+          "radius": "0px"
+        },
+        {
+          "src": "https://www.molo.com/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2Fbc7d07bf9d%2F1s26i103_5656_a2.png&w=640&q=75",
+          "alt": "",
+          "w": 160,
+          "h": 396,
+          "fit": "cover",
+          "ar": "auto",
+          "radius": "0px"
+        },
+        {
+          "src": "https://www.molo.com/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2F2f7dcc48d7%2Fholly-ny-2.png&w=640&q=75",
+          "alt": "",
+          "w": 160,
+          "h": 396,
+          "fit": "cover",
+          "ar": "auto",
+          "radius": "0px"
+        },
+        {
+          "src": "https://www.molo.com/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2Fb87e88a096%2F1s26a407_5988_a2.png&w=640&q=75",
+          "alt": "",
+          "w": 160,
+          "h": 396,
+          "fit": "cover",
+          "ar": "auto",
+          "radius": "0px"
+        },
+        {
+          "src": "https://www.molo.com/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2F934254696f%2F1s26a212_9907_a2.png&w=640&q=75",
+          "alt": "",
+          "w": 160,
+          "h": 396,
+          "fit": "cover",
+          "ar": "auto",
+          "radius": "0px"
+        },
+        {
+          "src": "https://www.molo.com/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2Ff285573ae0%2F5s26m308_9479_z1.png&w=640&q=75",
+          "alt": "",
+          "w": 160,
+          "h": 396,
+          "fit": "cover",
+          "ar": "auto",
+          "radius": "0px"
+        },
+        {
+          "src": "https://www.molo.com/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2F99cbef4120%2F6s26i113_2691_z1.png&w=640&q=75",
+          "alt": "",
+          "w": 160,
+          "h": 396,
+          "fit": "cover",
+          "ar": "auto",
+          "radius": "0px"
+        },
+        {
+          "src": "https://www.molo.com/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2Fb87e88a096%2F1s26a407_5988_a2.png&w=640&q=75",
+          "alt": "",
+          "w": 160,
+          "h": 396,
+          "fit": "cover",
+          "ar": "auto",
+          "radius": "0px"
+        },
+        {
+          "src": "https://www.molo.com/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2F55ec800b5a%2F6s26i114_1866_z3.png&w=640&q=75",
+          "alt": "",
+          "w": 160,
+          "h": 396,
+          "fit": "cover",
+          "ar": "auto",
+          "radius": "0px"
+        },
+        {
+          "src": "https://www.molo.com/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2F924b8ed130%2F2s26c304_5663_z1.png&w=640&q=75",
+          "alt": "",
+          "w": 160,
+          "h": 396,
+          "fit": "cover",
+          "ar": "auto",
+          "radius": "0px"
+        },
+        {
+          "src": "https://www.molo.com/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2F99cbef4120%2F6s26i113_2691_z1.png&w=640&q=75",
+          "alt": "",
+          "w": 160,
+          "h": 396,
+          "fit": "cover",
+          "ar": "auto",
+          "radius": "0px"
+        },
+        {
+          "src": "https://www.molo.com/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2Fbc7d07bf9d%2F1s26i103_5656_a2.png&w=640&q=75",
+          "alt": "",
+          "w": 160,
+          "h": 396,
+          "fit": "cover",
+          "ar": "auto",
+          "radius": "0px"
+        },
+        {
+          "src": "https://www.molo.com/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2F2f7dcc48d7%2Fholly-ny-2.png&w=640&q=75",
+          "alt": "",
+          "w": 160,
+          "h": 396,
+          "fit": "cover",
+          "ar": "auto",
+          "radius": "0px"
+        },
+        {
+          "src": "https://www.molo.com/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2Fb87e88a096%2F1s26a407_5988_a2.png&w=640&q=75",
+          "alt": "",
+          "w": 160,
+          "h": 396,
+          "fit": "cover",
+          "ar": "auto",
+          "radius": "0px"
+        },
+        {
+          "src": "https://www.molo.com/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F287543645078635%2F1800x2592%2F934254696f%2F1s26a212_9907_a2.png&w=640&q=75",
+          "alt": "",
+          "w": 160,
+          "h": 396,
+          "fit": "cover",
+          "ar": "auto",
+          "radius": "0px"
+        }
+      ],
+      "vids": [],
+      "grids": []
+    },
+    {
+      "i": 13,
+      "top": 10580,
+      "h": 900,
+      "cls": "StartTemplate-module-scss-module__9nFWpG__section false",
+      "styles": {
+        "display": "block",
+        "width": "1440px",
+        "height": "900px",
+        "position": "static",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "flexDirection": "row",
+        "overflow": "visible",
+        "textAlign": "start"
+      },
+      "texts": [
+        {
+          "tag": "h3",
+          "text": "Outerwear: Girl",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "16.5px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(255, 255, 255)",
+          "td": "none"
+        },
+        {
+          "tag": "h3",
+          "text": "Outerwear: Boys",
+          "ff": "simon",
+          "fs": "11px",
+          "fw": "400",
+          "lh": "16.5px",
+          "ls": "-0.11px",
+          "tt": "uppercase",
+          "color": "rgb(255, 255, 255)",
+          "td": "none"
+        }
+      ],
+      "imgs": [
+        {
+          "src": "https://a.storyblok.com/f/287543645078635/1078x1626/92a9a0e4fb/000092430008_work_argb_low.jpg",
+          "alt": "",
+          "w": 720,
+          "h": 900,
+          "fit": "cover",
+          "ar": "auto",
+          "radius": "0px"
+        },
+        {
+          "src": "https://a.storyblok.com/f/287543645078635/1342x1789/8683ab73b1/250925_molo_day2_030_1906_work_argb_low.jpg",
+          "alt": "",
+          "w": 720,
+          "h": 900,
+          "fit": "cover",
+          "ar": "auto",
+          "radius": "0px"
+        }
+      ],
+      "vids": [],
+      "grids": []
+    }
+  ]
+}

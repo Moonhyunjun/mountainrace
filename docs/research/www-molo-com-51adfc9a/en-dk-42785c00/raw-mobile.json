@@ -1,0 +1,14 @@
+{
+  "sitePadding": "1.4rem",
+  "headerHeight": "4.4rem",
+  "moduleGap": "10.7rem",
+  "gridCols": [],
+  "headerText": "MENU\nSEARCH\nCART 00"
+}
+/* TABLET 768 */
+{
+  "sitePadding": "1.4rem",
+  "headerHeight": "4.4rem",
+  "moduleGap": "10.7rem",
+  "gridCols": []
+}

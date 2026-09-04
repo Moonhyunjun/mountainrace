@@ -87,14 +87,44 @@ Claude Code 외에 Codex, Cursor, Gemini, Copilot 등 13개 에이전트용 설�
 
 ### 두 사이트의 관계
 
-| | 현재 운영 사이트 | 템플릿 작업 공간 |
+| | 현재 운영 사이트 | Next.js 리뉴얼 안 |
 |---|---|---|
 | 진입점 | 루트 `index.html` | `src/app/page.tsx` |
+| 디자인 | 자체 디자인 | molo.com 디자인 시스템 클론 |
 | 빌드 | 없음 (정적) | `npm run build` |
 | 배포 | 정적 호스팅 그대로 | Vercel/Netlify 등 Next.js 호스팅 |
 
 정적 사이트를 그대로 배포하는 현재 방식은 영향을 받지 않습니다.
-Next.js 쪽으로 전환할지는 `/clone-website` 결과물을 본 뒤 결정하면 됩니다.
+
+## Next.js 리뉴얼 안 (molo.com 디자인 클론)
+
+`/clone-website https://www.molo.com/en-DK` 로 만든 결과물입니다.
+**레이아웃·타이포·모션은 molo.com에서 1:1로 추출**했고, **콘텐츠는 이 저장소의
+`index.html` 내용(2026 기록, 코스 스펙, 2027 로드맵)을 그대로** 넣었습니다.
+
+```bash
+npm install && npm run dev   # http://localhost:3000
+```
+
+- 추출 근거 문서: `docs/research/www-molo-com-51adfc9a/en-dk-42785c00/`
+  (`DESIGN_TOKENS.md`, `PAGE_TOPOLOGY.md`, `BEHAVIORS.md`, `VISUAL_QA.md`, 컴포넌트 스펙 12개)
+- 스크린샷 비교: `docs/design-references/www-molo-com-51adfc9a/en-dk-42785c00/`
+- 컴포넌트: `src/components/sites/www-molo-com-51adfc9a/en-dk-42785c00/`
+
+### 사진을 넣으려면
+
+대회 사진이 없어 모든 이미지 자리는 **윤곽선 플레이스홀더**로 렌더링됩니다
+(molo.com의 사진은 타사 저작물이라 사용하지 않았습니다 —
+`docs/research/.../ARTIFACT_MANIFEST.md` 참고).
+
+`src/components/sites/www-molo-com-51adfc9a/en-dk-42785c00/content.ts` 에서
+`slot("2026 리캡", "...")` 을 `{ src: "/sites/www-molo-com-51adfc9a/en-dk-42785c00/recap.jpg", alt: "...", caption: "2026 리캡" }`
+로 바꾸면 됩니다. 레이아웃은 손댈 필요가 없습니다.
+
+### 2027 대회 날짜 변경
+
+`src/components/sites/www-molo-com-51adfc9a/en-dk-42785c00/Countdown.tsx` 의
+`RACE_DATE_2027` 상수 한 곳만 수정하면 히어로 카운트다운이 따라갑니다.
 
 - 템플릿 원본 README: `docs/TEMPLATE_README.md`
 - 프로젝트 규칙(에이전트용): `AGENTS.md` (수정 후 `bash scripts/sync-agent-rules.sh` 실행)
